@@ -1,0 +1,76 @@
+% Statistik
+% Peter M. Dahlgren, JMG
+% 2016-08-05
+
+---
+
+Här samlas hjälp till kursen JU1331 och momenten statistisk analys. Tänk på att detta inte är en ersättning till studieanvisningen, utan ett komplement.
+
+Här hittar du:
+
+- Hjälp med att installera och komma igång med SPSS
+- Grundläggande statistisk analys
+- Videoguider på engelska om statistik
+
+# Förutsättningar
+
+- Skalnivåer.
+
+# SPSS
+
+Statistikprogrammet vi använder heter [SPSS](https://www-01.ibm.com/software/se/analytics/spss/m) (Statistical Package for the Social Science). SPSS finns på universitetets datorer, men du kan också ladda ned det till din privata dator (rekommenderas).
+
+![SPSS](images/spss.png "SPSS")
+
+## Installation på din egen dator
+
+1. Gå till [download.gu.se](download.gu.se).
+2. Ladda ned SPSS 24 för Windows eller Mac.
+3. Kopiera licenskoden för SPSS 24.
+4. Starta installationsfilen (Windows) eller dra appen till din programkatalog (Mac).
+
+## SPSS-Akuten
+
+För att få hjälp med vanliga saker i SPSS rekommenderas [SPSS-Akuten](https://spssakuten.wordpress.com/). Där kan du exempelvis få hjälp med:
+
+- [Guide: Omkodning av variabler](https://spssakuten.wordpress.com/2010/01/10/omkodning-av-variabler/)
+- [Guide: Korstabeller](https://spssakuten.wordpress.com/2012/02/14/guide-korstabeller/)
+- [Guide: Korrelation](https://spssakuten.wordpress.com/2010/01/08/korrelation-1/)
+
+## Alternativ till SPSS
+
+Finns det andra program än SPSS? Många. SPSS är dock väl använt inom samhällsvetenskap eftersom det är ganska enkelt. Några andra vanliga program för statistik kan däremot vara bra att känna till. De kräver vanligen mer kunskap:
+
+- [Stata](http://www.stata.com/)
+- [SAS](http://www.sas.com/)
+- [R (gratis)](https://www.r-project.org/)
+
+# Deskriptiv statistik
+
+## Medelvärde
+
+## Korrelation
+
+# Interaktiva guider
+
+- [Coin Flip Simulator](http://databits.io/bits/coin-flip-simulator)
+- [Interpreting Correlations - an interactive visualization	](http://rpsychologist.com/d3/correlation/)
+- [Rock 'n Polls](http://rocknpoll.graphics/)
+
+# Inferentiell statistik
+
+## Centrala gränsvärdessatsen
+
+## Slumpmässigt urval
+
+# Teoridriven statistisk analys
+
+# Video
+
+Khan Academy har en mängd YouTube-videor med grundläggande statistik till mer avancerad statistik. Börja gäran titta på spellistan nedan med grundläggande deskriptiv statistik.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uhxtUt_-GyM?list=PL1328115D3D8A2566" frameborder="0" allowfullscreen></iframe>
+
+# Lästips
+
+* Hej hopp.

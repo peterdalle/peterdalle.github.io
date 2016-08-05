@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Peter M. Dahlgren, JMG" />
+  <meta name="date" content="2016-08-05" />
+  <title>Datavisualisering</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="pandoc.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="http://strapdownjs.com/v/0.2/themes/united.min.css" rel="stylesheet">
+  <link href="http://strapdownjs.com/v/0.2/strapdown.css" rel="stylesheet">
+  <link href="http://strapdownjs.com/v/0.2/themes/bootstrap-responsive.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<div id="headline" class="brand">JU1331 Grundläggande statistik och datavisualisering</div>
+		</div>
+	</div>
+</div>
+
+<div class="nav-header">
+	<a href="stats.html">Statistik</a> &bull;
+	<a href="dataviz.html">Datavisualisering</a>
+</div>
+
+<div class="page-container">
+<div id="header">
+<h1 class="title">Datavisualisering</h1>
+<h2 class="author">Peter M. Dahlgren, JMG</h2>
+<h3 class="date">2016-08-05</h3>
+</div>
+<div id="TOC">
+<ul>
+<li><a href="#förutsättningar">Förutsättningar</a></li>
+<li><a href="#grunderna-i-datavisualisering">Grunderna i datavisualisering</a></li>
+<li><a href="#tabeller">Tabeller</a><ul>
+<li><a href="#dataformat">Dataformat</a></li>
+<li><a href="#tabellens-delar">Tabellens delar</a></li>
+<li><a href="#effektparametertabell">Effektparametertabell</a></li>
+</ul></li>
+<li><a href="#diagram">Diagram</a><ul>
+<li><a href="#att-tänka-på-när-du-gör-diagram">Att tänka på när du gör diagram</a></li>
+<li><a href="#linjediagram">Linjediagram</a></li>
+</ul></li>
+<li><a href="#glöm-inte-bort-den-löpande-texten">Glöm inte bort den löpande texten</a></li>
+<li><a href="#sammanfattning">Sammanfattning</a></li>
+<li><a href="#kritiska-frågor">Kritiska frågor</a></li>
+<li><a href="#lästips">Lästips</a></li>
+</ul>
+</div>
+<hr />
+<p>Att presentera sitt forskningsresultat visuellt är viktigt för att dels kommunicera forskning och dels övertyga. Här får du tips på hur du kan göra tabeller och diagram som är någorlunda snygga, korrekta och pedagogiska.</p>
+<p>Se detta som tips på hur du kan utforma dina tabeller och diagram, inte som regler som slaviskt måste följas.</p>
+<h1 id="förutsättningar">Förutsättningar</h1>
+<ul>
+<li>Alla diagram kan göras i Excel.</li>
+<li>Använd inte Numbers för Mac. Det är för dåligt.</li>
+<li>Kopiera inte tabeller eller diagram från SPSS. De blir horribla.</li>
+<li>Du får reda på vilket dataformat (lång eller bred) datan bör vara.</li>
+</ul>
+<h1 id="grunderna-i-datavisualisering">Grunderna i datavisualisering</h1>
+<ol style="list-style-type: decimal">
+<li><strong>Diagram och tabeller bör kunna läsas fristående från texten.</strong> Tanken är att någon som skummar texten också kan ta till sig det viktiga bara genom att titta på diagrammet eller tabellen.</li>
+<li><strong>Gå från det enkla till det komplicerade.</strong> När man presenterar diagram och tabeller är det viktigt att inte ge allt för mycket information på en gång. Undvik att besvara <em>alla</em> frågeställningar med en enda tabell eller diagram. Börja i stället enkelt och presentera beskrivningar av datan (deskriptiv analys). Därefter kan du visa på intressanta samband (bivariat analys) för att därefter presentera mer komplicerade modeller (multivariat analys). Börja med andra ord med det enkla och gå successivt mot det mer komplicerade. Vad man ska välja att presentera? Du måste veta vad din forskningsfråga är, och därmed vad du bör välja bort. Därför underlättar det betydligt om man har ett genomtänkt syfte och åtminstone en idé om hur det färdiga resultatet kan se ut.</li>
+</ol>
+<h1 id="tabeller">Tabeller</h1>
+<h2 id="dataformat">Dataformat</h2>
+<p>När man förbereder data för Excel kan datan ibland behöva vara i rätt format. Jag rekommenderar att du använder långt dataformat.</p>
+<p><strong>Långt dataformat:</strong> <img src="images/format-long.png" title="Långt dataformat" alt="Långt dataformat" /></p>
+<p><strong>Brett dataformat:</strong> <img src="images/format-wide.png" title="Brett dataformat" alt="Brett dataformat" /></p>
+<h2 id="tabellens-delar">Tabellens delar</h2>
+<p>En tabell består ofta av tre delar: tabellhuvud, tabellresultat och tabellkommentar.</p>
+<p>I <strong>tabellhuvudet</strong> skrivs först och främst tabellens nummer för att kunna hänvisa till tabellen i den löpande texten. Har du flera tabeller i en bok med flera kapitel kan tabellnumret med fördel skrivas Tabell 3.5 där 3 står för kapitlet och 5 står för tabellen i just det kapitlet. Det gör det enkelt för läsaren att hitta rätt tabell.</p>
+<p>Efter tabellnumret kommer en kort rubrik. Den bör vara slagkraftig och koncis men också redovisa tidsperiod, analysenheter och enheten (exempelvis procent). Om du redovisar resultatet av en frågeundersökning kan själva frågan också skrivas i rubriken.</p>
+<p>I <strong>tabellresultatet</strong> bör du inte använda decimaler, utan avrunda helst. Om du redovisar procent så avrunda också så summann till 100 procent. Ha gärna som regel att det är kolumnerna (och inte raderna) som ska summera till 100 procent.</p>
+<ul>
+<li>Om du jämför två tidsperioder kan det vara bra att framhäva skillnaderna i en egen kolumn (se kolumnen ”Förändring” i tabell 1).</li>
+<li>Om du jämför två grupper med varandra (män respektive kvinnor) kan det också vara bra att använda en referenskolumn för samtliga tillsammans (totalen).</li>
+<li>Om tabellen blir stor och svår att överblicka kan du markera det viktigaste genom fetmarkering eller inringning.</li>
+</ul>
+<p>I <strong>tabellkommentaren</strong> skriver du mer utförlig information om exempelvis hur variabler har slagits ihop eller skapats, källa till datamaterialet eller hur tabellen ska tolkas.</p>
+<ul>
+<li>Använd lite mindre textstorlek.</li>
+<li>Beskriv vad kategorin ”Övrigt” innehåller.</li>
+<li>Skriva hur många analysenheterna är, såsom N=1 585, eller mer pedagogiskt ”1 585 intervjuade”.</li>
+<li>Skriv signifikansnivåerna om du använder asterisker (*) i tabellresultatet. Vanligtvis skrivs de:</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Stjärnor</th>
+<th align="left">p-värde</th>
+<th align="left">Signifikansnivå</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">*</td>
+<td align="left">p &lt; 0,05</td>
+<td align="left">95 %</td>
+</tr>
+<tr class="even">
+<td align="left">**</td>
+<td align="left">p &lt; 0,01</td>
+<td align="left">99 %</td>
+</tr>
+<tr class="odd">
+<td align="left">***</td>
+<td align="left">p &lt; 0,001</td>
+<td align="left">99,9 %</td>
+</tr>
+</tbody>
+</table>
+<h2 id="effektparametertabell">Effektparametertabell</h2>
+<h1 id="diagram">Diagram</h1>
+<h2 id="att-tänka-på-när-du-gör-diagram">Att tänka på när du gör diagram</h2>
+<ul>
+<li>Lägg den oberoende variabeln på den horisontella axeln (X).</li>
+<li>Lägg den beroende variabeln på den vertikala axeln (Y).</li>
+<li>Diagram bör kunna skrivas ut i svartvitt. Förlita dig därför inte enbart på olika färger för att skilja linjer åt.</li>
+<li>Använd olika typer av linjer (streckade, heldragna m.fl.) för att skilja dem åt.</li>
+</ul>
+<h2 id="linjediagram">Linjediagram</h2>
+<h1 id="glöm-inte-bort-den-löpande-texten">Glöm inte bort den löpande texten</h1>
+<p>Du behöver inte presentera allt som diagram. Glöm inte bort att utnyttja den löpande texten på ett effektivt sätt.</p>
+<p>Har du gjort en surveyundersökning kan du börja med beskrivande statistik av deltagarna, vilket ofta tar upp mindre plats än tabeller eller diagram:</p>
+<blockquote>
+<p>Respondenterna var 18–45 år (M=31; SD=7) och majoriteten (56 %) hade en högskoleexamen.</p>
+</blockquote>
+<p>Denna korta mening ger information om åldersspannet (18-45), vad medelåldern är (M) samt standardavvikelsen för åldern (SD). Med denna information går det någorlunda enkelt att få en bild av åldersdistributionen.</p>
+<p>Därefter kan du gå vidare med att beskriva intressanta samband, även det i den löpande texten:</p>
+<blockquote>
+<p>Det fanns ett starkt positivt samband mellan nyhetskonsumtion och politisk kunskap (r=0,61; p&lt;0,001), men inte mellan nyhetskonsumtion och attityd (r=0,02; p=0,528).</p>
+</blockquote>
+<p>I det här fallet betyder <strong>r</strong> Pearsons korrelationskoefficient och <strong>p</strong> står för sannolikheten från signifikanstestet. Ibland kan det också vara bra att skriva ut vilken typ av signifikanstest det är (enkelsidigt eller dubbelsidigt), om det inte framgår av sammanhanget.</p>
+<p>Skriv alltid ut p-värdet med tre decimaler. Då undviker du avrundningsfel (så att p=0,051 inte blir p&lt;0,05 av misstag) samt en mängd andra problem.</p>
+<h1 id="sammanfattning">Sammanfattning</h1>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Tabell</th>
+<th align="left">Använda när?</th>
+<th align="left">Vilket dataformat?</th>
+<th align="left">Hur göra i Excel?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Frekvenstabell</td>
+<td align="left">Relativa frekvenser (andelar)</td>
+<td align="left">Långt</td>
+<td align="left">Vanlig tabell</td>
+</tr>
+</tbody>
+</table>
+<h1 id="kritiska-frågor">Kritiska frågor</h1>
+<p>Har du gjort en tabell eller diagram, eller ska du bedöma någon annans? Använd dessa frågor för att hitta svagheter och uppskatta kvaliteten.</p>
+<p>Diagram och tabeller:</p>
+<ol style="list-style-type: decimal">
+<li>Finns det en rubrik där det tydligt framgår vad det visar?</li>
+<li>Kan den läsas fristående från texten?</li>
+</ol>
+<p>Diagram:</p>
+<ol style="list-style-type: decimal">
+<li>Är den oberoende variabeln placerad på X-axeln?</li>
+<li>Är den beroende variabeln placerad på Y-axeln?</li>
+<li>Är någon utav axlarna beskurna så att eventuella värden inte börjar på 0?</li>
+</ol>
+<h1 id="lästips">Lästips</h1>
+<ul>
+<li>Cairo, A. (2016). <em>The Truthful Art: Data, Charts, and Maps for Communication</em>. New Riders.</li>
+<li>Few, S. (2012). <em>Show Me the Numbers: Designing Tables and Graphs to Enlighten (2nd edition)</em>. Burlingame, Calif.: Analytics Press.</li>
+<li>Wallgren, A., &amp; Wallgren, B. (2008). <em>Diagram - statistikens bilder</em>. Stockholm: Norstedts juridik.</li>
+</ul>
+</div>
+
+<div id="footer">
+  &copy; 2016 <a href="http://peterdahlgren.com/">Peter M. Dahlgren</a>
+</div>
+</body>
+</html>
