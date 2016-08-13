@@ -1,3 +1,7 @@
 @echo off
-pandoc -s -S dataviz.txt -o dataviz.pdf
-pandoc -s -S stats.txt -o stats.pdf
+REM Convert all TXT files in current directory to PDF files.
+
+for %%f in (*.txt) do (
+ echo %%~nf
+ pandoc -s -S "%%~nf.txt" -o "%%~nf.pdf"
+)

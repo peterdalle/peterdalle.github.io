@@ -1,0 +1,10 @@
+% Introduktion
+% Peter M. Dahlgren, JMG
+% 2016-08-13
+
+---
+Här samlas hjälp till kursen JU1331 och momentet med teoridriven statistisk analys.
+
+Här får du ytterligare hjälp med [statistik](stats.html) och [datavisualisering](dataviz.html).
+
+Tänk på att detta inte är en ersättning till studieanvisningen, utan ett komplement.

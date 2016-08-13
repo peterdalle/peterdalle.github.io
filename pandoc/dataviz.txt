@@ -3,7 +3,7 @@
 % 2016-08-05
 
 ---
-Att presentera sitt forskningsresultat visuellt är viktigt för att dels kommunicera forskning och dels skapa bättre förståelse. Här får du praktiska tips på hur du kan göra tabeller och diagram som är någorlunda snygga, korrekta och pedagogiska. 
+Att presentera sitt forskningsresultat visuellt är viktigt för att dels kommunicera forskning och dels skapa bättre förståelse för resultaten. Här får du praktiska tips på hur du kan göra tabeller och diagram som är någorlunda snygga, korrekta och pedagogiska. 
 
 Se detta som tips på hur du kan utforma dina tabeller och diagram, inte som regler som slaviskt måste följas. Tipsen riktar sig först och främst till vetenskapliga tabeller och diagram, men kan också användas till journalistiska tabeller och diagram.
 
@@ -187,12 +187,6 @@ Därefter kan du gå vidare med att beskriva intressanta samband, även det i de
 I det här fallet står **r** för Pearsons korrelationskoefficient och **p** står för sannolikheten från signifikanstestet. Ibland kan det också vara bra att skriva ut vilken typ av signifikanstest det är (enkelsidigt eller dubbelsidigt), om det inte framgår av sammanhanget.
 
 Skriv alltid ut det fullständiga p-värdet med tre decimaler, till exempel p=0,039. Då undviker du avrundningsfel, så att p=0,051 inte blir p<0,05 av misstag, och du undviker också att p-värdet behandlas dikotomt som signifikant (p<0,05) respektive icke-signifikant (p>0,05).
-
-# Sammanfattning
-
-Tabell | Använda när? | Vilket dataformat? | Hur göra i Excel?
---- | --- | --- | ---
-Frekvenstabell | Relativa frekvenser (andelar) | Långt | Vanlig tabell
 
 # Kritiska frågor
 
