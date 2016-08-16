@@ -1,0 +1,21 @@
+% Om
+% Peter M. Dahlgren, JMG
+% 2016-08-16
+
+Denna hemsida har skapats för att förbättra studenternas kunskaper i bland annat grundläggande [datavisualisering](dataviz.html). Här finns också praktiska råd om [statistik](stats.html).
+
+Tänk på att detta inte är en ersättning till studieanvisningar eller kurslitteratur, utan ett komplement. Texterna är inte färdiga utan byggs på efterhand.
+
+## Kontakta ##
+
+Har du synpunkter eller hittat faktafel, hör av dig till [Peter M. Dahlgren](http://peterdahlgren.com/contact/), institutionen för journalistik, medier och kommunikation (JMG), Göteborgs universitet.
+
+Skicka dock inte frågor som du kan lösa på egen hand genom att använda en sökmotor tio minuter.
+
+## Ladda ned PDF ##
+
+Denna hemsida finns även som PDF-dokument om du vill skriva ut eller spara. Eftersom PDF-dokumenten skapas automatiskt kan de ha något märklig layout. Det går dock lika bra att skriva ut texterna direkt från hemsidan.
+
+- [Statistik PDF](stats.pdf)
+- [Datavisualisering PDF](dataviz.pdf)
+- [Studieteknik PDF](study.pdf)

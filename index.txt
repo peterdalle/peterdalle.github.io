@@ -1,0 +1,10 @@
+% Metod
+% Peter M. Dahlgren, JMG
+% 2016-08-16
+
+Innehåll:
+
+- [Statistik](stats.html)
+- [Datavisualisering](dataviz.html)
+- [Studieteknik](study.html)
+- [Om](about.html)

@@ -1,0 +1,56 @@
+% Studieteknik
+% Peter M. Dahlgren, JMG
+% 2016-08-16
+
+---
+Studietiden består av en mängd läsande och lärande. Konstigt nog lärs sällan effektivt lärande ut, utan studenter förmodas lära sig detta på egen hand. Därför tänkte jag kort sammanfatta forskningen kring effektivt pluggande för att maximera sina resultat.
+
+Är du inte motiverad till att lära dig detta? Tänk då på att de som har högst betyg också tenderar att spendera *mindre* tid på att plugga (Newport, 2016).
+
+## Bästa studieteknikerna ##
+
+Dunlosky et al. (2013) har sammanfattat litteraturen och rangordnat ett antal studietekniker för att lära sig ny kunskap. De återges i tabellen nedan.
+
+| Studieteknik | Inlärning |
+| -------- | --------------- |
+| Aktivt testa dina kunskaper | Hög |
+| Sprida ut inlärningen över tid | Hög |
+| Ställ frågor till dig själv | Medel |
+| Förklara för dig själv | Medel |
+| Blanda ämnen (*interleaved practice*) | Medel |
+| Läsa sammanfattningar | Låg |
+| Markera med understrykningspenna | Låg |
+| Komma ihåg nyckelord | Låg |
+| Läsa igen | Låg |
+
+### Så kan du lägga upp dagen ###
+
+Tabellen ovan visar enkla saker du kan börja med redan nu. Framför allt bör du planera veckan i förväg, eller åtminstone vad du ska göra i morgon, och se till att aktivt testa dina kunskaper. Det ör det som ger bäst effekt (Karpicke & Blunt, 2011).
+
+En dag kan exempelvis se ut så här:
+
+1. Hårt fokuserat studerande 1-2 timmar, utan internet
+2. Paus
+3. Återigen 1-2 timmar studerande
+4. Paus
+5. Studier om 1-2 timmar igen
+
+Sedan är du färdig. Du bör med andra ord studera *mindre* än de 40 timmar per vecka som ofta är riktlinjen vid heltidsstudier. Du bör däremot studera *hårdare* under de timmar du faktiskt studerar. Därefter bör du inte tänka på studierna alls efter arbetsdagens slut eftersom vila är viktigt för hjärnan. Börja sedan om morgondagen på samma sätt med hårt och intensivt studerande.
+
+Resultatet av studerandet (eller vilket kunskapsarbete som helst) kan sammanfattas i en enkel formel: <code>kvalitet = tid × intensitet</code>. Åtminstone om vi får tro Newport (2016).
+
+## När du skriver tenta ##
+
+Enligt Passer (2008, s. 32-33) finns det ett antal saker att tänka på när du sitter och svettas i tentasalen eller på en hemtenta:
+
+- Använd tiden förståndigt. Svara på frågorna du kan först, och frågor som är värda mest poäng. Om du inte kan en fråga, gör den sist.
+- På hemtentor eller längre skrivuppgifter, gör först en outline i punktform. Skriv sedan.
+- Om du fyller i kryssrutor, försök att svara på frågan innan du ser svarsalternativen. Om du hittar ditt svar bland alternativen, kryssa i det.
+- Om du fyller i kryssrutor och ändrar ditt svar så gör du troligen rätt. Byt svarsalternativ om du är tämligen säker.
+
+## Referenser ##
+
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). [*Improving Students’ Learning With Effective Learning Techniques Promising Directions From Cognitive and Educational Psychology*](http://doi.org/10.1177/1529100612453266). Psychological Science in the Public Interest, 14(1), 4–58.
+- Karpicke, J. D., & Blunt, J. R. (2011). [*Retrieval Practice Produces More Learning than Elaborative Studying with Concept Mapping*](http://doi.org/10.1126/science.1199327). Science, 331(6018), 772–775. 
+- Newport, C. (2016). *Deep Work: Rules for Focused Success in a Distracted World*. Piatkus Books.
+- Passer, M. W. (2008). *Psychology: The Science of Mind and Behavior (4th ed.)*. London: McGraw-Hill Higher Education.

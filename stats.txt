@@ -1,0 +1,116 @@
+% Statistik
+% Peter M. Dahlgren, JMG
+% 2016-08-16
+
+---
+
+Här hittar du:
+
+- Hjälp med att installera och komma igång med SPSS
+- Grundläggande statistisk analys
+- Videoguider på engelska om statistik
+
+# SPSS
+
+Statistikprogrammet vi använder heter [SPSS](https://www-01.ibm.com/software/se/analytics/spss/m) (Statistical Package for the Social Science). SPSS finns på universitetets datorer, men du kan också ladda ned det till din privata dator (rekommenderas).
+
+![SPSS användargränssnitt efter att du väntat en halvtimme på det att starta.](images/spss.png "SPSS")
+
+## Installera SPSS på din egen dator
+
+1. Gå till [download.gu.se](download.gu.se).
+2. Ladda ned SPSS 24 för Windows eller Mac.
+3. Kopiera licenskoden för SPSS 24.
+4. Starta installationsfilen (Windows) eller dra appen till din programkatalog (Mac).
+
+## SPSS-Akuten hjälper dig
+
+För att få hjälp med vanliga saker i SPSS rekommenderas [SPSS-Akuten](https://spssakuten.wordpress.com/). Där kan du exempelvis få hjälp med:
+
+- [Guide: Omkodning av variabler](https://spssakuten.wordpress.com/2010/01/10/omkodning-av-variabler/)
+- [Guide: Korstabeller](https://spssakuten.wordpress.com/2012/02/14/guide-korstabeller/)
+- [Guide: Korrelation](https://spssakuten.wordpress.com/2010/01/08/korrelation-1/)
+
+## Alternativ till SPSS
+
+Finns det andra program än SPSS? Många. SPSS är dock väl använt inom samhällsvetenskap eftersom det är ganska enkelt. Några andra vanliga program för statistik kan däremot vara bra att känna till. De kräver vanligen mer kunskap:
+
+- [Stata](http://www.stata.com/)
+- [SAS](http://www.sas.com/)
+- [R (gratis)](https://www.r-project.org/)
+
+# Deskriptiv statistik
+
+Deskriptiv statistik är ett annat namn för *beskrivande* statistik. Det är inte svårare än att man beskriver egenskaperna hos en datamängd. I en enkätundersökning kan det handla om hur många som svarat, vilken medelålder de har, var de flesta bor och så vidare. Man uttalar sig alltså inte om något utanför datamängden.
+
+**Centralmått**
+
+- Median
+- Medelvärde
+- Typvärde
+
+**Spridningsmått**
+
+- Standardavvikelse
+- Variationsvidd
+- Kvartilavstånd
+
+**Sambandsmått**
+
+- Pearsons r
+- Kendalls tau b och c
+- Cramers V
+- Phi
+
+# Inferentiell statistik
+
+Inferentiell statistik handlar om att ta stickprov från en population, undersöka stickprovet, och sedan dra slutsatser om populationen baserat på stickprovet. Då går man alltså ett steg längre än att bara beskriva sin datamängd, utan säger något utöver de personer eller analysenheter man undersöker.
+
+All inferentiell statistik kan egentligen kokas ned till en enkel formel: <code>Data = modell + fel</code>.
+
+- Parameter
+- Minsta kvadratsumma
+- Hypotesprövning
+    - Nollhypotes
+    - Alternativ hypotes
+    - Parametriskt och icke-parametriskt test
+- Signifikanstest
+    - Chi^2^
+- Urval
+    - Slumpmässigt urval (sannolikhetsurval)
+    - Icke slumpmässigt urval (icke sannolikhetsurval)
+- Teorem
+    - Centrala gränsvärdessatsen
+    - Lagen om stora tal
+
+# Teoridriven statistisk analys
+
+- Teori
+- Hypoteser
+- Operationalisering
+    - Teoretisk definition
+    - Operationell definition
+- Modeller
+
+# Interaktiva guider
+
+- **[Coin Flip Simulator](http://databits.io/bits/coin-flip-simulator)**. Om man singlar slant tillräckligt många gånger kommer en binomial distribution att formas. Denna simulering visar hur det ser ut.
+- **[Rock 'n Polls](http://rocknpoll.graphics/)**. Se hur slumpmässigt urval påverkar resultatet av en opinionsundersökning.
+- **[Interpreting Correlations - an interactive visualization](http://rpsychologist.com/d3/correlation/)**. Dra i reglaget för att påverka storleken på korrelationen, och hur korrelationen samvarierar (ursäkta ordvitsen) med variansen (vilket är detsamma som r~2~).
+- **[Guess the correlation](http://guessthecorrelation.com/)**. Spel där du får testa att gissa korrelationen (Pearons r).
+
+# Video
+
+Khan Academy har en mängd YouTube-videor med grundläggande statistik till mer avancerad statistik. Börja gäran titta på spellistan nedan med grundläggande deskriptiv statistik.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uhxtUt_-GyM?list=PL1328115D3D8A2566" frameborder="0" allowfullscreen></iframe>
+
+Vill du lära dig mer om SPSS finns massor av guider på engelska. Men vill du lyssna på svenska, kolla in Lund universitets YouTube-kanal.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/zvYNscF-BEM" frameborder="0" allowfullscreen></iframe>
+
+# Lästips
+
+- Djurfeldt, G., Larsson, R. & Stjärnhagen, O. (2010). *Statistisk verktygslåda 1: samhällsvetenskaplig orsaksanalys med kvantitativa metoder (2. uppl.)*. Lund: Studentlitteratur.
+- Miles, J. & Shevlin, M. (2001). *Applying regression & correlation: a guide for students and researchers*. London: SAGE.
+- Yu, C.H. (2006). *Philosophical foundations of quantitative research methodology*. Lanham, Md.: University Press of America.
