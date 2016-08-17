@@ -115,6 +115,26 @@ Vill du lära dig mer om SPSS finns massor av guider på engelska. Men vill du l
 
 <iframe class="videoplayer" width="420" height="315" src="https://www.youtube.com/embed/zvYNscF-BEM" frameborder="0" allowfullscreen></iframe>
 
+Samtliga videor:
+
+1. [Introduktion till SPSS (8:46)](https://www.youtube.com/watch?v=zvYNscF-BEM)
+2. [Lägga in variabler i SPSS (9:211)](https://www.youtube.com/watch?v=_92FIngd6xk)
+3. [Lägga in data i SPSS (2:41)](https://www.youtube.com/watch?v=Ju4qvX63osI)
+4. [Omkodning kvalitativ variabel i SPSS (6:15)](https://www.youtube.com/watch?v=_-PPVDJ1y8w)
+5. [Omkodning kvantitativ variabel i SPSS (6:00)](https://www.youtube.com/watch?v=r0B7QVXtD4w)
+6. [Konstruktion av variabler i SPSS (5:01)](https://www.youtube.com/watch?v=_976xGWSdj8)
+7. [Konstruktion av index i SPSS (7:46)](https://www.youtube.com/watch?v=OqTTZvb7F-0)
+8. [Frekvenstabell i SPSS (2:26)](https://www.youtube.com/watch?v=f3YerngTadg)
+9. [Diagram i SPSS (4:35)](https://www.youtube.com/watch?v=MOMngHACaKE)
+10. [Central- och spridningsmått i SPSS (1:59)](https://www.youtube.com/watch?v=lPN-2CKofhk)
+11. [Konfidensintervall i SPSS (2:02)](https://www.youtube.com/watch?v=D7QRWv3twdM)
+12. [Korstabell och chi^2^ i SPSS (2:31)](https://www.youtube.com/watch?v=Dz3wUhQqOPc)
+13. [Spridningsdiagram i SPSS (2:18)](https://www.youtube.com/watch?v=oMKOZd2PmaI)
+14. [Regressionsanalys i SPSS (1:51)](https://www.youtube.com/watch?v=lhQWn5T_tpY)
+15. [Medelvärdesanalys, två kategorier i SPSS (3:18)](https://www.youtube.com/watch?v=2XLUDmTsHtw)
+16. [Medelvärdesanalys, flera kategorier i SPSS (3:39)](https://www.youtube.com/watch?v=eoKj8x4AgHI)
+17. [Slå samman data i SPSS (3:07)](https://www.youtube.com/watch?v=vxDnoOnLaEU)
+
 # Lästips
 
 - Djurfeldt, G., Larsson, R. & Stjärnhagen, O. (2010). *Statistisk verktygslåda 1: samhällsvetenskaplig orsaksanalys med kvantitativa metoder (2. uppl.)*. Lund: Studentlitteratur.
