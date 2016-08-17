@@ -1,11 +1,12 @@
 % Metodguiden
 % Peter M. Dahlgren, JMG
-% 2016-08-16
+% 2016-08-17
 
 Innehåll:
 
 - [Statistik](stats.html)
 - [Datavisualisering](dataviz.html)
+- [FAQ: Vanliga frågor och svar](faq.html)
+- [Filer](files.html)
 - [Studieteknik](study.html)
-- [FAQ](faq.html): Vanliga frågor och svar
 - [Om](about.html)

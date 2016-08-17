@@ -1,10 +1,14 @@
 % Om
 % Peter M. Dahlgren, JMG
-% 2016-08-16
+% 2016-08-17
 
 Denna hemsida har skapats för att förbättra studenternas kunskaper i bland annat grundläggande [datavisualisering](dataviz.html). Här finns också praktiska råd om [statistik](stats.html).
 
+Guiden är inriktad mot samhällsvetenskap, och då framför allt medie- och kommunikationsvetenskap.
+
 Tänk på att detta inte är en ersättning till studieanvisningar eller kurslitteratur, utan ett komplement. Texterna är inte färdiga utan byggs på efterhand.
+
+Om du är lärare är du välkommen att länka till denna metodguide. Adressen till sidan kommer förmodligen att ändras vid behov, men du skickas i så fall automatiskt vidare.
 
 ## Kontakta ##
 
@@ -19,3 +23,8 @@ Denna hemsida finns även som PDF-dokument om du vill skriva ut eller spara. Eft
 - [Statistik PDF](stats.pdf)
 - [Datavisualisering PDF](dataviz.pdf)
 - [Studieteknik PDF](study.pdf)
+- [FAQ PDF](faq.pdf)
+
+## Källkod ##
+
+Källkoden till hemsidan finns på GitHub: [https://github.com/peterdalle/peterdalle.github.io](https://github.com/peterdalle/peterdalle.github.io). Observera dock [licensen](http://creativecommons.org/licenses/by-nc-nd/4.0/).

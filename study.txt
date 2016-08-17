@@ -1,6 +1,6 @@
 % Studieteknik
 % Peter M. Dahlgren, JMG
-% 2016-08-16
+% 2016-08-17
 
 ---
 Studietiden består av en mängd läsande och lärande. Konstigt nog lärs sällan effektivt lärande ut, utan studenter förmodas lära sig detta på egen hand. Därför tänkte jag kort sammanfatta forskningen kring effektivt pluggande för att maximera sina resultat.
@@ -50,7 +50,7 @@ Enligt Passer (2008, s. 32-33) finns det ett antal saker att tänka på när du 
 
 ## Referenser ##
 
-- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). [*Improving Students’ Learning With Effective Learning Techniques Promising Directions From Cognitive and Educational Psychology*](http://doi.org/10.1177/1529100612453266). Psychological Science in the Public Interest, 14(1), 4–58.
-- Karpicke, J. D., & Blunt, J. R. (2011). [*Retrieval Practice Produces More Learning than Elaborative Studying with Concept Mapping*](http://doi.org/10.1126/science.1199327). Science, 331(6018), 772–775. 
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). [Improving Students’ Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology](http://doi.org/10.1177/1529100612453266). *Psychological Science in the Public Interest, 14*(1), 4–58.
+- Karpicke, J. D., & Blunt, J. R. (2011). [Retrieval Practice Produces More Learning than Elaborative Studying with Concept Mapping](http://doi.org/10.1126/science.1199327). *Science, 331*(6018), 772–775. 
 - Newport, C. (2016). *Deep Work: Rules for Focused Success in a Distracted World*. Piatkus Books.
 - Passer, M. W. (2008). *Psychology: The Science of Mind and Behavior (4th ed.)*. London: McGraw-Hill Higher Education.

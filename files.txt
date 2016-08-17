@@ -1,0 +1,11 @@
+% Filer
+% Peter M. Dahlgren, JMG
+% 2016-08-17
+
+---
+
+Nedladdningsbara filer. Filerna är fria att använda precis som du behagar, utan några restriktioner.
+
+| Fil | Beskrivning |
+| ------------------ | ---------------------------------------------------------------------- |
+| [**diagram-mall.xlsx**](filer/diagram-mall.xlsx) | En mall för Excel med grupperat stapeldiagram, liggande stapeldiagram för Likert-skalor och linjediagram för tidsserier. |

@@ -1,4 +1,4 @@
-% FAQ
+% Statistik och datavisualisering FAQ
 % Peter M. Dahlgren, JMG
 % 2016-08-17
 

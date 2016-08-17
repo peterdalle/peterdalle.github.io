@@ -1,6 +1,6 @@
 % Datavisualisering
 % Peter M. Dahlgren, JMG
-% 2016-08-16
+% 2016-08-17
 
 ---
 Att presentera sitt forskningsresultat visuellt är viktigt för att dels kommunicera forskning och dels skapa bättre förståelse för resultaten. Här får du praktiska tips på hur du kan göra tabeller och diagram som är någorlunda snygga, korrekta och pedagogiska. 
@@ -18,10 +18,12 @@ Se detta som tips på hur du kan utforma dina tabeller och diagram, inte som reg
 
 Ibland brukar man prata om *explorativ dataanalys*. Det betyder att man inledningsvis utforskar datan för att se vad den innehåller. Explorativ dataanalys är med andra ord endast till för att forskaren ska kunna bilda sig en uppfattning om datan, ofta med hjälp av diagram och tabeller som.
 
-Vanliga diagram som används under explorativ dataanalys som är bra att känna till:
+Vanliga tabeller och diagram som används under explorativ dataanalys som är bra att känna till:
 
+- [Frekvenstabell](https://en.wikipedia.org/wiki/Frequency_distribution)
+- [Korstabell](https://en.wikipedia.org/wiki/Contingency_table)
 - [Histogram](https://sv.wikipedia.org/wiki/Histogram)
-- [Boxplot](https://sv.wikipedia.org/wiki/L%C3%A5dagram) (eller Lådagram på svenska)
+- [Box plot](https://sv.wikipedia.org/wiki/L%C3%A5dagram) (ibland också Lådagram eller Whisker Plot)
 
 Denna text handlar dock inte om explorativ dataanalys, utan om visualisering som du vill publicera eller visa upp för andra. Men första steget till att hitta denna data är dock en explorativ dataanalys.
 
@@ -39,7 +41,7 @@ Alla diagram börjar med en tabell, och det är därför viktigt att känna till
 
 Det mest tidskrävande med datavisualisering är ofta att se till att datan är anpassad för det program man använder. När man förbereder data för Excel eller statistikprogram kan datan ibland behöva vara i rätt format.
 
-Man brukar skilja mellan två dataformat:
+Man brukar skilja mellan två dataformat: långt och brett.
 
 **Långt dataformat:**
 ![Långt dataformat](images/format-long.png "Långt dataformat")
@@ -57,17 +59,17 @@ I **tabellhuvudet** skrivs först och främst tabellens nummer för att kunna h�
 
 Efter tabellnumret kommer en kort rubrik. Den bör vara slagkraftig och koncis men också redovisa tidsperiod, analysenheter och enheten (exempelvis procent). Om du redovisar resultatet av en frågeundersökning kan själva frågan också skrivas i rubriken. Skriv enkelt, krångla inte till språket i onödan.
 
-I **tabellresultatet** är den viktigaste informationen. Du bör inte använda decimaler, utan avrunda helst om möjligt. Om du redovisar procent så avrunda också summan till 100 procent. Då ser man också om procenten summeras på varje rad (som på bilden ovan) eller i varje kolumn.
+I **tabellresultatet** är den viktigaste informationen. Du bör inte använda decimaler, utan avrunda helst om möjligt. Om du redovisar procent så avrunda också summan till 100 procent. Då ser man om procenten summeras på raden (som på bilden ovan) eller i kolumnen.
 
 - Om du jämför två tidsperioder kan det vara bra att framhäva skillnaderna i en egen kolumn.
-- Om du jämför två grupper med varandra (män respektive kvinnor) kan det också vara bra att använda en referenskolumn för samtliga tillsammans (totalen).
-- Om tabellen blir stor och svår att överblicka kan du lösa det på två sätt. Genom att markera det viktigaste genom fetmarkering eller inringning. Du kan också försöka slå ihop flera kategorier så att de blir färre.
+- Om du jämför två grupper med varandra (exempelvis män respektive kvinnor) kan det vara bra att använda en kolumn för samtliga tillsammans (totalt).
+- Om tabellen blir stor och svår att överblicka kan du lösa det på två sätt. Markera det viktigaste genom fetmarkering eller inringning. Eller slå ihop kategorier så att de blir färre.
 
 I **tabellkommentaren** skriver du mer utförlig information om exempelvis hur variabler har slagits ihop eller skapats, källa till datamaterialet eller hur tabellen ska tolkas.
 
 - Använd lite mindre textstorlek i tabellkommentaren.
 - Beskriv vad kategorin ”Övrigt” innehåller.
-- Skriva hur många analysenheterna är, såsom N=1 585, eller mer pedagogiskt ”antal svar”.
+- Skriva antalet analysenheterna, såsom N=1 585, eller mer pedagogiskt "antal svar".
 - Skriv signifikansnivåerna om du använder asterisker (\*) i tabellresultatet. Vanligtvis skrivs de:
 
 | Stjärnor | p-värde         | Signifikansnivå |
@@ -76,13 +78,15 @@ I **tabellkommentaren** skriver du mer utförlig information om exempelvis hur v
 | \**      | p < 0,01        | 99 %            |
 | \***     | p < 0,001       | 99,9 %          |
 
+Det rekommenderas dock inte att du använder asterikser om du kan undvika det. Tumregeln är att alltid skriva ut p-värdet med tre decimaler.
+
 ## Korstabell
 
 En korstabell (*contingency table* eller *cross tab*) innehåller två eller fler variabler.
 
-När man gör en korstabell är det viktigt att den summeras på rätt sätt (exempelvis kolumnvis) eftersom varje sätt att summera ger svar på olika frågeställningar. En enkel tumregel kan vara att alltid hålla dig till kolumnprocent och placera den oberoende variabeln i kolumnen. Då summeras den alltid nedåt.
+När man gör en korstabell är det viktigt att den summeras på rätt sätt (exempelvis kolumnvis) eftersom varje sätt att summera ger svar på olika frågeställningar. Se bilden nedan för exempel på hur data kan summeras i en korstabell.
 
-Se bilden nedan för exempel på hur data kan summeras i en korstabell. Notera också att varje sätt att summera svara på olika frågeställningar, vilket gör att tolkningen blir annorlunda för varje korstabell.
+En enkel tumregel kan vara att alltid hålla dig till kolumnprocent och placera den oberoende variabeln i kolumnen. Då summeras den alltid nedåt. I bilden nedan är kön oberoende variabel och den summeras nedåt när kolumnprocent används.
 
 Anledningen till att vi använder procent, snarare än det "råa" antalet, är för att procent är standardiserad och kan jämföras.
 
@@ -98,7 +102,9 @@ På SPSS-Akuten finns en bra guide om [hur du gör en effektparametertabell frå
 
 # Diagram
 
-Diagram är det vanligaste sättet att presentera mycket data. Det finns dock några tips du bör tänka på när du skapar diagram.
+Diagram är det vanligaste sättet att presentera mycket data. En bra tabell är en grundförutsättning för ett bra diagram.
+
+Det finns dock några tips du bör tänka på när du skapar diagram.
 
 **Innehåll**
 
@@ -128,11 +134,11 @@ Diagram är det vanligaste sättet att presentera mycket data. Det finns dock n�
 Ska du visa många diagram jämte varandra? Tänk då på att:
 
 - Använd samma skalstorlek (exempelvis 0-100 procent) på alla diagrams axlar. Om du har 0-20 på ett diagram och 0-70 på ett annat blir de svårare att jämföra.
-- Gör ett snyggt diagram en gång. Kopiera och klistra sedan in det flera gånger för att spara tid.
+- Gör ett snyggt diagram en gång. Kopiera och klistra sedan in det flera gånger för att spara tid. Använd [mallen för Excel](#mall-för-excel) som finns här.
 
 ## Pajdiagram
 
-Pajdiagram är runda och ser ut som pajer. Dessa bör du inte använda av två skäl:
+Pajdiagram är runda och ser ut som pajer, där varje del i pajen representerar en andel. Dessa bör du inte använda av två skäl:
 
 - Det är svårt att uppskatta den relativa storleken på respektive andel.
 - Det går inte att jämföra två pajdiagram med varandra på ett enkelt sätt.
@@ -145,7 +151,7 @@ Om du ändå vill använda pajdiagram bör du tänka på att:
 
 ## Linjediagram
 
-Linjediagram är särskilt användbara när du ska visa trender eller tidsserier.
+Linjediagram är användbara när du ska visa trender eller tidsserier.
 
 Lägg gärna etiketterna (i det här fallet "Förtroende för regeringen") i slutet av linjen. Det gör det lättare att se vad linjerna representerar, utan att man behöver hoppa fram och tillbaka med blicken mellan linjen och en förklaringsruta.
 
@@ -153,7 +159,7 @@ Lägg gärna etiketterna (i det här fallet "Förtroende för regeringen") i slu
 
 ## Stapeldiagram
 
-Stapeldiagram är användbara när du vill jämföra två eller fler kategorier.
+Stapeldiagram är användbara när du vill jämföra två eller fler kategorier. En frekvenstabell med kategoriska variabler kan lämpligen göras om till ett stapeldiagram.
 
 Använd liggande stapeldiagram när du har många kategorier och man ska kunna läsa dem med enkelhet. Liggande stapeldiagram är också användbart när kategorinamnen (i det här fallet Aftonbladet, Expressen etc.) är långa och blir svårlästa på X-axeln.
 
@@ -163,9 +169,7 @@ Sortera listan på ett relevant sätt, exempelvis från högsta till lägsta vä
 
 ## Grupperat stapeldiagram
 
-**Data:** 2 kategoriska variabler, korstabell
-
-Grupperade stapeldiagram är användbara om du behöver jämföra grupper (korstabell).
+Grupperade stapeldiagram är användbara om du behöver jämföra grupper med varandra. En korstabell med kategoriska variabler kan lämpligtvis göras om till ett grupperat stapeldiagram.
 
 Tänk på att förenkla så att det inte blir för många staplar. Du kan exempelvis slå ihop kategorier. Lägg gärna värdet ovanför eller i stapeln.
 
@@ -175,9 +179,9 @@ Sortera gärna staplarna på ett logiskt sätt, som i det här fallet utifrån �
 
 ## Staplad fraktionsstapel
 
-**Data:** Kategoriska variabler, Likert-skala, brett dataformat
+En staplad fraktionsstapel visar andelen (fraktionen) av helheten. En korstabell med kategoriska variabler som du vill jämföra kan lämpligtvis göras om till en staplad fraktionsstapel.
 
-En staplad fraktionsstapel visar andelen (fraktionen) av helheten. När du gör en fraktionsstapel behöver du inte göra om din data till procent, Excel gör det automatiskt.
+När du gör en fraktionsstapel behöver du inte göra om din data till procent, Excel gör det automatiskt.
 
 En staplad fraktionsstapel fungerar bra för att visa Likert-skalor. De kan enkelt jämföras genom att man placerar flera staplar jämte varandra. Sifforna i respektive stapel uppgår till hundra procent.
 
@@ -219,7 +223,7 @@ Skriv alltid ut det fullständiga p-värdet med tre decimaler, till exempel p=0,
 
 # Kritiska frågor
 
-Har du gjort en tabell eller diagram, eller ska du bedöma någon annans? Använd dessa frågor för att hitta svagheter och uppskatta kvaliteten.
+Har du gjort en tabell eller diagram, eller ska du bedöma någon annans? Använd dessa frågor för att hitta svagheter och uppskatta kvaliteten på tabellens utformning eller diagrammets grafik.
 
 Diagram och tabeller:
 
@@ -228,23 +232,26 @@ Diagram och tabeller:
 
 Diagram:
 
-1. Är den oberoende variabeln placerad på X-axeln?
-2. Är den beroende variabeln placerad på Y-axeln?
+1. Är den oberoende variabeln placerad på X-axeln? (Den axel som ligger ned.)
+2. Är den beroende variabeln placerad på Y-axeln? (Den axel som står upp.)
 3. Är någon utav axlarna beskurna så att eventuella värden inte börjar på 0?
+4. Saknas det någon information för att tolka diagrammet? Framgår det vad axlarna betyder?
+
+Notera att dessa kritiska frågor är inriktade på kvaliteten på själva diagrammets grafik. När det kommer till metod är det naturligtvis viktigt att även urval, sampelstorlek, enkätfrågor och dylikt är lämpliga för att slutsatserna från diagrammet är valida. 
 
 # Video
 
-**Introduction to data visualization**
+**[Introduction to data visualization](https://www.youtube.com/watch?v=XIgjTuDGXYY)**
 
 An introduction to the practice of data visualization, with theory, examples, and good humor. Studio rerecording of a presentation at McGill University graduate students.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XIgjTuDGXYY" frameborder="0" allowfullscreen></iframe>
+<iframe class="videoplayer" width="560" height="315" src="https://www.youtube.com/embed/XIgjTuDGXYY" frameborder="0" allowfullscreen></iframe>
 
-**Data Visualization Best Practices**
+**[Data Visualization Best Practices](https://www.youtube.com/watch?v=w1Ts0vT5Pf0)**
 
 Learn how to get the most out of your business intelligence platform including how to choose the right chart type, and how to optimise your charts to make them easier to understand and more attractive.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w1Ts0vT5Pf0" frameborder="0" allowfullscreen></iframe>
+<iframe class="videoplayer" width="560" height="315" src="https://www.youtube.com/embed/w1Ts0vT5Pf0" frameborder="0" allowfullscreen></iframe>
 
 # Lästips
 
