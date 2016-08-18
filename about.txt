@@ -1,6 +1,6 @@
 % Om
 % Peter M. Dahlgren, JMG
-% 2016-08-17
+% 2016-08-18
 
 Denna hemsida har skapats för att förbättra studenternas kunskaper i bland annat grundläggande [datavisualisering](dataviz.html). Här finns också praktiska råd om [statistik](stats.html).
 

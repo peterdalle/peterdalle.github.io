@@ -1,8 +1,7 @@
 % Studieteknik
 % Peter M. Dahlgren, JMG
-% 2016-08-17
+% 2016-08-18
 
----
 Studietiden består av en mängd läsande och lärande. Konstigt nog lärs sällan effektivt lärande ut, utan studenter förmodas lära sig detta på egen hand. Därför tänkte jag kort sammanfatta forskningen kring effektivt pluggande för att maximera sina resultat.
 
 Är du inte motiverad till att lära dig detta? Tänk då på att de som har högst betyg också tenderar att spendera *mindre* tid på att plugga (Newport, 2016).

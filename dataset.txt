@@ -1,0 +1,34 @@
+% Datamängder på nätet att ladda ned
+% Peter M. Dahlgren, JMG
+% 2016-08-18
+
+Det finns tonvis med datamängder på nätet man kan ladda ned och analysera. Det stora problemet är dock att hitta dem. Här får du hjälp med just det. 
+
+# Forskningsdata
+
+Det finns datatjänster som specialiserar sig på att lagra forskningsdata. I Sverige har vi [Svensk nationell datatjänst (SND)](https://snd.gu.se/) som exempelvis lagrar den årliga [SOM-undersökningen](https://snd.gu.se/sv/catalogue/search/SOM).
+
+Det finns också internationella tjänster för forskningsdata:
+
+- [Consortium of European Social Science Data Archives (CESSDA)](http://cessda.net/)
+- [Inter-university Consortium for Political and Social Research (ICPSR)](http://www.icpsr.umich.edu/icpsrweb/ICPSR/index.jsp)
+
+Samt sökmotorer för forskningsdata:
+
+- [re3data.org](http://www.re3data.org/)
+- [Metadata Search](http://search.datacite.org/ui)
+
+# Big Data
+
+- [GDELT Project](http://gdeltproject.org/) - strävar efter att samla alla händelser i massmedierna och har i nuläget en kvarts miljard händelser. Kan [https://bigquery.cloud.google.com/table/gdelt-bq:full.events](analyseras i Google BigQuery).
+- [Google BigQuery](https://cloud.google.com/bigquery/) - verktyg för att analysera big data.
+
+# Hitta fler datamängder
+
+- [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
+
+# Har du fler förslag?
+
+Denna lista utökas kontinuerligt. [Kontakta gärna mig med tips](about.html).
+
+Tänk på att listan innehåller en bias mot samhällsvetenskap.

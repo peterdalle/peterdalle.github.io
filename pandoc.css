@@ -1,7 +1,7 @@
 body{margin-top:20px}
 .navbar .container,.page-container{margin:0 auto;width:100%;max-width:700px}
 div#header{padding-bottom:20px}
-.page-container{padding:5px;overflow-x:hidden}
+.page-container{padding:10px;overflow-x:hidden}
 .title{}
 .author,.date{color:#ccc;font-size:100%;font-weight:normal;padding:0;margin:0;display:inline;border:none}
 h1.title{}

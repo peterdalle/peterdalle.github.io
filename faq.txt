@@ -1,8 +1,6 @@
 % Statistik och datavisualisering FAQ
 % Peter M. Dahlgren, JMG
-% 2016-08-17
-
----
+% 2016-08-18
 
 Vanliga frågor och svar från studenter.
 
