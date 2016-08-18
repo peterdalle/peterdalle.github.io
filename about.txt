@@ -22,8 +22,9 @@ Denna hemsida finns även som PDF-dokument om du vill skriva ut eller spara. Eft
 
 - [Statistik PDF](stats.pdf)
 - [Datavisualisering PDF](dataviz.pdf)
+- [Dataset PDF](dataset.pdf)
+- [FAQ Vanliga frågor och svar PDF](faq.pdf)
 - [Studieteknik PDF](study.pdf)
-- [FAQ PDF](faq.pdf)
 
 ## Källkod ##
 
