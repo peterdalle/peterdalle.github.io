@@ -1,6 +1,6 @@
 % Statistik
 % Peter M. Dahlgren, JMG
-% 2016-08-18
+% 2016-08-22
 
 Här hittar du:
 
@@ -31,11 +31,12 @@ För att få hjälp med vanliga saker i SPSS rekommenderas [SPSS-Akuten](https:/
 
 ## Alternativ till SPSS
 
-Finns det andra program än SPSS? Många. SPSS är dock väl använt inom samhällsvetenskap eftersom det är ganska enkelt. Några andra vanliga program för statistik kan däremot vara bra att känna till. De kräver vanligen mer kunskap:
+Finns det andra program än SPSS? Många. SPSS är dock väl använt inom samhällsvetenskap eftersom det är ganska enkelt. Några andra vanliga program för statistik kan däremot vara bra att känna till.
 
 - [Stata](http://www.stata.com/)
 - [SAS](http://www.sas.com/)
-- [R (gratis)](https://www.r-project.org/)
+- [GNU PSPP](http://www.gnu.org/software/pspp/) ser ut och fungerar ungefär som SPSS, men är gratis.
+- [R](https://www.r-project.org/) är ett programmeringsspråk för statistik.
 
 # Deskriptiv statistik
 
@@ -116,7 +117,7 @@ Vill du lära dig mer om SPSS finns massor av guider på engelska. Men vill du l
 Samtliga videor:
 
 1. [Introduktion till SPSS (8:46)](https://www.youtube.com/watch?v=zvYNscF-BEM)
-2. [Lägga in variabler i SPSS (9:211)](https://www.youtube.com/watch?v=_92FIngd6xk)
+2. [Lägga in variabler i SPSS (9:21)](https://www.youtube.com/watch?v=_92FIngd6xk)
 3. [Lägga in data i SPSS (2:41)](https://www.youtube.com/watch?v=Ju4qvX63osI)
 4. [Omkodning kvalitativ variabel i SPSS (6:15)](https://www.youtube.com/watch?v=_-PPVDJ1y8w)
 5. [Omkodning kvantitativ variabel i SPSS (6:00)](https://www.youtube.com/watch?v=r0B7QVXtD4w)
@@ -135,6 +136,14 @@ Samtliga videor:
 
 # Lästips
 
+## Böcker
+
 - Djurfeldt, G., Larsson, R. & Stjärnhagen, O. (2010). *Statistisk verktygslåda 1: samhällsvetenskaplig orsaksanalys med kvantitativa metoder (2. uppl.)*. Lund: Studentlitteratur.
 - Miles, J. & Shevlin, M. (2001). *Applying regression & correlation: a guide for students and researchers*. London: SAGE.
 - Yu, C.H. (2006). *Philosophical foundations of quantitative research methodology*. Lanham, Md.: University Press of America.
+
+## Webbplatser
+
+- **[onlinestatbook.com](http://onlinestatbook.com/)**. Online Statistics Education: An Interactive Multimedia Course of Study. Developed by Rice University, University of Houston Clear Lake, and Tufts University.
+- **[Andy Fields statisticshell.com](http://www.statisticshell.com/html/limbo.html)**. Here you can uncover the searing agony of SPSS, the stomach churning fear of central tendency and the rancid bile of z-scores.
+.
