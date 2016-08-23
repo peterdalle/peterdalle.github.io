@@ -2,7 +2,7 @@
 % Peter M. Dahlgren, JMG
 % 2016-08-18
 
-Innehåll:
+**Innehåll**
 
 - [Statistik](stats.html)
 - [Datavisualisering](dataviz.html)
@@ -12,6 +12,6 @@ Innehåll:
     - [Dataset](dataset.html)
 - [Om](about.html)
 
-Bonus:
+**Bonus**
 
 - [Studieteknik](study.html)
