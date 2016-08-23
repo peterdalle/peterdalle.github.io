@@ -1,4 +1,4 @@
-% Statistik
+﻿% Statistik
 % Peter M. Dahlgren, JMG
 % 2016-08-22
 
@@ -81,7 +81,7 @@ All inferentiell statistik kan egentligen kokas ned till en enkel formel: <code>
     - Fishers F, Student's T, Chi^2^
 - Teorem
     - Centrala gränsvärdessatsen
-    - Lagen om stora tal
+    - Stora talens lag
 
 # Teoridriven statistisk analys
 
