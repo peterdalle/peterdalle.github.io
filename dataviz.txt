@@ -81,13 +81,13 @@ Det rekommenderas dock inte att du använder asterikser om du kan undvika det. T
 
 ### Korstabell
 
-En korstabell (*contingency table* eller *cross tab*) innehåller två eller fler variabler.
+En korstabell (*contingency table* eller *cross tab*) innehåller 2-4 variabler.
 
 När man gör en korstabell är det viktigt att den summeras på rätt sätt (exempelvis kolumnvis) eftersom varje sätt att summera ger svar på olika frågeställningar. Se bilden nedan för exempel på hur data kan summeras i en korstabell.
 
-En enkel tumregel kan vara att alltid hålla dig till kolumnprocent och placera den oberoende variabeln i kolumnen. Då summeras den alltid nedåt. I bilden nedan är kön oberoende variabel och den summeras nedåt när kolumnprocent används.
+En enkel tumregel kan vara att alltid hålla dig till kolumnprocent och placera den oberoende variabeln i kolumnen. Då summeras den alltid nedåt. I bilden nedan är kön oberoende variabel och den summeras nedåt när kolumnprocent används. 
 
-Anledningen till att vi använder procent, snarare än det "råa" antalet, är för att procent är standardiserad och kan jämföras.
+Anledningen till att vi använder procent, snarare än det "råa" antalet, är för att procent är standardiserad och kan jämföras. Vi jämför då *andelen* kvinnor och män, snarare än antalet kvinnor och män. Då gör det ingenting att den ena gruppen är större än den andra.
 
 ![Olika sätt korstabeller kan summeras: antal, kolumnprocent, radprocent och totalprocent.](images/korstabell-procent.png "Korstabell")
 
@@ -201,6 +201,46 @@ Mallen innehåller i dagsläget:
 - linjediagram för tidsserier
 	
 **Ladda ned: [diagram-mall.xlsx](filer/diagram-mall.xlsx)**
+
+## Visualisera variabler
+
+I föregående avsnitt visades vilka typer av diagram som finns, och hur många variabler som behövs. Vi kan också vända på frågan: Vilken typ av diagram bör jag använda när jag har X antal variabler? 
+
+### Visualisera 1 variabel
+
+- Histogram
+- Pajdiagram
+- [Fraktionsstapel](images/likert.png)
+
+### Visualisera 2 variabler
+
+- [Stapeldiagram](images/liggande-stapeldiagram.png)
+- Linjediagram
+- Scatter plot
+
+I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln.
+
+### Visualisera 3 variabler
+
+- [Grupperat stapeldiagram](images/grupperat-stapeldiagram.png)
+- Linjediagram
+
+I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln. Den tredje interaktionsvariabeln (Z) delas upp i två kategorier (exempelvis man/kvinna eller låg/hög utbildning) och varje kategori får en egen linje.
+
+En fördel med linjediagram med tre variabler (jämfört med stapeldiagram) är att linjediagram ibland är enklare att tolka. Är linjerna parallella finns det ingen interaktion. Är avståndet litet är också additiviteten liten. De fyra kombinationerna finns i tabellen nedan:
+
+| Linjer parallella | Linjer avstånd | Interaktion? | Addivitet? | Tolkning |
+| -------- | --------------- | --------------- | --------------- | --------------- | 
+| Parallella | Kort avstånd | — | — | Ingen interaktion och låg additivitet | 
+| Parallella | Långt avstånd | — | ✔ | Ingen interaktion och hög additivitet | 
+| Ej parallella | Kort avstånd | ✔ | — | Interaktion och låg additivitet | 
+| Ej parallella | Långt avstånd | ✔ | ✔ | Interaktion och hög additivitet | 
+
+### Visualisera 4 variabler
+
+- Linjediagram
+
+I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln. Den tredje interaktionsvariabeln (Z) delas upp i två kategorier (exempelvis man/kvinna eller låg/hög utbildning) och varje kategori får en egen linje. Den fjärde interaktionsvariabeln (W) delas upp på samma sätt som Z.
 
 ## Glöm inte den löpande texten
 

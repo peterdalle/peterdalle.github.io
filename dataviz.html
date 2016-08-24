@@ -68,6 +68,12 @@
 <li><a href="#staplad-fraktionsstapel">Staplad fraktionsstapel</a></li>
 <li><a href="#mall-för-excel">Mall för Excel</a></li>
 </ul></li>
+<li><a href="#visualisera-variabler">Visualisera variabler</a><ul>
+<li><a href="#visualisera-1-variabel">Visualisera 1 variabel</a></li>
+<li><a href="#visualisera-2-variabler">Visualisera 2 variabler</a></li>
+<li><a href="#visualisera-3-variabler">Visualisera 3 variabler</a></li>
+<li><a href="#visualisera-4-variabler">Visualisera 4 variabler</a></li>
+</ul></li>
 <li><a href="#glöm-inte-den-löpande-texten">Glöm inte den löpande texten</a></li>
 <li><a href="#kritiska-frågor">Kritiska frågor</a><ul>
 <li><a href="#video">Video</a></li>
@@ -155,10 +161,10 @@
 </table>
 <p>Det rekommenderas dock inte att du använder asterikser om du kan undvika det. Tumregeln är att alltid skriva ut p-värdet med tre decimaler.</p>
 <h3 id="korstabell">Korstabell</h3>
-<p>En korstabell (<em>contingency table</em> eller <em>cross tab</em>) innehåller två eller fler variabler.</p>
+<p>En korstabell (<em>contingency table</em> eller <em>cross tab</em>) innehåller 2-4 variabler.</p>
 <p>När man gör en korstabell är det viktigt att den summeras på rätt sätt (exempelvis kolumnvis) eftersom varje sätt att summera ger svar på olika frågeställningar. Se bilden nedan för exempel på hur data kan summeras i en korstabell.</p>
 <p>En enkel tumregel kan vara att alltid hålla dig till kolumnprocent och placera den oberoende variabeln i kolumnen. Då summeras den alltid nedåt. I bilden nedan är kön oberoende variabel och den summeras nedåt när kolumnprocent används.</p>
-<p>Anledningen till att vi använder procent, snarare än det “råa” antalet, är för att procent är standardiserad och kan jämföras.</p>
+<p>Anledningen till att vi använder procent, snarare än det “råa” antalet, är för att procent är standardiserad och kan jämföras. Vi jämför då <em>andelen</em> kvinnor och män, snarare än antalet kvinnor och män. Då gör det ingenting att den ena gruppen är större än den andra.</p>
 <div class="figure">
 <img src="images/korstabell-procent.png" title="Korstabell" alt="Olika sätt korstabeller kan summeras: antal, kolumnprocent, radprocent och totalprocent." />
 <p class="caption">Olika sätt korstabeller kan summeras: antal, kolumnprocent, radprocent och totalprocent.</p>
@@ -258,6 +264,74 @@
 <li>linjediagram för tidsserier</li>
 </ul>
 <p><strong>Ladda ned: <a href="filer/diagram-mall.xlsx">diagram-mall.xlsx</a></strong></p>
+<h2 id="visualisera-variabler">Visualisera variabler</h2>
+<p>I föregående avsnitt visades vilka typer av diagram som finns, och hur många variabler som behövs. Vi kan också vända på frågan: Vilken typ av diagram bör jag använda när jag har X antal variabler?</p>
+<h3 id="visualisera-1-variabel">Visualisera 1 variabel</h3>
+<ul>
+<li>Histogram</li>
+<li>Pajdiagram</li>
+<li><a href="images/likert.png">Fraktionsstapel</a></li>
+</ul>
+<h3 id="visualisera-2-variabler">Visualisera 2 variabler</h3>
+<ul>
+<li><a href="images/liggande-stapeldiagram.png">Stapeldiagram</a></li>
+<li>Linjediagram</li>
+<li>Scatter plot</li>
+</ul>
+<p>I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln.</p>
+<h3 id="visualisera-3-variabler">Visualisera 3 variabler</h3>
+<ul>
+<li><a href="images/grupperat-stapeldiagram.png">Grupperat stapeldiagram</a></li>
+<li>Linjediagram</li>
+</ul>
+<p>I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln. Den tredje interaktionsvariabeln (Z) delas upp i två kategorier (exempelvis man/kvinna eller låg/hög utbildning) och varje kategori får en egen linje.</p>
+<p>En fördel med linjediagram med tre variabler (jämfört med stapeldiagram) är att linjediagram ibland är enklare att tolka. Är linjerna parallella finns det ingen interaktion. Är avståndet litet är också additiviteten liten. De fyra kombinationerna finns i tabellen nedan:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Linjer parallella</th>
+<th align="left">Linjer avstånd</th>
+<th align="left">Interaktion?</th>
+<th align="left">Addivitet?</th>
+<th align="left">Tolkning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Parallella</td>
+<td align="left">Kort avstånd</td>
+<td align="left">—</td>
+<td align="left">—</td>
+<td align="left">Ingen interaktion och låg additivitet</td>
+</tr>
+<tr class="even">
+<td align="left">Parallella</td>
+<td align="left">Långt avstånd</td>
+<td align="left">—</td>
+<td align="left">✔</td>
+<td align="left">Ingen interaktion och hög additivitet</td>
+</tr>
+<tr class="odd">
+<td align="left">Ej parallella</td>
+<td align="left">Kort avstånd</td>
+<td align="left">✔</td>
+<td align="left">—</td>
+<td align="left">Interaktion och låg additivitet</td>
+</tr>
+<tr class="even">
+<td align="left">Ej parallella</td>
+<td align="left">Långt avstånd</td>
+<td align="left">✔</td>
+<td align="left">✔</td>
+<td align="left">Interaktion och hög additivitet</td>
+</tr>
+</tbody>
+</table>
+<h3 id="visualisera-4-variabler">Visualisera 4 variabler</h3>
+<ul>
+<li>Linjediagram</li>
+</ul>
+<p>I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln. Den tredje interaktionsvariabeln (Z) delas upp i två kategorier (exempelvis man/kvinna eller låg/hög utbildning) och varje kategori får en egen linje. Den fjärde interaktionsvariabeln (W) delas upp på samma sätt som Z.</p>
 <h2 id="glöm-inte-den-löpande-texten">Glöm inte den löpande texten</h2>
 <p>Du behöver inte presentera allt som diagram. Glöm inte bort att utnyttja den löpande texten på ett effektivt sätt.</p>
 <p>Har du gjort en surveyundersökning kan du börja med beskrivande statistik av deltagarna, vilket ofta tar upp mindre plats än tabeller eller diagram:</p>
