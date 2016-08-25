@@ -1,10 +1,10 @@
 body{margin-top:20px}
 .navbar .container,.page-container{margin:0 auto;width:100%;max-width:700px}
+a.navbar-brand{background:#004c8b;margin:0 0 0 5px;padding:15px 20px 10px 20px;color:#fff !important;font-weight:bold;font-size:95%;height:auto;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;box-shadow:1px 1px 1px #c3c3c3}
+a.navbar-brand:hover{background:#666 !important}
 div#header{padding-bottom:20px}
 .page-container{padding:10px;overflow-x:hidden}
-.title{}
 .author,.date{color:#ccc;font-size:100%;font-weight:normal;padding:0;margin:0;display:inline;border:none}
-h1.title{}
 h1,h2{border-bottom:1px solid #d8d8d8;padding-top:30px}
 h1,h2,h3,h4,h5,h6{padding-top:20px}
 li{font-size:15px;line-height:150% !important}
