@@ -9,7 +9,7 @@ h1,h2{border-bottom:1px solid #d8d8d8;padding-top:30px}
 h1,h2,h3,h4,h5,h6{padding-top:20px}
 li{font-size:15px;line-height:150% !important}
 .figure img{border:1px solid #d8d8d8;padding:10px;width:80%}
-.figure .caption{font-size:80%;color:#808080;padding-bottom:20px}
+.figure .caption{font-size:95%;color:#808080;padding:5px 0 20px 0}
 .videoplayer{width:100%;margin:10px 0 20px 0}
 blockquote{margin:30px !important;padding:10px !important}
 blockquote p{color:#808080;font-size:90% !important}
