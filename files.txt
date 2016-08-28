@@ -7,5 +7,9 @@ Nedladdningsbara filer du kan använda precis som du behagar, utan några restri
 | Fil | Beskrivning |
 | ------------------ | ---------------------------------------------------------------------- |
 | [**diagram-mall.xlsx**](filer/diagram-mall.xlsx) | En mall för Excel med grupperat stapeldiagram, liggande stapeldiagram för Likert-skalor och linjediagram för tidsserier. |
+| [**korstabell.xlsx**](filer/korstabell.xlsx) | Visar hur en korstabell (2 rader × 2 kolumner) med antal, kolumnprocent, radprocent och totalprocent ger olika tolkningar. |
+| [**korstabell-chi-square.xlsx**](filer/korstabell-chi-square.xlsx) | Visar hur man räknar ut Chi^2^ i samma 2 × 2 korstabell. |
+
+Excel-filer är i formatet Excel 2016.
 
 Hur du **[laddar ned SPSS](stats.html#installera-spss-på-din-egen-dator)** finns beskrivet på statistiksidan.
