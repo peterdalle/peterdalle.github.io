@@ -208,22 +208,22 @@ I föregående avsnitt visades vilka typer av diagram som finns, och hur många 
 
 ### Visualisera 1 variabel
 
-- Histogram
-- Pajdiagram
-- [Fraktionsstapel](images/likert.png)
+- Histogram (för kvantitativ variabel)
+- Pajdiagram (för kvalitativ variabel)
+- [Fraktionsstapel](images/likert.png) (för kvalitativ variabel)
 
 ### Visualisera 2 variabler
 
-- [Stapeldiagram](images/liggande-stapeldiagram.png)
-- Linjediagram
-- Scatter plot
+- [Stapeldiagram](images/liggande-stapeldiagram.png) (för kvalitativa variabler)
+- Scatter plot (för kvantitativa variabler)
+- Linjediagram (för minst 1 kvantitativ variabel)
 
 I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln.
 
 ### Visualisera 3 variabler
 
-- [Grupperat stapeldiagram](images/grupperat-stapeldiagram.png)
-- Linjediagram
+- [Grupperat stapeldiagram](images/grupperat-stapeldiagram.png) (för kvalitativa variabler)
+- Linjediagram (för minst 1 kvantitativ variabel)
 
 I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln. Den tredje interaktionsvariabeln (Z) delas upp i två kategorier (exempelvis man/kvinna eller låg/hög utbildning) och varje kategori får en egen linje.
 
@@ -238,7 +238,7 @@ En fördel med linjediagram med tre variabler (jämfört med stapeldiagram) är 
 
 ### Visualisera 4 variabler
 
-- Linjediagram
+- Linjediagram (för minst 1 kvantitativ variabel)
 
 I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln. Den tredje interaktionsvariabeln (Z) delas upp i två kategorier (exempelvis man/kvinna eller låg/hög utbildning) och varje kategori får en egen linje. Den fjärde interaktionsvariabeln (W) delas upp på samma sätt som Z.
 
@@ -271,8 +271,8 @@ Diagram och tabeller:
 
 Diagram:
 
-1. Är den oberoende variabeln placerad på X-axeln? (Den axel som ligger ned.)
-2. Är den beroende variabeln placerad på Y-axeln? (Den axel som står upp.)
+1. Är den oberoende variabeln placerad på den liggande X-axeln?
+2. Är den beroende variabeln placerad på stående Y-axeln?
 3. Är någon utav axlarna beskurna så att eventuella värden inte börjar på 0?
 4. Saknas det någon information för att tolka diagrammet? Framgår det vad axlarna betyder?
 

@@ -1,12 +1,12 @@
 % Om
 % Peter M. Dahlgren, JMG
-% 2016-08-18
+% 2016-08-26
 
 Denna hemsida har skapats för att förbättra studenternas kunskaper i bland annat grundläggande [datavisualisering](dataviz.html). Här finns också praktiska råd om [statistik](stats.html).
 
 Guiden är inriktad mot samhällsvetenskap, och då framför allt medie- och kommunikationsvetenskap samt journalistik.
 
-Tänk på att detta inte är en ersättning till studieanvisningar eller kurslitteratur, utan ett komplement. Texterna är inte färdiga utan byggs på efterhand.
+Tänk på att detta inte är en ersättning till studieanvisningar eller kurslitteratur, utan ett komplement. Texterna är inte färdiga utan byggs på efterhand. Tanken är i första hand att samla resurser som redan finns på nätet, snarare än att uppfinna hjulet igen och skapa nya.
 
 Om du är lärare är du välkommen att länka till denna metodguide. Adressen till sidan kommer förmodligen att ändras vid behov, men du skickas i så fall automatiskt vidare.
 
@@ -25,6 +25,7 @@ Denna hemsida finns även som PDF-dokument om du vill skriva ut eller spara. Eft
 - [Dataset PDF](dataset.pdf)
 - [FAQ Vanliga frågor och svar PDF](faq.pdf)
 - [Studieteknik PDF](study.pdf)
+- [Kreativitet PDF](creativity.pdf)
 
 ## Källkod ##
 
@@ -34,4 +35,4 @@ Källkoden till hemsidan [finns på GitHub](https://github.com/peterdalle/peterd
 
 | När | Vad |
 | --- | --------------- |
-| 2016-08-22 | Lade till länkar till webbplatser på [statistik](stats.html#webbplatser).
+| 2016-08-26 | Lade till länktips på [statistik](stats.html#webbplatser). Skapade sidan [kreativitet](creativity.html). |

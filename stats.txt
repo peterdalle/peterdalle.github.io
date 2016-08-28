@@ -136,6 +136,10 @@ Samtliga videor:
 
 ## Lästips
 
+### Artiklar
+
+- [How to share data with a statistician](https://github.com/jtleek/datasharing). This is a guide for anyone who needs to share data with a statistician.
+
 ### Böcker
 
 - Djurfeldt, G., Larsson, R. & Stjärnhagen, O. (2010). *Statistisk verktygslåda 1: samhällsvetenskaplig orsaksanalys med kvantitativa metoder (2. uppl.)*. Lund: Studentlitteratur.
