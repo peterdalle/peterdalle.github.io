@@ -74,8 +74,8 @@ I **tabellkommentaren** skriver du mer utförlig information om exempelvis hur v
 | Stjärnor | p-värde         | Signifikansnivå |
 | -------- | --------------- | --------------- |
 | \*       | p < 0,05        | 95 %            |
-| \**      | p < 0,01        | 99 %            |
-| \***     | p < 0,001       | 99,9 %          |
+| \*\*      | p < 0,01        | 99 %            |
+| \*\*\*     | p < 0,001       | 99,9 %          |
 
 Det rekommenderas dock inte att du använder asterikser om du kan undvika det. Tumregeln är att alltid skriva ut p-värdet med tre decimaler.
 
@@ -232,9 +232,9 @@ En fördel med linjediagram med tre variabler (jämfört med stapeldiagram) är 
 | Linjer parallella | Linjer avstånd | Interaktion? | Addivitet? | Tolkning |
 | -------- | --------------- | --------------- | --------------- | --------------- | 
 | Parallella | Kort avstånd | — | — | Ingen interaktion och låg additivitet | 
-| Parallella | Långt avstånd | — | ✔ | Ingen interaktion och hög additivitet | 
-| Ej parallella | Kort avstånd | ✔ | — | Interaktion och låg additivitet | 
-| Ej parallella | Långt avstånd | ✔ | ✔ | Interaktion och hög additivitet | 
+| Parallella | Långt avstånd | — | Ja | Ingen interaktion och hög additivitet | 
+| Ej parallella | Kort avstånd | Ja | — | Interaktion och låg additivitet | 
+| Ej parallella | Långt avstånd | Ja | Ja | Interaktion och hög additivitet | 
 
 ### Visualisera 4 variabler
 
