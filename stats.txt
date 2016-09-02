@@ -99,8 +99,11 @@ All inferentiell statistik kan egentligen kokas ned till en enkel formel: <code>
 - **[Rock 'n Polls](http://rocknpoll.graphics/)**. Se hur slumpmässigt urval påverkar resultatet av en opinionsundersökning.
 - **[Interpreting Correlations - an interactive visualization](http://rpsychologist.com/d3/correlation/)**. Dra i reglaget för att påverka storleken på korrelationen, och hur korrelationen samvarierar (ursäkta ordvitsen) med variansen.
 - **[Guess the correlation](http://guessthecorrelation.com/)**. Spel där du får testa att gissa korrelationen (Pearons r).
+- **[Sampling Distribution](http://onlinestatbook.com/stat_sim/sampling_dist/index.html). Visar effekten av centrala gränsvärdessatsen, och hur stickprovets medelvärde från en distribution av valfri form bildar en normalfördelning.
 
-## Video
+## Lär dig mer
+
+### Video
 
 **[Probability and Statistics | Khan Academy](https://www.youtube.com/watch?list=PL1328115D3D8A2566&v=uhxtUt_-GyM)**
 
@@ -133,8 +136,6 @@ Samtliga videor:
 15. [Medelvärdesanalys, två kategorier i SPSS (3:18)](https://www.youtube.com/watch?v=2XLUDmTsHtw)
 16. [Medelvärdesanalys, flera kategorier i SPSS (3:39)](https://www.youtube.com/watch?v=eoKj8x4AgHI)
 17. [Slå samman data i SPSS (3:07)](https://www.youtube.com/watch?v=vxDnoOnLaEU)
-
-## Lästips
 
 ### Artiklar
 

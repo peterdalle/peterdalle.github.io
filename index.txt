@@ -7,6 +7,7 @@
 - [Statistik](stats.html)
 - [Datavisualisering](dataviz.html)
 - [FAQ: Vanliga frågor och svar](faq.html)
+- [Quiz](quiz.html)
 - Ladda ned
     - [Filer](files.html)
     - [Dataset](dataset.html)

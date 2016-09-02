@@ -1,6 +1,6 @@
 % Datavisualisering
 % Peter M. Dahlgren, JMG
-% 2016-08-18
+% 2016-09-02
 
 Att presentera sitt forskningsresultat visuellt är viktigt för att dels kommunicera forskning och dels skapa bättre förståelse för resultaten. Här får du praktiska tips på hur du kan göra tabeller och diagram som är någorlunda snygga, korrekta och pedagogiska. 
 
@@ -12,6 +12,8 @@ Se detta som tips på hur du kan utforma dina tabeller och diagram, inte som reg
 - Tabeller kan göras i Microsoft Word eller Excel.
 - Använd inte Numbers för Mac. Det är för dåligt.
 - Kopiera aldrig tabeller eller diagram från SPSS. De är horribla. Gör egna i stället.
+
+Excel är både vanligt och enkelt. Det finns dock flera gratisalternativ, till exempel (från enkelt till svårt): [Data Explorer](http://www.data-explorer.com/), [Tableau](http://www.tableau.com/) och [R med ggplot](http://www.r-project.org).
 
 ## Grunderna i datavisualisering
 
@@ -208,39 +210,40 @@ I föregående avsnitt visades vilka typer av diagram som finns, och hur många 
 
 ### Visualisera 1 variabel
 
-- Histogram (för kvantitativ variabel)
-- Pajdiagram (för kvalitativ variabel)
-- [Fraktionsstapel](images/likert.png) (för kvalitativ variabel)
+| Typ av variabel | Diagram |
+| ------------------------------- | ----------------------------------------------- |
+| Kvalitativ variabel | Pajdiagram, stapeldiagram, dot plot |
+| Kvantitativ variabel | Histogram, box plot, dot plot, jitter plot, density plot |
 
 ### Visualisera 2 variabler
 
-- [Stapeldiagram](images/liggande-stapeldiagram.png) (för kvalitativa variabler)
-- Scatter plot (för kvantitativa variabler)
-- Linjediagram (för minst 1 kvantitativ variabel)
+| Typ av variabel | Diagram |
+| ------------------------------- | ----------------------------------------------- |
+| 2 kvalitativa variabler | Grupperat stapeldiagram, fraktionsstapel |
+| 1 kvalitativ och 1 kvantitativ variabel | Stapeldiagram, linjediagram, box plot, violin plot |
+| 2 kvantitativa variabler | Linjediagram, scatter plot, frequency heatmap |
 
 I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln.
 
 ### Visualisera 3 variabler
 
-- [Grupperat stapeldiagram](images/grupperat-stapeldiagram.png) (för kvalitativa variabler)
-- Linjediagram (för minst 1 kvantitativ variabel)
+| Typ av variabel | Diagram |
+| ------------------------------- | ----------------------------------------------- |
+| 3 kvalitativa variabler | Stapeldiagram, korstabell |
+| 2 kvalitativa och 1 kvantitativ variabel | Stapeldiagram, linjediagram |
+| 1 kvalitativ och 2 kvantitativa variabler | Stapeldiagram, linjediagram |
+| 3 kvantitativa variabler | Linjediagram |
 
 I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln. Den tredje interaktionsvariabeln (Z) delas upp i två kategorier (exempelvis man/kvinna eller låg/hög utbildning) och varje kategori får en egen linje.
 
-En fördel med linjediagram med tre variabler (jämfört med stapeldiagram) är att linjediagram ibland är enklare att tolka. Är linjerna parallella finns det ingen interaktion. Är avståndet litet är också additiviteten liten. De fyra kombinationerna finns i tabellen nedan:
+En fördel med linjediagram med tre variabler (jämfört med stapeldiagram) är att linjediagram ibland är enklare att tolka. Är linjerna parallella finns det ingen interaktion. Är avståndet litet är också additiviteten liten (det vill säga, variablerna ökar inte tillsammans). De fyra kombinationerna finns i tabellen nedan:
 
-| Linjer parallella | Linjer avstånd | Interaktion? | Addivitet? | Tolkning |
+| Linjer parallella | Linjer avstånd | Interaktion? | Additivitet? | Tolkning |
 | -------- | --------------- | --------------- | --------------- | --------------- | 
 | Parallella | Kort avstånd | — | — | Ingen interaktion och låg additivitet | 
 | Parallella | Långt avstånd | — | Ja | Ingen interaktion och hög additivitet | 
 | Ej parallella | Kort avstånd | Ja | — | Interaktion och låg additivitet | 
 | Ej parallella | Långt avstånd | Ja | Ja | Interaktion och hög additivitet | 
-
-### Visualisera 4 variabler
-
-- Linjediagram (för minst 1 kvantitativ variabel)
-
-I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln. Den tredje interaktionsvariabeln (Z) delas upp i två kategorier (exempelvis man/kvinna eller låg/hög utbildning) och varje kategori får en egen linje. Den fjärde interaktionsvariabeln (W) delas upp på samma sätt som Z.
 
 ## Glöm inte den löpande texten
 
@@ -260,7 +263,7 @@ I det här fallet står **r** för Pearsons korrelationskoefficient och **p** st
 
 Skriv alltid ut det fullständiga p-värdet med tre decimaler, till exempel p=0,039. Då undviker du avrundningsfel, så att p=0,051 inte blir p<0,05 av misstag, och du undviker också att p-värdet behandlas dikotomt som signifikant (p<0,05) respektive icke-signifikant (p>0,05).
 
-# Kritiska frågor
+## Kritiska frågor
 
 Har du gjort en tabell eller diagram, eller ska du bedöma någon annans? Använd dessa frågor för att hitta svagheter och uppskatta kvaliteten på tabellens utformning eller diagrammets grafik.
 
@@ -278,7 +281,9 @@ Diagram:
 
 Notera att dessa kritiska frågor är inriktade på kvaliteten på själva diagrammets grafik. När det kommer till metod är det naturligtvis viktigt att även urval, sampelstorlek, enkätfrågor och dylikt är lämpliga för att slutsatserna från diagrammet är valida. 
 
-## Video
+## Lär dig mer
+
+### Video
 
 **[Introduction to data visualization](https://www.youtube.com/watch?v=XIgjTuDGXYY)**
 
@@ -292,7 +297,7 @@ Learn how to get the most out of your business intelligence platform including h
 
 <iframe class="videoplayer" width="560" height="315" src="https://www.youtube.com/embed/w1Ts0vT5Pf0" frameborder="0" allowfullscreen></iframe>
 
-## Lästips
+### Böcker
 
 - Cairo, A. (2016). *The Truthful Art: Data, Charts, and Maps for Communication*. New Riders.
 - Few, S. (2012). *Show Me the Numbers: Designing Tables and Graphs to Enlighten (2nd edition)*. Burlingame, Calif.: Analytics Press.

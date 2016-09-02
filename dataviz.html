@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
   <meta name="author" content="Peter M. Dahlgren, JMG" />
-  <meta name="date" content="2016-08-18" />
+  <meta name="date" content="2016-09-02" />
   <title>Datavisualisering</title>
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="pandoc.css" type="text/css" />
@@ -31,7 +31,8 @@
 			<ul class="nav navbar-nav">
 				<li><a href="stats.html" title="Lär dig grundläggande deskriptiv och inferentiell statistik">Statistik</a></li>
 				<li><a href="dataviz.html" title="Skapa enklare tabeller och diagram">Datavisualisering</a></li>
-				<li><a href="faq.html" title="Vanliga frågor och svar">FAQ</a></li>				
+				<li><a href="faq.html" title="Vanliga frågor och svar">FAQ</a></li>	
+				<li><a href="quiz.html" title="Testa dina kunskaper med frågesport">Quiz</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ladda ned <b class="caret"></b></a>
 					<ul class="dropdown-menu">
@@ -48,7 +49,7 @@
 <div id="header">
 <h1 class="title">Datavisualisering</h1>
 <h2 class="author">Peter M. Dahlgren, JMG</h2>
-<h3 class="date">2016-08-18</h3>
+<h3 class="date">2016-09-02</h3>
 </div>
 <div id="TOC">
 <ul>
@@ -72,12 +73,12 @@
 <li><a href="#visualisera-1-variabel">Visualisera 1 variabel</a></li>
 <li><a href="#visualisera-2-variabler">Visualisera 2 variabler</a></li>
 <li><a href="#visualisera-3-variabler">Visualisera 3 variabler</a></li>
-<li><a href="#visualisera-4-variabler">Visualisera 4 variabler</a></li>
 </ul></li>
 <li><a href="#glöm-inte-den-löpande-texten">Glöm inte den löpande texten</a></li>
-<li><a href="#kritiska-frågor">Kritiska frågor</a><ul>
+<li><a href="#kritiska-frågor">Kritiska frågor</a></li>
+<li><a href="#lär-dig-mer">Lär dig mer</a><ul>
 <li><a href="#video">Video</a></li>
-<li><a href="#lästips">Lästips</a></li>
+<li><a href="#böcker">Böcker</a></li>
 </ul></li>
 </ul>
 </div>
@@ -90,6 +91,7 @@
 <li>Använd inte Numbers för Mac. Det är för dåligt.</li>
 <li>Kopiera aldrig tabeller eller diagram från SPSS. De är horribla. Gör egna i stället.</li>
 </ul>
+<p>Excel är både vanligt och enkelt. Det finns dock flera gratisalternativ, till exempel (från enkelt till svårt): <a href="http://www.data-explorer.com/">Data Explorer</a>, <a href="http://www.tableau.com/">Tableau</a> och <a href="http://www.r-project.org">R med ggplot</a>.</p>
 <h2 id="grunderna-i-datavisualisering">Grunderna i datavisualisering</h2>
 <p>Ibland brukar man prata om <em>explorativ dataanalys</em>. Det betyder att man inledningsvis utforskar datan för att se vad den innehåller. Explorativ dataanalys är med andra ord endast till för att forskaren ska kunna bilda sig en uppfattning om datan, ofta med hjälp av diagram och tabeller som.</p>
 <p>Vanliga tabeller och diagram som används under explorativ dataanalys som är bra att känna till:</p>
@@ -136,26 +138,26 @@
 <table>
 <thead>
 <tr class="header">
-<th>Stjärnor</th>
-<th>p-värde</th>
-<th>Signifikansnivå</th>
+<th align="left">Stjärnor</th>
+<th align="left">p-värde</th>
+<th align="left">Signifikansnivå</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>*</td>
-<td>p &lt; 0,05</td>
-<td>95 %</td>
+<td align="left">*</td>
+<td align="left">p &lt; 0,05</td>
+<td align="left">95 %</td>
 </tr>
 <tr class="even">
-<td>**</td>
-<td>p &lt; 0,01</td>
-<td>99 %</td>
+<td align="left">**</td>
+<td align="left">p &lt; 0,01</td>
+<td align="left">99 %</td>
 </tr>
 <tr class="odd">
-<td>***</td>
-<td>p &lt; 0,001</td>
-<td>99,9 %</td>
+<td align="left">***</td>
+<td align="left">p &lt; 0,001</td>
+<td align="left">99,9 %</td>
 </tr>
 </tbody>
 </table>
@@ -267,71 +269,126 @@
 <h2 id="visualisera-variabler">Visualisera variabler</h2>
 <p>I föregående avsnitt visades vilka typer av diagram som finns, och hur många variabler som behövs. Vi kan också vända på frågan: Vilken typ av diagram bör jag använda när jag har X antal variabler?</p>
 <h3 id="visualisera-1-variabel">Visualisera 1 variabel</h3>
-<ul>
-<li>Histogram (för kvantitativ variabel)</li>
-<li>Pajdiagram (för kvalitativ variabel)</li>
-<li><a href="images/likert.png">Fraktionsstapel</a> (för kvalitativ variabel)</li>
-</ul>
-<h3 id="visualisera-2-variabler">Visualisera 2 variabler</h3>
-<ul>
-<li><a href="images/liggande-stapeldiagram.png">Stapeldiagram</a> (för kvalitativa variabler)</li>
-<li>Scatter plot (för kvantitativa variabler)</li>
-<li>Linjediagram (för minst 1 kvantitativ variabel)</li>
-</ul>
-<p>I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln.</p>
-<h3 id="visualisera-3-variabler">Visualisera 3 variabler</h3>
-<ul>
-<li><a href="images/grupperat-stapeldiagram.png">Grupperat stapeldiagram</a> (för kvalitativa variabler)</li>
-<li>Linjediagram (för minst 1 kvantitativ variabel)</li>
-</ul>
-<p>I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln. Den tredje interaktionsvariabeln (Z) delas upp i två kategorier (exempelvis man/kvinna eller låg/hög utbildning) och varje kategori får en egen linje.</p>
-<p>En fördel med linjediagram med tre variabler (jämfört med stapeldiagram) är att linjediagram ibland är enklare att tolka. Är linjerna parallella finns det ingen interaktion. Är avståndet litet är också additiviteten liten. De fyra kombinationerna finns i tabellen nedan:</p>
 <table>
+<colgroup>
+<col width="40%" />
+<col width="60%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>Linjer parallella</th>
-<th>Linjer avstånd</th>
-<th>Interaktion?</th>
-<th>Addivitet?</th>
-<th>Tolkning</th>
+<th align="left">Typ av variabel</th>
+<th align="left">Diagram</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Parallella</td>
-<td>Kort avstånd</td>
-<td>—</td>
-<td>—</td>
-<td>Ingen interaktion och låg additivitet</td>
+<td align="left">Kvalitativ variabel</td>
+<td align="left">Pajdiagram, stapeldiagram, dot plot</td>
 </tr>
 <tr class="even">
-<td>Parallella</td>
-<td>Långt avstånd</td>
-<td>—</td>
-<td>Ja</td>
-<td>Ingen interaktion och hög additivitet</td>
-</tr>
-<tr class="odd">
-<td>Ej parallella</td>
-<td>Kort avstånd</td>
-<td>Ja</td>
-<td>—</td>
-<td>Interaktion och låg additivitet</td>
-</tr>
-<tr class="even">
-<td>Ej parallella</td>
-<td>Långt avstånd</td>
-<td>Ja</td>
-<td>Ja</td>
-<td>Interaktion och hög additivitet</td>
+<td align="left">Kvantitativ variabel</td>
+<td align="left">Histogram, box plot, dot plot, jitter plot, density plot</td>
 </tr>
 </tbody>
 </table>
-<h3 id="visualisera-4-variabler">Visualisera 4 variabler</h3>
-<ul>
-<li>Linjediagram (för minst 1 kvantitativ variabel)</li>
-</ul>
-<p>I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln. Den tredje interaktionsvariabeln (Z) delas upp i två kategorier (exempelvis man/kvinna eller låg/hög utbildning) och varje kategori får en egen linje. Den fjärde interaktionsvariabeln (W) delas upp på samma sätt som Z.</p>
+<h3 id="visualisera-2-variabler">Visualisera 2 variabler</h3>
+<table>
+<colgroup>
+<col width="40%" />
+<col width="60%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Typ av variabel</th>
+<th align="left">Diagram</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">2 kvalitativa variabler</td>
+<td align="left">Grupperat stapeldiagram, fraktionsstapel</td>
+</tr>
+<tr class="even">
+<td align="left">1 kvalitativ och 1 kvantitativ variabel</td>
+<td align="left">Stapeldiagram, linjediagram, box plot, violin plot</td>
+</tr>
+<tr class="odd">
+<td align="left">2 kvantitativa variabler</td>
+<td align="left">Linjediagram, scatter plot, frequency heatmap</td>
+</tr>
+</tbody>
+</table>
+<p>I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln.</p>
+<h3 id="visualisera-3-variabler">Visualisera 3 variabler</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Typ av variabel</th>
+<th align="left">Diagram</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">3 kvalitativa variabler</td>
+<td align="left">Stapeldiagram, korstabell</td>
+</tr>
+<tr class="even">
+<td align="left">2 kvalitativa och 1 kvantitativ variabel</td>
+<td align="left">Stapeldiagram, linjediagram</td>
+</tr>
+<tr class="odd">
+<td align="left">1 kvalitativ och 2 kvantitativa variabler</td>
+<td align="left">Stapeldiagram, linjediagram</td>
+</tr>
+<tr class="even">
+<td align="left">3 kvantitativa variabler</td>
+<td align="left">Linjediagram</td>
+</tr>
+</tbody>
+</table>
+<p>I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln. Den tredje interaktionsvariabeln (Z) delas upp i två kategorier (exempelvis man/kvinna eller låg/hög utbildning) och varje kategori får en egen linje.</p>
+<p>En fördel med linjediagram med tre variabler (jämfört med stapeldiagram) är att linjediagram ibland är enklare att tolka. Är linjerna parallella finns det ingen interaktion. Är avståndet litet är också additiviteten liten (det vill säga, variablerna ökar inte tillsammans). De fyra kombinationerna finns i tabellen nedan:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Linjer parallella</th>
+<th align="left">Linjer avstånd</th>
+<th align="left">Interaktion?</th>
+<th align="left">Additivitet?</th>
+<th align="left">Tolkning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Parallella</td>
+<td align="left">Kort avstånd</td>
+<td align="left">—</td>
+<td align="left">—</td>
+<td align="left">Ingen interaktion och låg additivitet</td>
+</tr>
+<tr class="even">
+<td align="left">Parallella</td>
+<td align="left">Långt avstånd</td>
+<td align="left">—</td>
+<td align="left">Ja</td>
+<td align="left">Ingen interaktion och hög additivitet</td>
+</tr>
+<tr class="odd">
+<td align="left">Ej parallella</td>
+<td align="left">Kort avstånd</td>
+<td align="left">Ja</td>
+<td align="left">—</td>
+<td align="left">Interaktion och låg additivitet</td>
+</tr>
+<tr class="even">
+<td align="left">Ej parallella</td>
+<td align="left">Långt avstånd</td>
+<td align="left">Ja</td>
+<td align="left">Ja</td>
+<td align="left">Interaktion och hög additivitet</td>
+</tr>
+</tbody>
+</table>
 <h2 id="glöm-inte-den-löpande-texten">Glöm inte den löpande texten</h2>
 <p>Du behöver inte presentera allt som diagram. Glöm inte bort att utnyttja den löpande texten på ett effektivt sätt.</p>
 <p>Har du gjort en surveyundersökning kan du börja med beskrivande statistik av deltagarna, vilket ofta tar upp mindre plats än tabeller eller diagram:</p>
@@ -345,7 +402,7 @@
 </blockquote>
 <p>I det här fallet står <strong>r</strong> för Pearsons korrelationskoefficient och <strong>p</strong> står för sannolikheten från signifikanstestet. Ibland kan det också vara bra att skriva ut vilken typ av signifikanstest det är (enkelsidigt eller dubbelsidigt), om det inte framgår av sammanhanget.</p>
 <p>Skriv alltid ut det fullständiga p-värdet med tre decimaler, till exempel p=0,039. Då undviker du avrundningsfel, så att p=0,051 inte blir p&lt;0,05 av misstag, och du undviker också att p-värdet behandlas dikotomt som signifikant (p&lt;0,05) respektive icke-signifikant (p&gt;0,05).</p>
-<h1 id="kritiska-frågor">Kritiska frågor</h1>
+<h2 id="kritiska-frågor">Kritiska frågor</h2>
 <p>Har du gjort en tabell eller diagram, eller ska du bedöma någon annans? Använd dessa frågor för att hitta svagheter och uppskatta kvaliteten på tabellens utformning eller diagrammets grafik.</p>
 <p>Diagram och tabeller:</p>
 <ol style="list-style-type: decimal">
@@ -360,7 +417,8 @@
 <li>Saknas det någon information för att tolka diagrammet? Framgår det vad axlarna betyder?</li>
 </ol>
 <p>Notera att dessa kritiska frågor är inriktade på kvaliteten på själva diagrammets grafik. När det kommer till metod är det naturligtvis viktigt att även urval, sampelstorlek, enkätfrågor och dylikt är lämpliga för att slutsatserna från diagrammet är valida.</p>
-<h2 id="video">Video</h2>
+<h2 id="lär-dig-mer">Lär dig mer</h2>
+<h3 id="video">Video</h3>
 <p><strong><a href="https://www.youtube.com/watch?v=XIgjTuDGXYY">Introduction to data visualization</a></strong></p>
 <p>An introduction to the practice of data visualization, with theory, examples, and good humor. Studio rerecording of a presentation at McGill University graduate students.</p>
 <iframe class="videoplayer" width="560" height="315" src="https://www.youtube.com/embed/XIgjTuDGXYY" frameborder="0" allowfullscreen>
@@ -369,7 +427,7 @@
 <p>Learn how to get the most out of your business intelligence platform including how to choose the right chart type, and how to optimise your charts to make them easier to understand and more attractive.</p>
 <iframe class="videoplayer" width="560" height="315" src="https://www.youtube.com/embed/w1Ts0vT5Pf0" frameborder="0" allowfullscreen>
 </iframe>
-<h2 id="lästips">Lästips</h2>
+<h3 id="böcker">Böcker</h3>
 <ul>
 <li>Cairo, A. (2016). <em>The Truthful Art: Data, Charts, and Maps for Communication</em>. New Riders.</li>
 <li>Few, S. (2012). <em>Show Me the Numbers: Designing Tables and Graphs to Enlighten (2nd edition)</em>. Burlingame, Calif.: Analytics Press.</li>
