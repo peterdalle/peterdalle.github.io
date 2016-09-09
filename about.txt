@@ -1,6 +1,6 @@
 % Om
 % Peter M. Dahlgren, JMG
-% 2016-08-26
+% 2016-09-09
 
 Denna hemsida har skapats för att förbättra studenternas kunskaper i bland annat grundläggande [datavisualisering](dataviz.html). Här finns också praktiska råd om [statistik](stats.html).
 
@@ -35,6 +35,6 @@ Källkoden till hemsidan [finns på GitHub](https://github.com/peterdalle/peterd
 
 | När | Vad |
 | --- | --------------- |
-| 2016-09-02 | Lade till [quiz](quiz.html). |
+| 2016-09-09 | Lade till [quiz](quiz.html). |
 | 2016-08-26 | Lade till länktips på [statistik](stats.html#webbplatser). Skapade sidan [kreativitet](creativity.html). |
 | 2016-08-17 | Release. |

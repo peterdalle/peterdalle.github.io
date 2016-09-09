@@ -1,6 +1,6 @@
 ﻿% Statistik
 % Peter M. Dahlgren, JMG
-% 2016-08-22
+% 2016-09-09
 
 Här hittar du:
 
@@ -95,11 +95,13 @@ All inferentiell statistik kan egentligen kokas ned till en enkel formel: <code>
 
 ## Interaktiva guider
 
-- **[Coin Flip Simulator](http://databits.io/bits/coin-flip-simulator)**. Om man singlar slant tillräckligt många gånger kommer en binomial distribution att formas. Denna simulering visar hur det ser ut.
-- **[Rock 'n Polls](http://rocknpoll.graphics/)**. Se hur slumpmässigt urval påverkar resultatet av en opinionsundersökning.
-- **[Interpreting Correlations - an interactive visualization](http://rpsychologist.com/d3/correlation/)**. Dra i reglaget för att påverka storleken på korrelationen, och hur korrelationen samvarierar (ursäkta ordvitsen) med variansen.
-- **[Guess the correlation](http://guessthecorrelation.com/)**. Spel där du får testa att gissa korrelationen (Pearons r).
-- **[Sampling Distribution](http://onlinestatbook.com/stat_sim/sampling_dist/index.html). Visar effekten av centrala gränsvärdessatsen, och hur stickprovets medelvärde från en distribution av valfri form bildar en normalfördelning.
+| Guide | Beskrivning |
+| ----------------------- | ----------------------------------------------- |
+| **[Coin Flip Simulator](http://databits.io/bits/coin-flip-simulator)** | Om man singlar slant tillräckligt många gånger kommer en binomial distribution att formas. Denna simulering visar hur det ser ut. |
+| **[Guess the correlation](http://guessthecorrelation.com/)** | Spel där du får testa att gissa korrelationen (Pearons r).
+| **[Interpreting Correlations - an interactive visualization](http://rpsychologist.com/d3/correlation/)** | Dra i reglaget för att påverka storleken på korrelationen, och hur korrelationen samvarierar (ursäkta ordvitsen) med variansen. |
+| **[Rock 'n Polls](http://rocknpoll.graphics/)** | Se hur slumpmässigt urval påverkar resultatet av en opinionsundersökning. |
+| **[Sampling Distribution](http://onlinestatbook.com/stat_sim/sampling_dist/index.html)** | Visar effekten av centrala gränsvärdessatsen, och hur stickprovets medelvärde från en distribution av valfri form bildar en normalfördelning. |
 
 ## Lär dig mer
 
