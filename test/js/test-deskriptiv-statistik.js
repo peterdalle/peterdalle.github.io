@@ -3,66 +3,64 @@ var quizJSON = {
 		"name":    "Deskriptiv statistik",
 		"main":    "<p>Testa dina kunskaper i grundläggande deskriptiv statistik.</p>",
 		"results": "<h5>Bra jobbat!</h5><p>Att testa sina kunskaper ökar inlärningen väsentligt. Fortsätt med det!</p>",
-		"level1":  "Nybörjare",
-		"level2":  "Nybörjare",
+		"level1":  "Expert",
+		"level2":  "Medel",
 		"level3":  "Medel",
-		"level4":  "Medel",
-		"level5":  "Expert"
+		"level4":  "Nybörjare",
+		"level5":  "Nybörjare"
 	},
 	"questions": [
-		{ // Question 1 - Multiple Choice, Single True Answer
-			"q": "Vad är ett centralmått?",
+		{
+			"q": "Vad gör ett centralmått?",
 			"a": [
-				{"option": "XXX?",      "correct": false},
-				{"option": "XX",     "correct": false},
-				{"option": "Ett mått som visar mittpunkten hos en variabels värden",      "correct": true},
-				{"option": "Ett vanligt (centralt) mått inom statistiken",     "correct": false}
+				{"option": "Visar mittpunkten hos en konstant.", "correct": false},
+				{"option": "Visar mittpunkten hos en variabels värden.", "correct": true},
+				{"option": "Visar central (viktig) statistik om en variabel.", "correct": false}
 			],
-			"correct": "<p><span>Rätt!</span> Centralmått visar mittpunktne hos en variabel. Exempel på centralmått är medelvärde och median (mittersta värdet)</p>",
-			"incorrect": "<p><span>Fel.</span> Centralmått visar mittpunktne hos en variabel. Exempel på centralmått är medelvärde och median (mittersta värdet).</p>"
+			"correct": "<p><span>Rätt!</span> Centralmått (som typvärde, medelvärde och median) visar den centrala tendensen hos en variabel.</p>",
+			"incorrect": "<p><span>Rätt!</span> Centralmått (som typvärde, medelvärde och median) visar den centrala tendensen hos en variabel.</p>",
 		},
-		{ // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-			"q": "Which of the following best represents your preferred breakfast?",
+		{
+			"q": "Vilket påstående är korrekt?",
 			"a": [
-				{"option": "Bacon and eggs",               "correct": false},
-				{"option": "Fruit, oatmeal, and yogurt",   "correct": true},
-				{"option": "Leftover pizza",               "correct": false},
-				{"option": "Eggs, fruit, toast, and milk", "correct": true}
+				{"option": "Pearsons r är ett linjärt sambandsmått.", "correct": true},
+				{"option": "P-värdet är en form av spridningsmått.", "correct": false},
+				{"option": "Varians är ett spridningsmått och standardavvikelse är ett sambandsmått.", "correct": false},
+				{"option": "Det är inga problem att ta medelvärdet på en intervallskala.", "correct": true},
+				{"option": "Nominalskala har högre skalnivå än ordinalskala.", "correct": false}
 			],
-			"select_any": true,
-			"correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
-			"incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>"
+			"correct": "<p><span>Rätt!</span> Bra jobbat.</p>",
+			"incorrect": "<p><span>Fel!</span> Du behöver läsa på mer om olika typer av mått och skalnivåer.</p>"
 		},
-		{ // Question 3 - Multiple Choice, Multiple True Answers, Select All
-			"q": "Where are you right now? Select ALL that apply.",
+		{
+			"q": "Medelvärdet är...",
 			"a": [
-				{"option": "Planet Earth",           "correct": true},
-				{"option": "Pluto",                  "correct": false},
-				{"option": "At a computing device",  "correct": true},
-				{"option": "The Milky Way",          "correct": true}
+				{"option": "Det mittersta värdet.", "correct": false},
+				{"option": "Det statistiska eller aritmetiska genomsnittet.", "correct": true},
+				{"option": "Det värde som förekommer flest gånger.", "correct": false},
+				{"option": "Det bästa sättet att representera en datamängd.", "correct": false}
 			],
-			"correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-			"incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>"
+			"correct": "<p><span>Rätt!</span> Bra jobbat.</p>",
+			"incorrect": "<p><span>Fel!</span> Det är genomsnittet. Man adderar alla värden och dividerar med antalet.</p>"
 		},
-		{ // Question 4
-			"q": "How many inches of rain does Michigan get on average per year?",
+		{
+			"q": "Vad är medianen på följande datamängd: [1 2 2 4 4 5]",
 			"a": [
-				{"option": "149",    "correct": false},
-				{"option": "32",     "correct": true},
-				{"option": "3",      "correct": false},
-				{"option": "1291",   "correct": false}
+				{"option": "2", "correct": false},
+				{"option": "3", "correct": true},
+				{"option": "4", "correct": false}
 			],
-			"correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-			"incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>"
+			"correct": "<p><span>Rätt!</span> Medianen är 3. Man tar de två mittersta värdena (eftersom antalet är ojämnt) och dividerar med 2.</p>",
+			"incorrect": "<p><span>Fel!</span> Medianen är det mittersta värdet. När det är jämnt antal värden adderar man de två mittersta värdena (2 + 4 = 6) och tar medelvärdet (6 / 2 = 3).</p>"
 		},
-		{ // Question 5
-			"q": "Is Earth bigger than a basketball?",
+		{
+			"q": "Standardavvikelsen räknas ut genom att ta roten ur variansen.",
 			"a": [
-				{"option": "Yes",    "correct": true},
-				{"option": "No",     "correct": false}
+				{"option": "Sant.", "correct": true},
+				{"option": "Falskt.", "correct": false}
 			],
-			"correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-			"incorrect": "<p><span>ERRRR!</span> What planet Earth are <em>you</em> living on?!?</p>"
+			"correct": "<p><span>Rätt!</span> Standardavvikelsen är ett standardiserat mått på avvikelsen från medelvärdet.</p>",
+			"incorrect": "<p><span>Fel!</span> Standardavvikelsen är ett standardiserat mått på avvikelsen från medelvärdet och räknas ut genom att ta roten ur variansen.</p>"
 		}
 	]
 };

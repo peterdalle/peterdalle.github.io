@@ -31,7 +31,7 @@
                 numberOfQuestions: null,
                 randomSortQuestions: true,
                 randomSortAnswers: true,
-                preventUnanswered: false,
+                preventUnanswered: true,
                 disableScore: false,
                 disableRanking: false,
                 scoreAsPercentage: false,

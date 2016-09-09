@@ -1,14 +1,11 @@
 /* QUIZ STYLES */
 /* Styles to prettify the quiz page */
 
-html {
-    background: #eee;
-}
-
 body {
-    width: 800px;
+    box-sizing: border-box;
+    width: 600px;
+    max-width: 100%;
     margin: 0 auto;
-    border: 2px solid #ccc;
     border-top: none;
     background: #fff;
     padding: 20px;
