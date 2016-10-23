@@ -1,40 +1,42 @@
 % Om
 % Peter M. Dahlgren, JMG
-% 2016-09-09
+% 2016-10-18
 
-Denna hemsida har skapats för att förbättra studenternas kunskaper i bland annat grundläggande [datavisualisering](dataviz.html). Här finns också praktiska råd om [statistik](stats.html).
+Denna hemsida har skapats för att förbättra studenternas kunskaper i grundläggande [datavisualisering](dataviz.html) och [statistik](stats.html).
 
-Guiden är inriktad mot samhällsvetenskap, och då framför allt medie- och kommunikationsvetenskap samt journalistik.
+Guiden är inriktad mot samhällsvetenskap, och då framför allt medie- och kommunikationsvetenskap samt journalistik. Det finns också en bias mot enkäter och experimentell metod.
 
 Tänk på att detta inte är en ersättning till studieanvisningar eller kurslitteratur, utan ett komplement. Texterna är inte färdiga utan byggs på efterhand. Tanken är i första hand att samla resurser som redan finns på nätet, snarare än att uppfinna hjulet igen och skapa nya.
 
 Om du är lärare är du välkommen att länka till denna metodguide. Adressen till sidan kommer förmodligen att ändras vid behov, men du skickas i så fall automatiskt vidare.
 
-## Kontakta ##
+## Kontakta
 
 Har du synpunkter eller hittat faktafel, hör av dig till [Peter M. Dahlgren](http://peterdahlgren.com/contact/), institutionen för journalistik, medier och kommunikation (JMG), Göteborgs universitet.
 
 Skicka dock inte frågor som du kan lösa på egen hand genom att använda en sökmotor tio minuter.
 
-## Ladda ned PDF ##
+## Ladda ned
 
 Denna hemsida finns även som PDF-dokument om du vill skriva ut eller spara. Eftersom PDF-dokumenten skapas automatiskt kan de ha något märklig layout. Det går dock lika bra att skriva ut texterna direkt från hemsidan.
 
-- [Statistik PDF](stats.pdf)
-- [Datavisualisering PDF](dataviz.pdf)
-- [Dataset PDF](dataset.pdf)
-- [FAQ Vanliga frågor och svar PDF](faq.pdf)
-- [Studieteknik PDF](study.pdf)
-- [Kreativitet PDF](creativity.pdf)
+- [PDF: Statistik](stats.pdf)
+- [PDF: Validitet](validitet.pdf)
+- [PDF: Datavisualisering](dataviz.pdf)
+- [PDF: Dataset](dataset.pdf)
+- [PDF: Vanliga frågor och svar FAQ](faq.pdf)
+- [PDF: Studieteknik](study.pdf)
+- [PDF: Kreativitet](creativity.pdf)
 
-## Källkod ##
+## Källkod
 
 Källkoden till hemsidan [finns på GitHub](https://github.com/peterdalle/peterdalle.github.io). Observera dock [licensen på textinnehållet](http://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-## Ändringar ##
+## Ändringar
 
-| När | Vad |
-| --- | --------------- |
+| När        | Vad |
+| ---------- | ------------------------------------------------------------ |
+| 2016-10-18 | Utökat många texter. Skapat sidan [validitet](validitet.html). Besvarat några [vanliga frågor](faq.html). |
 | 2016-09-09 | Lade till [quiz](quiz.html). |
 | 2016-08-26 | Lade till länktips på [statistik](stats.html#webbplatser). Skapade sidan [kreativitet](creativity.html). |
 | 2016-08-17 | Release. |

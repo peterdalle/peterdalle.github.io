@@ -1,6 +1,6 @@
 % Datamängder på nätet att ladda ned
 % Peter M. Dahlgren, JMG
-% 2016-08-18
+% 2016-10-18
 
 Det finns tonvis med datamängder på nätet man kan ladda ned och analysera. Det stora problemet är dock att hitta dem. Här får du hjälp med just det. 
 
@@ -20,8 +20,8 @@ Samt sökmotorer för forskningsdata:
 
 ## Big Data
 
-- [GDELT Project](http://gdeltproject.org/) - strävar efter att samla alla händelser i massmedierna och har i nuläget en kvarts miljard händelser. Kan [https://bigquery.cloud.google.com/table/gdelt-bq:full.events](analyseras i Google BigQuery).
-- [Google BigQuery](https://cloud.google.com/bigquery/) - verktyg för att analysera big data.
+- [GDELT Project](http://gdeltproject.org/) - strävar efter att samla alla händelser i massmedierna och har i nuläget en kvarts miljard händelser. Kan också [analyseras i Google BigQuery](https://bigquery.cloud.google.com/table/gdelt-bq:full.events).
+- [Google BigQuery](https://cloud.google.com/bigquery/) - verktyg för att analysera big data utvecklat av Google.
 
 ## Hitta fler datamängder
 

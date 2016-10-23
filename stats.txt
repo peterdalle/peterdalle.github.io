@@ -1,6 +1,6 @@
 ﻿% Statistik
 % Peter M. Dahlgren, JMG
-% 2016-09-09
+% 2016-10-18
 
 Här hittar du:
 
@@ -16,9 +16,9 @@ Statistikprogrammet vi använder heter [SPSS](https://www-01.ibm.com/software/se
 
 ### Installera SPSS på din egen dator
 
-1. Gå till [download.gu.se](download.gu.se).
-2. Ladda ned SPSS 24 för Windows eller Mac.
-3. Kopiera licenskoden för SPSS 24.
+1. Gå till [studentportalen.gu.se/it/programvaror](http://studentportalen.gu.se/it/programvaror/).
+2. Ladda ned senaste SPSS för Windows eller Mac.
+3. Kopiera licenskoden för SPSS.
 4. Starta installationsfilen (Windows) eller dra appen till din programkatalog (Mac).
 
 ### SPSS-Akuten hjälper dig
@@ -28,6 +28,8 @@ För att få hjälp med vanliga saker i SPSS rekommenderas [SPSS-Akuten](https:/
 - [Guide: Omkodning av variabler](https://spssakuten.wordpress.com/2010/01/10/omkodning-av-variabler/)
 - [Guide: Korstabeller](https://spssakuten.wordpress.com/2012/02/14/guide-korstabeller/)
 - [Guide: Korrelation](https://spssakuten.wordpress.com/2010/01/08/korrelation-1/)
+
+Missa heller inte [videoklippen längre ned på denna sida](#video).
 
 ### Alternativ till SPSS
 
@@ -139,7 +141,7 @@ Samtliga videor:
 16. [Medelvärdesanalys, flera kategorier i SPSS (3:39)](https://www.youtube.com/watch?v=eoKj8x4AgHI)
 17. [Slå samman data i SPSS (3:07)](https://www.youtube.com/watch?v=vxDnoOnLaEU)
 
-### Artiklar
+### Blogginlägg
 
 - [How to share data with a statistician](https://github.com/jtleek/datasharing). This is a guide for anyone who needs to share data with a statistician.
 
@@ -153,3 +155,10 @@ Samtliga videor:
 
 - **[onlinestatbook.com](http://onlinestatbook.com/)**. Online Statistics Education: An Interactive Multimedia Course of Study. Developed by Rice University, University of Houston Clear Lake, and Tufts University.
 - **[Andy Fields statisticshell.com](http://www.statisticshell.com/html/limbo.html)**. Here you can uncover the searing agony of SPSS, the stomach churning fear of central tendency and the rancid bile of z-scores.
+
+
+### Program och webbtjänster
+
+- **[G*Power](http://www.gpower.hhu.de/)**. Program för att beräkna statistisk power och sampelstorlek för experiment.
+- **[Effect Size Calculator](https://www.campbellcollaboration.org/this-is-a-web-based-effect-size-calculator/explore/this-is-a-web-based-effect-size-calculator)**. Webbtjänst för att beräkna effektstorlekar med konfidensintervall från olika teststatistika.
+- **[ESCI (Exploratory Software for Confidence Intervals)](http://www.latrobe.edu.au/psychology/research/research-areas/cognitive-and-developmental-psychology/esci/2001-to-2010)**. Program för simulering av konfidensintervall, Cohens d, statistisk power m.m. Användbart för planering av studier. Kräver Microsoft Excel.

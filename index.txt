@@ -5,6 +5,7 @@
 **Innehåll**
 
 - [Statistik](stats.html)
+- [Validitet](validitet.html)
 - [Datavisualisering](dataviz.html)
 - [FAQ: Vanliga frågor och svar](faq.html)
 - [Quiz](quiz.html)

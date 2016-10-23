@@ -1,11 +1,120 @@
-% Statistik och datavisualisering FAQ
+% Vanliga frågor och svar FAQ
 % Peter M. Dahlgren, JMG
-% 2016-08-18
+% 2016-10-18
 
-Vanliga frågor och svar från studenter.
+## Sambandsmått
 
-**Till lärare:**
+### Vilket sambandsmått ska jag välja?
 
-Samla ihop frågor från studenter som återkommer ofta och skicka dem till mig. Jag sammanställer svaren här. Det kan handla om hur man gör en viss sak i SPSS eller en vanlig fråga kring statistik eller diagram.
+Det är variabelns skalnivå som avgör vilken korrelation du ska använda.
 
-Komplettera gärna med en länk till en bra hemsida eller någon artikel (helst på nätet) som förklarar vidare. Det är ingen mening att uppfinna hjulet igen.
+- Om du exempelvis har två variabler som båda är nominal, kan du välja Cramers V.
+- Om båda variablerna är ordinal, kan du välja Spearmans rho eller Kendalls tau.
+- Om båda variablerna är intervall, kan du välja Pearsons r.
+- Om du däremot har olika skalnivåer på de två variablerna bör du välja sambandsmått efter den minsta skalnivån. Låt säga att du har två variabler: kön (nominal) och inkomst (intervall). Då är könsvariabeln den minsta skalnivån, det vill säga nominal. Därmed bör du välja Cramers V.
+
+
+## Inferentiell statistik
+
+### Vad är statistisk signifikans?
+
+När en forskare får ett p-värde som är under en gräns (vanligtvis 0,05) kan de säga att resultatet är "statistiskt signifikant". Om p-värdet är över 0,05 kan de säga att resultatet inte är statistisk signifikant.
+
+Detta tankesätt bör du undvika av flera skäl, bland annat:
+
+- Gränsen är helt godtycklig och har inte mer stöd än att någon (Ronald Fisher) föreslog det för drygt hundra år sedan.
+- Sannolikheter är en fråga om en lång skala, inte ett svartvitt ja/nej-beslut.
+- Det hindrar forskare från att reflektera kring statistik, och i stället tänka svartvitt.
+
+Man hör ibland forskare säga att något är "mycket signifikant", vilket egentligen är en omöjlighet om man menar att det är en dikotom ja/nej-fråga.
+
+### Hur tolkar jag p-värden?
+
+**Först den enkla versionen:**
+
+Enkelt uttryckt visar p-värdet huruvida ett samband (eller skillnad/effekt) som du hittar i ett urval faktiskt finns i populationen. Det är en skala som går från 0 till 1. Ett p-värde kommer från ett statistiskt test.
+
+Om p-värdet är väldigt högt (närmar sig 1) kan man säga att sambandet inte finns. Exempelvis p=0,952.
+
+Om p-värdet är väldigt lågt (närmar sig 0) kan man säga att ett samband finns. Exempelvis p=0,004.
+
+
+Vi kan ta ett exempel. Du har 100 stycken bollar som du ska placera i två korgar. Om bollarna placeras helt slumpmässigt i korgarna kommer det att vara 50 bollar i ena korgen och 50 i den andra. Det finns med andra ord inget samband mellan korgarna och antalet bollar. Vi kan uttrycka den sannolikheten med p-värde, vilket blir `p=0,5`. Men om bollarna däremot hade fördelats skevt (exempelvis 30 bollar i ena korgen och 70 i den andra), hade det avspeglats i p-värdet. 
+
+**Nu den krångliga versionen:**
+
+Definitionen av p-värden är *sannolikheten att erhålla det resultat du fått (eller mer extremt), givet att nollhypotesen är sann*.
+
+Detta säger oss några saker:
+
+- Utgångspunkten är att nollhypotesen är sann. Nollhypotesen innebär att det inte finns något samband/skillnad/effekt.
+- 
+
+Det är dock viktigt att tänka på följande:
+
+- P-värdet visar aldrig inte storleken på sambandet/skillnaden/effekten!
+- Ju större sampel, desto enklare att få mindre p-värden.
+- Ju fler statistiska test man gör, desto större sannolikhet att få mindre p-värden. Hur stor sannolikhet? Ungefär 5 gånger av 100 test (alltså 1 gång av 20 test). Det motsvarar 5 % om vi antar den vanliga gränsen på 0,05.
+
+Ett statistiskt test kan ibland vara exakt (såsom exakt binomialt test) som resulterar i exakta p-värden. Men de flesta p-värden är asymptotiska, vilket innebär att de närmar sig 0 eller 1 i oändligheten, men de når aldrig exakt 0 eller exakt 1. Ibland spottar statistikprogram ut asymptotiska p-värden på 0,000. Det beror på att de avrundar till tre decimaler, snarare än att man fått ett p-värde som är exakt 0.
+
+
+### Hur ska jag rapportera p-värden?
+
+P-värden rapporteras alltid tillsammans med ett statistikt test. Skriv därför p-värdet efter det statistiska testet. Undvik att skriva p<0,05. Skriv i stället hela p-värdet, helst med 3 decimaler, exempelvis p=0,026. 
+
+Har du tittat på sambandet mellan två variabler, med till exempel Pearsons r eller Cramers V? Då kan du rapportera det på följande vis:
+
+> Korrelationen mellan X och Y var medelstor (`r=0,45, p=0,002`).
+
+> Korrelationen mellan X och Y var medelstor (`Cramers V=0,45, p=0,002`).
+
+Här står `r` för Pearsons r. Man behöver inte skriva att det är ett sambandsmått, eller att det är Pearsons r, eftersom det är något som forskaren bör känna till. Cramers V är däremot något mer ovanligt och kanske bör skrivas ut, beroende på sammanhanget.
+
+Har du tittat på skillnaden i medelvärde mellan två grupper, med till exempel t-test? Då kan du rapportera det på följande vis:
+
+> Det fanns en medelstor skillnad mellan båda grupperna (`t(5)=45,6, p=0,062`).
+
+`t` är en teststatistiska och implicerar att ett t-test har gjorts och att `t` från det testet alltså är `45,6`. Siffran inom parentes, alltså `5`, står för antal frihetsgrader.
+
+Dessa sätt att rapportera kommer från APA6.
+
+## Vilka viktiga begrepp bör jag känna till?
+
+- alternativ hypotes
+- beroende variabel
+- Chi2
+- Cramers V
+- extern validitet
+- felmarginal
+- histogram
+- hypotes
+- hypotesprövning
+- intern validitet
+- kausalitet
+- Kendalls tau
+- konfidensintervall
+- konfidensnivå
+- korrelation
+- korrelationskoefficient
+- korstabell
+- kvartil
+- medelvärde
+- median
+- modalprocent
+- nollhypotes
+- normaldistribution
+- oberoende variabel
+- operationalisering
+- operationell definition
+- Pearsons r
+- population
+- reliabilitet
+- sampel
+- skalnivå
+- standardavvikelse
+- statistisk signifikans
+- teori
+- typvärde
+- validitet
+- variationsvidd
