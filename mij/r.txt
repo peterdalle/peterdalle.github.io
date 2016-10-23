@@ -1,0 +1,30 @@
+% Introduction to R
+% Peter M. Dahlgren, JMG
+% 2016-10-22
+
+## Introduction to the R programming language
+
+<img src="r.png" alt="R" style="width:150px">
+
+The R programming language [was developed 1993](https://en.wikipedia.org/wiki/R_(programming_language)) and is specially suited for statistics, data analysis and visualization. Basically, it's a fancy calculator.
+
+R has a command line interface, which means that you type in commands by hand. However, there are graphical interfaces, such as RStudio, which helps a lot.
+
+## Install
+
+R is free and open source. It works on Windows, Mac and Linux.
+
+1. [Download and install R](http://ftp.acc.umu.se/mirror/CRAN/).
+2. [Download and install RStudio](https://www.rstudio.com/products/rstudio/download3/). It will be our editor.
+
+## Get up and running
+
+Links to tutorials.
+
+**Our first program:**
+
+<pre>print("Hello World!")</pre>
+
+## Code for workshops
+
+Located at GitHub: <https://github.com/peterdalle/mij>

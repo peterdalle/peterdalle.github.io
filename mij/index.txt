@@ -1,0 +1,8 @@
+% Master in investigative journalism
+% Peter M. Dahlgren, JMG
+% 2016-10-22
+
+**Contents**
+
+- [Introduction to R](r.html)
+- [How the web works](web.html)
