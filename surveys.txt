@@ -12,8 +12,6 @@
 
 ## Qualtrics: tjänst för att skicka enkäter
 
-GU har licens på [Qualtrics](https://www.qualtrics.com/) som kan användas för att skicka ut enkäter.
+GU har licens på [Qualtrics](https://www.qualtrics.com/) som kan användas för att skicka ut enkäter. Både studenter och lärare kan använda Qualtrics.
 
-Kontakta den som är ansvarig för Qualtrics för att få tillgång till Qualtrics. Fråga din lärare om du inte vet vem det är.
-
-Adressen är <http://samgu.eu.qualtrics.com/>
+Kontakta den som är ansvarig för Qualtrics för att få tillgång till Qualtrics. Det står längst ned på Qualtrics inloggningssida: <http://samgu.eu.qualtrics.com/>

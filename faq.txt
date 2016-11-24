@@ -51,10 +51,11 @@ Det är sampelstorleken och effektstorleken som påverkar p-värdet.
 
 **Vanliga missförstånd kring p-värden**
 
-- P-värden är *inte* sannolikheten att reproducera ett resultat.
+- P-värdet är *inte* sannolikheten att nollhypotesen är sann.
+- P-värdet är *inte* sannolikheten att få samma resultat om man gör om analysen.
 - P-värdet visar *inte* storleken på sambandet/skillnaden/effekten.
-- P-värde på 0,049 är *inte* bättre än ett p-värde på 0,051.
-- P-värde bör *inte* betraktas svartvit.
+- P-värdet 0,049 är *inte* bättre än ett p-värde på 0,051.
+- P-värdet bör *inte* betraktas svartvit.
 
 ### Hur ska jag rapportera sambandsmått och p-värden?
 
