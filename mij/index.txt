@@ -1,8 +1,9 @@
 % Master in investigative journalism
 % Peter M. Dahlgren, JMG
-% 2016-10-22
+% 2016-11-19
 
 **Contents**
 
-- [Introduction to R](r.html)
 - [How the web works](web.html)
+- [Introduction to Python](python.html)
+- [Common databases and how to use them](databases.html)

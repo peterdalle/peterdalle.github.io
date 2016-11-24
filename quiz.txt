@@ -1,6 +1,6 @@
 ﻿% Quiz
 % Peter M. Dahlgren, JMG
-% 2016-09-09
+% 2016-11-24
 
 Testa dina kunskaper genom att genomföra en frågesport där dina svar rättas omedelbart tillsammans med hjälpsam feedback. Se vad du kan och vad du behöver plugga mer på.
 

@@ -1,6 +1,27 @@
 % How the web works
 % Peter M. Dahlgren, JMG
-% 2016-10-22
+% 2016-11-19
 
-Secure Web Browsing - Computerphile
-https://www.youtube.com/watch?v=E_wX40fQwEA
+Knowledge of how the web works is of good value in order to understand how to program against the web.
+
+Here, you will find some interesting things that is not covered on the lectures and perhaps will widen your knowledge even more.
+
+## Web
+
+From Wikipedia:
+
+* [Internet Protocol (IP)](https://en.wikipedia.org/wiki/Internet_Protocol)
+* [Transmission Control Protocol (TCP)](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
+* [Hypertext Transfer Protocol (HTTP)](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+* [File Transfer Protocol (FTP)](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
+* [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System)
+
+### Videos from Computerphile
+
+[Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA) is a YouTube web channel with lots of interesting videos related to computers. Here's some related to the web:
+
+- [The Attack That Could Disrupt The Whole Internet (DDoS attacks)](https://www.youtube.com/watch?v=BcDZS7iYNsA>)
+- [Why Internet Slows Down When it's Busy](https://www.youtube.com/watch?v=TSJw_oQklz8)
+- [Man in the Middle Attacks & Superfish](https://www.youtube.com/watch?v=-enHfpHMBo4)
+- [Secure Web Browsing](https://www.youtube.com/watch?v=E_wX40fQwEA)
+- [Botnets](https://www.youtube.com/watch?v=UVFmC178_Vs)

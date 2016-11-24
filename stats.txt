@@ -1,6 +1,6 @@
 ﻿% Statistik
 % Peter M. Dahlgren, JMG
-% 2016-10-18
+% 2016-11-24
 
 Här hittar du:
 
@@ -38,6 +38,7 @@ Finns det andra program än SPSS? Många. SPSS är dock väl använt inom samhä
 - [Stata](http://www.stata.com/)
 - [SAS](http://www.sas.com/)
 - [GNU PSPP](http://www.gnu.org/software/pspp/) ser ut och fungerar ungefär som SPSS, men är gratis.
+- [JASP](https://jasp-stats.org/download/) gratis program med de flesta vanliga funktioner inklusive bayesiansk statistik.
 - [R](https://www.r-project.org/) är ett programmeringsspråk för statistik.
 
 ## Deskriptiv statistik
@@ -148,6 +149,7 @@ Samtliga videor:
 ### Böcker
 
 - Djurfeldt, G., Larsson, R. & Stjärnhagen, O. (2010). *Statistisk verktygslåda 1: samhällsvetenskaplig orsaksanalys med kvantitativa metoder (2. uppl.)*. Lund: Studentlitteratur.
+- Field, A. P. (2013). *Discovering statistics using IBM SPSS statistics: and sex and drugs and rock “n” roll (4th edition)*. Los Angeles: Sage.
 - Miles, J. & Shevlin, M. (2001). *Applying regression & correlation: a guide for students and researchers*. London: SAGE.
 - Yu, C.H. (2006). *Philosophical foundations of quantitative research methodology*. Lanham, Md.: University Press of America.
 
@@ -156,9 +158,12 @@ Samtliga videor:
 - **[onlinestatbook.com](http://onlinestatbook.com/)**. Online Statistics Education: An Interactive Multimedia Course of Study. Developed by Rice University, University of Houston Clear Lake, and Tufts University.
 - **[Andy Fields statisticshell.com](http://www.statisticshell.com/html/limbo.html)**. Here you can uncover the searing agony of SPSS, the stomach churning fear of central tendency and the rancid bile of z-scores.
 
-
-### Program och webbtjänster
+### Program och webbtjänster (avancerat)
 
 - **[G*Power](http://www.gpower.hhu.de/)**. Program för att beräkna statistisk power och sampelstorlek för experiment.
 - **[Effect Size Calculator](https://www.campbellcollaboration.org/this-is-a-web-based-effect-size-calculator/explore/this-is-a-web-based-effect-size-calculator)**. Webbtjänst för att beräkna effektstorlekar med konfidensintervall från olika teststatistika.
 - **[ESCI (Exploratory Software for Confidence Intervals)](http://www.latrobe.edu.au/psychology/research/research-areas/cognitive-and-developmental-psychology/esci/2001-to-2010)**. Program för simulering av konfidensintervall, Cohens d, statistisk power m.m. Användbart för planering av studier. Kräver Microsoft Excel.
+- **[Web Pages that Perform Statistical Calculations!](http://statpages.info/)**
+- **[Free Statistics Calculator](http://www.danielsoper.com/statcalc/default.aspx)**
+- **[VassarStats: Website for Statistical Computation](http://vassarstats.net/)**
+- **[Process macro for SPSS and SAS](http://processmacro.org/download.html)**. Plugin som underlättar moderator- och medieringsanalys i SPSS och SAS.

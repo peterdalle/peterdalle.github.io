@@ -2,7 +2,7 @@
 % Peter M. Dahlgren, JMG
 % 2016-10-22
 
-## Introduction to the R programming language
+## The R programming language
 
 <img src="r.png" alt="R" style="width:150px">
 
@@ -14,17 +14,13 @@ R has a command line interface, which means that you type in commands by hand. H
 
 R is free and open source. It works on Windows, Mac and Linux.
 
-1. [Download and install R](http://ftp.acc.umu.se/mirror/CRAN/).
-2. [Download and install RStudio](https://www.rstudio.com/products/rstudio/download3/). It will be our editor.
+On top of R, we'll install RStudio, an editor that works very well with R.
+
+1. [Download and install R](http://ftp.acc.umu.se/mirror/CRAN/)
+2. [Download and install RStudio](https://www.rstudio.com/products/rstudio/download3/)
 
 ## Get up and running
 
-Links to tutorials.
-
-**Our first program:**
+After installation, start RStudio and put in the following code an execute:
 
 <pre>print("Hello World!")</pre>
-
-## Code for workshops
-
-Located at GitHub: <https://github.com/peterdalle/mij>

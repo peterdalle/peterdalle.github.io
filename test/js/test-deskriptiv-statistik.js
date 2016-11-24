@@ -21,7 +21,7 @@ var quizJSON = {
 			"incorrect": "<p><span>Rätt!</span> Centralmått (som typvärde, medelvärde och median) visar den centrala tendensen hos en variabel.</p>",
 		},
 		{
-			"q": "Vilket påstående är korrekt?",
+			"q": "Vilka påståenden är korrekta? Du kan välja flera.",
 			"a": [
 				{"option": "Pearsons r är ett linjärt sambandsmått.", "correct": true},
 				{"option": "P-värdet är en form av spridningsmått.", "correct": false},
@@ -59,7 +59,7 @@ var quizJSON = {
 				{"option": "Sant.", "correct": true},
 				{"option": "Falskt.", "correct": false}
 			],
-			"correct": "<p><span>Rätt!</span> Standardavvikelsen är ett standardiserat mått på avvikelsen från medelvärdet.</p>",
+			"correct": "<p><span>Rätt!</span> Standardavvikelsen är ett standardiserat mått på avvikelsen från medelvärdet. Varians är ostandardiserat.</p>",
 			"incorrect": "<p><span>Fel!</span> Standardavvikelsen är ett standardiserat mått på avvikelsen från medelvärdet och räknas ut genom att ta roten ur variansen.</p>"
 		}
 	]

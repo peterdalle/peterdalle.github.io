@@ -6,7 +6,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="author" content="Peter M. Dahlgren, JMG" />
   <meta name="date" content="2016-11-19" />
-  <title>Master in investigative journalism</title>
+  <title>Databases</title>
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="pandoc.css" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -38,16 +38,31 @@
 	</div>
 <div class="page-container">
 <div id="header">
-<h1 class="title">Master in investigative journalism</h1>
+<h1 class="title">Databases</h1>
 <h2 class="author">Peter M. Dahlgren, JMG</h2>
 <h3 class="date">2016-11-19</h3>
 </div>
-<p><strong>Contents</strong></p>
+<div id="TOC">
 <ul>
-<li><a href="web.html">How the web works</a></li>
-<li><a href="python.html">Introduction to Python</a></li>
-<li><a href="databases.html">Common databases and how to use them</a></li>
+<li><a href="#databases">Databases</a></li>
+<li><a href="#tables-rows-and-columns">Tables, rows and columns</a></li>
+<li><a href="#sql">SQL</a></li>
 </ul>
+</div>
+<h2 id="databases">Databases</h2>
+<p>A <a href="https://en.wikipedia.org/wiki/Database">database</a> is an organized collection of data or documents.</p>
+<p>Software-wise, there are at least two different kinds of databases: server- and file-based.</p>
+<p>File-based databases is simply a self-containing database that consist of a single file. You can send the file via email if you want, just like an image.</p>
+<p>Server-based databases is running by a server program that spreads out the data over multiple files that requires you to run the server program in order to access the data.</p>
+<h2 id="tables-rows-and-columns">Tables, rows and columns</h2>
+<p>A database consist of one or more tables. A table looks exactly like a spreadsheet in Excel, and also has rows and columns.</p>
+<h2 id="sql">SQL</h2>
+<p>SQL is a standardized language to manage databases and <a href="https://en.wikipedia.org/wiki/SQL">SQL stands for structured query language</a>. It is simple to learn, but takes som practice to get used to. SQL looks like this:</p>
+<pre>SELECT * FROM customers</pre>
+<p>This means that it will select everything (*) from a database table named <code>customers</code>.</p>
+<pre>UPDATE customers SET name = 'University of Gothenburg' WHERE customerid = 1</pre>
+<p>This means that it will update a row that has a <code>customerid</code> of 1, and replace the <code>name</code> field in this row with the name <code>University of Gothenburg</code>.</p>
+<p>That’s basically the logic behind SQL.</p>
 </div>
 
 <div id="footer">

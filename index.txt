@@ -1,20 +1,21 @@
 % Metodguiden
 % Peter M. Dahlgren, JMG
-% 2016-08-18
+% 2016-11-24
 
 **Innehåll**
 
-- [Statistik](stats.html)
-- [Validitet](validitet.html)
-- [Datavisualisering](dataviz.html)
-- [FAQ: Vanliga frågor och svar](faq.html)
+- [Statistik](stats.html) ([PDF](stats.pdf))
+- *Validitet (kommer snart)*
+- [Datavisualisering](dataviz.html) ([PDF](dataviz.pdf))
+- [FAQ: Vanliga frågor och svar](faq.html) ([PDF](faq.pdf))
 - [Quiz](quiz.html)
 - Ladda ned
     - [Filer](files.html)
-    - [Dataset](dataset.html)
-- [Om](about.html)
+    - [Dataset](dataset.html) ([PDF](dataset.pdf))
+- [Surveys](surveys.html) ([PDF](surveys.pdf))
+- [Om](about.html) ([PDF](about.pdf))
 
 **Bonus**
 
-- [Studieteknik](study.html)
-- [Kreativitet](creativity.html)
+- [Studieteknik](study.html) ([PDF](study.pdf))
+- [Kreativitet](creativity.html) ([PDF](creativity.pdf))

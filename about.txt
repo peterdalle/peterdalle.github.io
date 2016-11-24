@@ -1,6 +1,6 @@
-% Om
+﻿% Om
 % Peter M. Dahlgren, JMG
-% 2016-10-18
+% 2016-11-24
 
 Denna hemsida har skapats för att förbättra studenternas kunskaper i grundläggande [datavisualisering](dataviz.html) och [statistik](stats.html).
 
@@ -16,18 +16,6 @@ Har du synpunkter eller hittat faktafel, hör av dig till [Peter M. Dahlgren](ht
 
 Skicka dock inte frågor som du kan lösa på egen hand genom att använda en sökmotor tio minuter.
 
-## Ladda ned
-
-Denna hemsida finns även som PDF-dokument om du vill skriva ut eller spara. Eftersom PDF-dokumenten skapas automatiskt kan de ha något märklig layout. Det går dock lika bra att skriva ut texterna direkt från hemsidan.
-
-- [PDF: Statistik](stats.pdf)
-- [PDF: Validitet](validitet.pdf)
-- [PDF: Datavisualisering](dataviz.pdf)
-- [PDF: Dataset](dataset.pdf)
-- [PDF: Vanliga frågor och svar FAQ](faq.pdf)
-- [PDF: Studieteknik](study.pdf)
-- [PDF: Kreativitet](creativity.pdf)
-
 ## Källkod
 
 Källkoden till hemsidan [finns på GitHub](https://github.com/peterdalle/peterdalle.github.io). Observera dock [licensen på textinnehållet](http://creativecommons.org/licenses/by-nc-nd/4.0/).
@@ -36,7 +24,7 @@ Källkoden till hemsidan [finns på GitHub](https://github.com/peterdalle/peterd
 
 | När        | Vad |
 | ---------- | ------------------------------------------------------------ |
-| 2016-10-18 | Utökat många texter. Skapat sidan [validitet](validitet.html). Besvarat några [vanliga frågor](faq.html). |
+| 2016-11-24 | Utökat många texter. Lagt till [FAQ](faq.html). |
 | 2016-09-09 | Lade till [quiz](quiz.html). |
 | 2016-08-26 | Lade till länktips på [statistik](stats.html#webbplatser). Skapade sidan [kreativitet](creativity.html). |
 | 2016-08-17 | Release. |
