@@ -142,9 +142,10 @@ Samtliga videor:
 16. [Medelvärdesanalys, flera kategorier i SPSS (3:39)](https://www.youtube.com/watch?v=eoKj8x4AgHI)
 17. [Slå samman data i SPSS (3:07)](https://www.youtube.com/watch?v=vxDnoOnLaEU)
 
-### Blogginlägg
+### Blogginlägg och nyhetsartiklar
 
 - [How to share data with a statistician](https://github.com/jtleek/datasharing). This is a guide for anyone who needs to share data with a statistician.
+- [Science Isn’t Broken: It’s just a hell of a lot harder than we give it credit for.](http://fivethirtyeight.com/features/science-isnt-broken/#part1).
 
 ### Böcker
 

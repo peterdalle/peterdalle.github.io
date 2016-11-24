@@ -1,6 +1,6 @@
 % Introduction to Python
 % Peter M. Dahlgren, JMG
-% 2016-11-19
+% 2016-11-24
 
 ## The Python programming language
 
@@ -19,6 +19,10 @@ We will use **Anaconda**, which also installs many add-ons that enhance Python (
 > **[Download and install Anaconda with Python 3.5](https://www.continuum.io/downloads)**
 >
 > Choose the 64-bit version (or 32-bit version if you don't know the difference). The download is about 400 MB so it'll take some time on a slow connection. Just click OK to accept the defaults during installation.
+
+You should install [Sublime Text 3](https://www.sublimetext.com/3) as well. It's a text editor. We will probably need them during the course. (Just install the beta, it's stable.)
+
+Install [Git](https://git-scm.com/) too while you're at it. It's a popular version control software that helps keep track of file changes. Maybe we will have some time to use them.
 
 ## Create your first Python program
 
