@@ -14,15 +14,16 @@ Coming soon.
 
 Tools for social media analytics, retrieve messages etc.
 
-- [Shared Count](http://www.sharedcount.com/) - input a link and get the number of times it has been shared, liked och commented on Facebook, Google+, Pinterest, LinkedIn and StumbleUpon.
-- [BuzzSumo](https://app.buzzsumo.com/) - search for content published on Facebook and Twitter.
-- [The Digital Methods Initiative](https://wiki.digitalmethods.net/Dmi/DmiAbout) - tools for gathering research data from Twitter, Facebook, Google etc. Source code available.
+- [Shared Count](http://www.sharedcount.com/). Input a link and get the number of times it has been shared, liked och commented on Facebook, Google+, Pinterest, LinkedIn and StumbleUpon.
+- [BuzzSumo](https://app.buzzsumo.com/). Search for content published on Facebook and Twitter.
+- [The Digital Methods Initiative](https://wiki.digitalmethods.net/Dmi/DmiAbout). Tools for gathering research data from Twitter, Facebook, Google etc. Source code available.
 
 ## Tools for Managing Data
 
 Like Excel.
 
 - [Google Fusion Tables](https://support.google.com/fusiontables/answer/2571232).
+- [Git](https://git-scm.com/). Git is a popular version control software that help you keep track of file changes. Especially useful for keeping track of code.
 
 ## Tools for Data Visualization
 
@@ -50,9 +51,9 @@ Like Excel.
 
 ## Swedish Tools Only
 
-- [Twittercensus](http://twittercensus.se/) - svenska Twitter.
-- [Sociala Nyheter](http://www.socialanyheter.se/) - nyheter delade i Sverige (dock felaktig delningsstatistik).
-- [Datajournalistik.se](http://datajournalistik.se/) - lista med smarta verktyg för datajournalistik.
+- [Twittercensus](http://twittercensus.se/). Svenska Twitter.
+- [Sociala Nyheter](http://www.socialanyheter.se/). Nyheter delade i Sverige (dock felaktig delningsstatistik).
+- [Datajournalistik.se](http://datajournalistik.se/). Lista med smarta verktyg för datajournalistik.
 
 ## Resources
 

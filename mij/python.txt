@@ -30,7 +30,7 @@ You can execute Python code in two ways (don't worry, we will cover everything o
 
 ### Run code via a notebook
 
-The first way is to run code via an interactive shell called Jupyter Notebooks. This is the preferred method because it's easier, interactive and more fun.
+The first way is to run code via an interactive notebook, called Jupyter Notebook. If you have installed Anaconda, a shortcut to Jupyter Notebook has been installed. Simply click on the shortcut to start it, otherwise: 
 
 1. Open a command prompt (Windows) or terminal (Mac).
 
@@ -38,7 +38,7 @@ The first way is to run code via an interactive shell called Jupyter Notebooks. 
 
 3. A web page should open.
 
-4. Create a notebook and write this in a cell and press <kbd>Ctrl+Enter</kbd> to execute:
+4. Create a notebook, write the following in a cell and press <kbd>Ctrl+Enter</kbd> to execute:
 
 <pre>print("Hello World!")</pre>
 

@@ -1,9 +1,10 @@
 % Master in investigative journalism
 % Peter M. Dahlgren, JMG
-% 2016-11-19
+% 2016-11-25
 
 **Contents**
 
-- [How the web works](web.html)
-- [Introduction to Python](python.html)
-- [Common databases and how to use them](databases.html)
+- [How the web works](web.html) ([PDF](web.pdf))
+- [Introduction to Python](python.html) ([PDF](python.pdf))
+- [Databases](databases.html) ([PDF](databases.pdf))
+- [Tools](tools.html) ([PDF](tools.pdf))
