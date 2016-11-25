@@ -1,0 +1,59 @@
+% Tools
+% Peter M. Dahlgren, JMG
+% 2016-11-25
+
+Here you will find various tools related to [web scraping](https://en.wikipedia.org/wiki/Data_scraping) and data retrieval, [data wrangling](https://en.wikipedia.org/wiki/Data_wrangling), data visualization, and programming.
+
+All tools are open source, free or [freemium](https://en.wikipedia.org/wiki/Freemium).
+
+## Tools for Web Scraping
+
+Coming soon.
+
+## Tools for Social Media Data Mining
+
+Tools for social media analytics, retrieve messages etc.
+
+- [Shared Count](http://www.sharedcount.com/) - input a link and get the number of times it has been shared, liked och commented on Facebook, Google+, Pinterest, LinkedIn and StumbleUpon.
+- [BuzzSumo](https://app.buzzsumo.com/) - search for content published on Facebook and Twitter.
+- [The Digital Methods Initiative](https://wiki.digitalmethods.net/Dmi/DmiAbout) - tools for gathering research data from Twitter, Facebook, Google etc. Source code available.
+
+## Tools for Managing Data
+
+Like Excel.
+
+- [Google Fusion Tables](https://support.google.com/fusiontables/answer/2571232).
+
+## Tools for Data Visualization
+
+- [Tableau](http://www.tableau.com/). Easy to use software for visualization.
+- [ggplot](http://ggplot2.org/) in [R](https://www.r-project.org/). Visualizations for data science. Requires programming knowledge in R.
+- [D3.js](https://d3js.org/). Create visualizations for the web. Requires programming knowledge in JavaScript.
+
+## Tools for Programming
+
+### Programming Languages
+
+- [Python](https://www.python.org/) and [Anaconda](https://www.continuum.io/downloads), which contains [Jupyter Notebooks](http://jupyter.org/).
+- [R](https://www.r-project.org/) and code editor [RStudio](https://www.rstudio.com/).
+
+### Code Editors
+
+- [Sublime Text](https://www.sublimetext.com/). Lightweight, works on Windows, Mac and Linux.
+- [Visual Studio Code](https://code.visualstudio.com/). Lightweight, works on Windows, Mac and Linux.
+- [Visual Studio Community](https://www.visualstudio.com/vs/community/). Heavy, works on Windows and [Mac](https://www.visualstudio.com/vs/visual-studio-mac/).
+
+### Big Data
+
+- [Google Big Query](https://cloud.google.com/bigquery/). Perform analysis on big data with Googles services.
+- [Apache Spark](http://spark.apache.org/). Cluster computing (will work on any computer as well). Requires that you install it on your own server. Useful to run with Jupyter Notebooks. A hosted alternative is provided by [Databricks](https://databricks.com/), among others.
+
+## Swedish Tools Only
+
+- [Twittercensus](http://twittercensus.se/) - svenska Twitter.
+- [Sociala Nyheter](http://www.socialanyheter.se/) - nyheter delade i Sverige (dock felaktig delningsstatistik).
+- [Datajournalistik.se](http://datajournalistik.se/) - lista med smarta verktyg för datajournalistik.
+
+## Resources
+
+Find more resources at [A curated list of awesome lists](https://github.com/sindresorhus/awesome) over at GitHub.
