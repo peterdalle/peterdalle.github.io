@@ -79,9 +79,27 @@ Här syftar `r` på Pearsons r. Notera att texten i princip skrivs i följande f
 
 Du kan inte skriva att tidningsläsning *påverkar* politisk kunskap eftersom vi inte vet kausalriktningen.
 
+## Frågor rörande SPSS
+
+### Hur analyserar jag en variabel som är kodad på flera variabler?
+
+Låt säga att du har kodat en nyhetsartikel för att se vilka aktörer som förekommer i texten. Varje aktör kan då kodas så att de blir en egen variabel, exempelvis:
+
+- Förekommer politiker? Ja=1 Nej=0
+- Förekommer journalister? Ja=1 Nej=0
+- Förekommer medborgare? Ja=1 Nej=0
+
+Hur analyserar man detta med en frekvenstabell eller korstabell?
+
+I SPSS kan du använda verktyget `Analyze` > `Tables` > `Custom Tables`. Du kan också använda verktyget `Analyze` > `Multiple Response`. Se länkarna nedan.
+
+- [Analysis Multiple response question (dichotomies)](http://helpdeskspssabs.femplaza.nl/analysis/analysis_multiple_response_dich.htm)
+- [Analysis Multiple response question (categories)](http://helpdeskspssabs.femplaza.nl/analysis/analysis_multiple_response_cat.htm)
+
 ### Var hittar jag p-värden i SPSS?
 
 Det står ofta *approximate significance* eller *Sig.*.
+
 
 ## Vilka viktiga begrepp bör jag känna till?
 
