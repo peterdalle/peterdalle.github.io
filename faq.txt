@@ -6,6 +6,16 @@ Här sammanställs frågor och svar som brukar dyka upp under kursens gång.
 
 ## Grundläggande
 
+### Vad är sambandsmått?
+
+Sambandsmått, eller korrelationsmått, är ett mått på sambandet mellan två variabler.
+
+Det innebär att två variabler samvarierar med varandra. Till exempel samvarierar vikt och längd. Ju längre man är, desto tyngre är man.
+
+Det finns positiva och negativa samband. Ett positivt samband innebär att variablerna ökar eller minskar i samma riktning. När den ena variabeln ökar, ökar också den andra. Och när den ena variabeln minskar, minskar också den andra. Vikt och längd är exempel på ett positivt samband.
+
+Ett negativt samband innebär att när ena variabeln ökar, så minskar den andre. Ett exempel är bilkörning och bensin. När man kör mer med bilen, så minskar bensinen.
+
 ### Vilket sambandsmått ska jag välja?
 
 Det är variabelns skalnivå som avgör vilken korrelation du ska använda.
@@ -68,6 +78,10 @@ Exempel:
 Här syftar `r` på Pearsons r. Notera att texten i princip skrivs i följande format: `Det fanns en [liten/medelstor/stor] korrelation mellan [X] och [Y] (r = 0,000; p = 0,000)`.
 
 Du kan inte skriva att tidningsläsning *påverkar* politisk kunskap eftersom vi inte vet kausalriktningen.
+
+### Var hittar jag p-värden i SPSS?
+
+Det står ofta *approximate significance* eller *Sig.*.
 
 ## Vilka viktiga begrepp bör jag känna till?
 
