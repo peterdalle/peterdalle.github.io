@@ -24,7 +24,7 @@ Källkoden till hemsidan [finns på GitHub](https://github.com/peterdalle/peterd
 
 | När        | Vad |
 | ---------- | ------------------------------------------------------------ |
-| 2016-11-24 | Utökat många texter. Lagt till [FAQ](faq.html). |
+| 2016-11-24 | Utökat många texter. Lagt till [FAQ](faq.html) och [surveys](surveys.html). |
 | 2016-09-09 | Lade till [quiz](quiz.html). |
 | 2016-08-26 | Lade till länktips på [statistik](stats.html#webbplatser). Skapade sidan [kreativitet](creativity.html). |
 | 2016-08-17 | Release. |

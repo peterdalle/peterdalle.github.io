@@ -1,10 +1,24 @@
 % Surveys
 % Peter M. Dahlgren, JMG
-% 2016-11-24
+% 2016-11-30
+
+Läs boken Enkätmetodik av Berntsson et al. (2016) om du vill ha en nybörjarbok som i princip tar upp det mesta du behöver veta om att göra enkäter.
+
+Läs Bethlehem (2012) om du tänker göra en survey på webben.
+
+Läs Baker et al. (2010) om du vill veta mer om onlinepaneler och problemen och möjligheterna med dem.
+
+Läs Krosnick (1999) om du vill ha en snabb överblick över sampling, vanliga svarsfrekvenser, och hur du designar frågor.
+
+Läs Schwarz (1999) om hur olika kognitiva svarsstilar, kontext och svarsskalor påverkar svaren.
+
+Detta är ett godtyckligt urval av litteratur. Testa att söka efter [survey method review på Google Scholar](https://scholar.google.se/scholar?q=survey+method+review&btnG=&hl=sv&as_sdt=0%2C5) också.
 
 ## Litteraturtips
 
+- Baker, R., Blumberg, S. J., Brick, J. M., Couper, M. P., Courtright, M., Dennis, J. M., … Zahs, D. (2010). Research Synthesis: AAPOR Report on Online Panels. *Public Opinion Quarterly, 74*(4), 711–781. <https://doi.org/10.1093/poq/nfq048>
 - Berntson, E., Bernhard-Oettel, C., Hellgren, J., Näswall, K., & Sverke, M. (2016). *Enkätmetodik*. Natur & Kultur Akademisk.
+- Bethlehem, J. G. (2012). *Handbook of Web Surveys*. Oxford: Wiley-Blackwell.
 - Krosnick, J. A. (1999). Survey Research. *Annual Review of Psychology, 50*(1), 537–567. <https://doi.org/10.1146/annurev.psych.50.1.537>
 - Maitland, A., & Presser, S. (2016). How Accurately Do Different Evaluation Methods Predict the Reliability of Survey Questions? *Journal of Survey Statistics and Methodology, 4*(3), 362–381. <https://doi.org/10.1093/jssam/smw014>
 - Schwarz, N. (1999). Self-Reports: How the Questions Shape the Answers. *American Psychologist, 54*(2), 93–105.

@@ -1,6 +1,6 @@
 ﻿% Statistik
 % Peter M. Dahlgren, JMG
-% 2016-11-24
+% 2016-11-30
 
 Här hittar du:
 
@@ -167,4 +167,7 @@ Samtliga videor:
 - **[Web Pages that Perform Statistical Calculations!](http://statpages.info/)**
 - **[Free Statistics Calculator](http://www.danielsoper.com/statcalc/default.aspx)**
 - **[VassarStats: Website for Statistical Computation](http://vassarstats.net/)**
+- **[Equivalent Statistics](http://psych.purdue.edu/~gfrancis/EquivalentStatistics/)**. Konverterar från en teststatistika till en annan.
 - **[Process macro for SPSS and SAS](http://processmacro.org/download.html)**. Plugin som underlättar moderator- och medieringsanalys i SPSS och SAS.
+- **[Practical Meta-Analysis Effect Size Calculator](https://www.campbellcollaboration.org/escalc/html/EffectSizeCalculator-SMD-main.php)**. Beräkna effektstorlekar för metaanalys utifrån N, M och SD (med flera).
+- **[Comprehensive Meta analysis](https://www.meta-analysis.com/)**. Programvara som underlättar att göra metaanalyser. Betalprogram, men finns i testversion.
