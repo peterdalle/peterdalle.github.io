@@ -1,6 +1,6 @@
 % Studieteknik
 % Peter M. Dahlgren, JMG
-% 2016-08-23
+% 2016-12-17
 
 Studietiden består av en mängd läsande och lärande. Konstigt nog lärs sällan effektivt lärande ut, utan studenter förmodas lära sig detta på egen hand. Därför tänkte jag kort sammanfatta forskningen kring effektivt pluggande för att maximera dina resultat.
 
@@ -42,7 +42,7 @@ Därefter bör du inte tänka på studierna alls efter arbetsdagens slut efterso
 
 Resultatet av studerandet (eller vilket kunskapsarbete som helst) kan sammanfattas i en enkel formel: <code>kvalitet = tid × intensitet</code>. Åtminstone om vi får tro Newport (2016).
 
-## När du skriver tenta ##
+### När du skriver tenta ###
 
 Enligt Passer (2008, s. 32-33) finns det ett antal saker att tänka på när du sitter och svettas i tentasalen eller på en hemtenta:
 
@@ -50,6 +50,13 @@ Enligt Passer (2008, s. 32-33) finns det ett antal saker att tänka på när du 
 - På hemtentor eller längre skrivuppgifter, gör först en outline i punktform. Skriv sedan.
 - Om du fyller i kryssrutor, försök att svara på frågan innan du ser svarsalternativen. Om du hittar ditt svar bland alternativen, kryssa i det.
 - Om du fyller i kryssrutor och ändrar ditt svar så gör du troligen rätt. Byt svarsalternativ om du är tämligen säker.
+
+## Litteraturtips ##
+
+Tips från Science:
+
+- [How to (seriously) read a scientific paper](http://www.sciencemag.org/careers/2016/03/how-seriously-read-scientific-paper)
+- [How to keep up with the scientific literature](http://www.sciencemag.org/careers/2016/11/how-keep-scientific-literature)
 
 ## Referenser ##
 
