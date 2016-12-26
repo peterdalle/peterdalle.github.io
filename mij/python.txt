@@ -83,6 +83,7 @@ All Python code for workshops and examinations are located at GitHub: <https://g
 
 Do you have to buy a book? No, internet is often more than enough. Google is your friend.
 
+- Learn Python the Hard Way (book and web site): <https://learnpythonthehardway.org/book/>
 - Learn Python basics: <http://www.pythonforbeginners.com/>
 - Pythons own site is helpful: <https://www.python.org/about/gettingstarted/>
 - Ask questions, or find answers, about Python on StackOverflow: <http://stackoverflow.com/questions/tagged/python>
