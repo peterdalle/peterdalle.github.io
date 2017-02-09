@@ -1,6 +1,6 @@
 ﻿% Statistik
 % Peter M. Dahlgren, JMG
-% 2016-11-30
+% 2017-02-09
 
 Här hittar du:
 
@@ -40,6 +40,7 @@ Finns det andra program än SPSS? Många. SPSS är dock väl använt inom samhä
 - [GNU PSPP](http://www.gnu.org/software/pspp/) ser ut och fungerar ungefär som SPSS, men är gratis.
 - [JASP](https://jasp-stats.org/download/) gratis program med de flesta vanliga funktioner inklusive bayesiansk statistik.
 - [R](https://www.r-project.org/) är ett programmeringsspråk för statistik.
+- [Jamovi](https://www.jamovi.org/) är byggt ovanpå R och är ett enkelt och gratis statistikprogram.
 
 ## Deskriptiv statistik
 

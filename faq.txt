@@ -40,7 +40,7 @@ Pearsons r varierar från -1 till +1. Cramérs V kan bara variera från 0 till 1
 
 Phi kan du ignorera helt och hållet. Titta bara på Cramérs V.
 
-Phi (φ) är ett sambandsmått som endast fungerar för korstabeller med storleken 2 x 2 med två binära variabler. Cramérs V fungerar däremot på alla storlekar av korstabeller.
+Phi är ett sambandsmått som endast fungerar för korstabeller med storleken 2 x 2 med två binära variabler. Cramérs V fungerar däremot på alla storlekar av korstabeller.
 
 ### Vad är p-värden?
 
