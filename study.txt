@@ -1,6 +1,6 @@
 % Studieteknik
 % Peter M. Dahlgren, JMG
-% 2016-12-17
+% 2017-03-01
 
 Studietiden består av en mängd läsande och lärande. Konstigt nog lärs sällan effektivt lärande ut, utan studenter förmodas lära sig detta på egen hand. Därför tänkte jag kort sammanfatta forskningen kring effektivt pluggande för att maximera dina resultat.
 
@@ -23,6 +23,8 @@ Dunlosky et al. (2013) har sammanfattat litteraturen och rangordnat ett antal st
 | Läsa igen | Låg |
 
 Det är i regel bättre att repetera och testa det du lärt dig än att bara försöka läsa effektivt (Karpicke & Blunt, 2011). Studera också tillsammans med andra, och ge feedback till varandra. Det ökar också inlärningen (Sun et al., 2014).
+
+Skriv ut och läs på papper. Det är bättre än att läsa på skärm, även om du föredrar skärm (Singer & Alexander, 2017).
 
 ### Så kan du lägga upp dagen ###
 
@@ -53,7 +55,7 @@ Enligt Passer (2008, s. 32-33) finns det ett antal saker att tänka på när du 
 
 ## Referenshantering
 
-Använd ett program för att hålla reda på alla artiklar och referenser du samlar på dig.
+Använd ett program för att hålla reda på alla artiklar och referenser du samlar på dig. Jag rekommenderar [Zotero](https://www.zotero.org/). Det är gratis, fungerar tillsammans med Word och har smarta funktioner för import av artiklar.
 
 - [EndNote](http://endnote.com/)
 - [JabRef](http://www.jabref.org/)
@@ -75,5 +77,5 @@ Tips från bloggen hos Science:
 - Mazza, S., Gerbier, E., Gustin, M.-P., Kasikci, Z., Koenig, O., Toppino, T. C., & Magnin, M. (2016). [Relearn Faster and Retain Longer Along With Practice, Sleep Makes Perfect](http://doi.org/10.1177/0956797616659930). *Psychological Science*, 956797616659930.
 - Newport, C. (2016). *Deep Work: Rules for Focused Success in a Distracted World*. Piatkus Books.
 - Passer, M. W. (2008). *Psychology: The Science of Mind and Behavior (4th ed.)*. London: McGraw-Hill Higher Education.
+- Singer, L. M., & Alexander, P. A. (2017). [Reading Across Mediums: Effects of Reading Digital and Print Texts on Comprehension and Calibration](https://doi.org/10.1080/00220973.2016.1143794). *The Journal of Experimental Education, 85*(1), 155–172.
 - Sun, D. L., Harris, N., Walther, G., & Baiocchi, M. (2014). [Peer assessment enhances student learning](http://arxiv.org/abs/1410.3853). *arXiv:1410.3853 [Physics, Stat]*.
-
