@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Peter M. Dahlgren, JMG" />
+  <meta name="date" content="2017-03-15" />
+  <title>Statistiska termer som används i forskningsstudier: En lathund för journalister</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="pandoc.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap-3.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-static-top">
+	<div class="container">       
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".header-collapse">
+				<span class="sr-only">Meny</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/">Metodguiden</a>
+		</div>
+		<div class="collapse navbar-collapse header-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="stats.html" title="Lär dig grundläggande deskriptiv och inferentiell statistik">Statistik</a></li>
+				<li><a href="dataviz.html" title="Skapa enklare tabeller och diagram">Datavisualisering</a></li>
+				<li><a href="faq.html" title="Vanliga frågor och svar">FAQ</a></li>	
+				<li><a href="quiz.html" title="Testa dina kunskaper med frågesport">Quiz</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ladda ned <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="files.html" title="Nedladdningsbara filer">Filer</a></li>
+						<li><a href="dataset.html" title="Datamängder på nätet att ladda ned">Dataset</a></li>
+					</ul>
+				</li>
+				<li><a href="about.html" title="Om hemsidan">Om</a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+<div class="page-container">
+<div id="header">
+<h1 class="title">Statistiska termer som används i forskningsstudier: En lathund för journalister</h1>
+<h2 class="author">Peter M. Dahlgren, JMG</h2>
+<h3 class="date">2017-03-15</h3>
+</div>
+<div id="TOC">
+<ul>
+<li><a href="#samband-och-orssakasamband">Samband och orssakasamband</a></li>
+<li><a href="#uttala-sig-om-datan-eller-bortom-datan">Uttala sig om datan eller bortom datan</a></li>
+<li><a href="#grundläggande-statistiska-begrepp">Grundläggande statistiska begrepp</a></li>
+<li><a href="#läs-mer">Läs mer</a></li>
+<li><a href="#referenser">Referenser</a></li>
+</ul>
+</div>
+<p>Vid bedömning av akademiska studier konfronteras journalister inte bara av siffror, utan också begrepp som “p-värde”, “statistisk inferens” och “regression”.</p>
+<p>Statistikkurser finns på de flesta universitet, men ofta är det något som man tvingas genomlida, snabbt går igenom och sedan lika snabbt glömmer bort. Men för både journalister och kommunikatörer är det absolut nödvändigt att göra mer än att bara läsa forskningsstudiens sammanfattning. Man bör förstå de metoder och begrepp som ligger till grund för akademiska studier för att kunna bedöma forskningen. Även om man inte behärskar statistik fullt ut, är det ändå viktigt att ha grundläggande kunskaper för att åtminstone kunna formulera bättre och mer kritiska frågor till experter, och kanske mer specifikt att bli mer skeptisk till resultaten i studierna.</p>
+<h2 id="samband-och-orssakasamband">Samband och orssakasamband</h2>
+<p>De flesta studier försöka upprätta ett <strong>samband</strong> mellan två variabler, till exempel hur läraren kan ha ett <em>samband</em> med studenternas betyg. Eller hur vikten på en bil har ett <em>samband</em> med dödsolyckor.</p>
+<p>Men att upptäcka ett sådant förhållande är bara ett första steg. Det yttersta målet är att fastställa <strong>orsakssamband</strong>, att den ena av de två variablerna <em>påverkar</em> den andra, och inte tvärtom.</p>
+<p>Det är en vanlig fras som kan vara bra att tänka på, nämligen att <strong>korrelation är inte kausalitet</strong>. Eller ännu enklare: <em>samband är inte nödvändigtvis orsakssamband</em> eftersom orsakssamband tar lång tid att fastställa.</p>
+<p>Det finns flera viktiga kritier för att bedöma om ett orsakssamband existerar:</p>
+<ul>
+<li><em>Nära i tid</em>. Förändringen i den ena variabeln kan inte påverka den påverkade variabeln allt för långt senare.</li>
+<li><em>Nära i rum</em>. Förändringen i den ena variabeln kan inte vara allt för geografiskt avlägset den påverkade variabeln.</li>
+<li><em>Logisk koppling</em>. Man måste teoretiskt kunna argumentera för att den ena variabeln faktiskt orsakar en förändring i den påverkade variabeln.</li>
+<li><em>Regelbundenhet</em>. Förändringen i den ena variabeln bör upprepade gånger leda till förändringar i den påverkade variabeln.</li>
+<li><em>Utesluta andra förklaringar</em>. Det bör inte finnas några andra förklaringar som kan ge upphov till förändringen i den påverkade variabeln.</li>
+<li><em>Orsaken måste föregå effekten</em>. Förändringen i den ena variabeln måste ske <em>före</em> den påverkade variabeln förändras.</li>
+</ul>
+<h2 id="uttala-sig-om-datan-eller-bortom-datan">Uttala sig om datan eller bortom datan</h2>
+<p>En annan viktig skillnad att komma ihåg är att studier kan antingen utforska observerade data (<strong>deskriptiv statistik</strong>) eller använda observerade data för att förutsäga vad som är sant <em>bortom</em> den observerade datan (<strong>inferentiell statistik</strong>).</p>
+<p>Uttalandet “Från 2005 till 2015 har antalet anmälda stöldbrott ökat med 70 %” är deskriptiv statistik. Denna typ av uttalande är inte förknippad med särskilt mycket osäkerhet. Uttalande av detta slag är ofta antingen sant eller falskt.</p>
+<p>Uttalandet “Om du tar en högskoleexamen ökar din livsinkomst med 50 %” är inferentiell statistik. Denna typ av uttalande är <em>alltid</em> förknippat med en osäkerhet eftersom uttalandet inte bara rör de som har undersökts, utan också människor i framtiden och kanske i andra länder.</p>
+<h2 id="grundläggande-statistiska-begrepp">Grundläggande statistiska begrepp</h2>
+<p>Här är några andra grundläggande statistiska begrepp som journalister och kommunikatörer bör känna till:</p>
+<ul>
+<li>Ett <strong>sampel</strong> (också kallat <strong>urval</strong>) är en del av en hel <strong>population</strong>. Inferentiell statistik försöka göra förutsägelser om en population baserad på resultaten som observerats i ett urval av denna befolkning.</li>
+<li>Det finns två huvudtyper av urval: <strong>slumpmässiga</strong> och <strong>icke-slumpmässiga</strong>. Vid ett slumpmässigt urval väljs personer helt av en slump, medan ett icke-slumpmässigt urval ofta är konstruerade för att återspegla egenskaperna hos befolkningen i stort (man väljer personer så att man får hälften kvinnor och hälften män, utifrån deras ålder, etnisk tillhörighet, etc.). Det finns flera olika typer av slumpmässiga respektive icke-slumpmässiga urval, var och en med sina fördelar och nackdelar. Ett slumpmässigt urval är <strong>representativa</strong> för befolkningen, vilket innebär att forskaren undersöker en minikopia av populationen.</li>
+<li>När man har analyserat ett sampel och vill uttala sig om populationen utifrån detta sampel så kallas det att man <strong>generaliserar</strong>. Detta kan endast göras när samplet verkligen är representativt för hela befolkningen, det vill säga slumpmässigt.</li>
+<li>När man generaliserar resultat från ett sampel till populationen måste man ta hänsyn till <strong>variansen</strong> i urvalet. Varians är ett annat ord för variation. Även om samplet är helt slumpmässigt, finns det fortfarande en viss variation inom populationen som kommer att kräva att dina sampel också innehåller en <strong>felmarginal</strong>. Till exempel kan resultaten av en opinionsundersökning av väljare ge felmarginalen i procentenheter: “47 % av de tillfrågade röstar på Socialdemokraterna, med en felmarginal på 3 procentenheter.” Så, den faktiska andelen som röstar på Socialdemokraterna kan vara så låg som 44 % eller så hög som 50 % (vilket är ±3 procentenheter från 47 %).</li>
+<li>Ju större <strong>sampelstorlek</strong> (hur många som har tillfrågats i undersökningen), desto säkrare kan vi vara på resultatet. En bra tumregel att ha i huvudet: Om det är runt 1 000 personer i en undersökning blir felmarginalen högst ±3,1 procentenheter (givet att det är ett slumpmässigt urval).</li>
+<li>De flesta studier undersöker förhållandet mellan två <strong>variabler</strong>, till exempel att exponering för bekämpningsmedel har ett samband med lägre födelsevikt. Detta kallas den <strong>alternativa hypotesen</strong>. Studier försöka ofta motbevisa <strong>nollhypotesen</strong>, i detta fall att exponering för bekämpningsmedel inte har något samband med lägre födelsevikt.</li>
+<li><strong>Signifikanstest</strong> visar sannolikheten att resultatet är så extremt att det sannolikt inte beror på slumpen. Då får man fram ett <strong>p-värde</strong> som anger hur extremt resultatet är, under förutsättningen att nollhypotesen är sann (att det inte finns något samband). En vanlig tolkning är följande: om p-värdet är under 0,05, är det 5 % sannolikhet att få så extrema resultat om nollhypotesen är sann. Om p-värdet är 0,01, är det 1 % sannolikhet att få så extrema resultat om nollhypotesen är sann, och så vidare.</li>
+<li>Ett vanligt problem inom forskningsstudier är så kallad <strong>bias</strong>. Bias kan översättas med <em>fel</em>, <em>skevhet</em> eller <em>partiskhet</em> och kommer i många former, men den vanligaste är valet av svarspersoner. Om svarspersoner inte väljs slumpmässigt, utan får själva välja om de vill svara på en opinionsundersökning, är samplet inte slumpmässigt och därmed nödvändigtvis inte generaliserbart till populationen.</li>
+<li>När två variabler rör sig tillsammans, sägs de vara <strong>korrelerade</strong>. <strong>Positiv korrelation</strong> innebär att om en variabel stiger eller faller, gör den andra variabeln också det. Till exempel, om du äter mycket mat ökar din vikt. Matintag och vikt är då positivt korrlerade. <strong>Negativ korrelation</strong> innebär att två variabler rör sig i motsatta riktningar. Till exempel fordonshastighet och restid. Ju högre fordonshastighet, desto mindre restid. Så om en forskare skriver “inkomst är negativt korrelerad med fattigdom,” säger forskaren att när inkomster stiger, så minskar fattigdom.</li>
+<li><strong>Kausalitet</strong> är när förändringen i en variabel <em>orsakar</em> förändring i en annan variabel. Till exempel är lufttemperaturen och solljus korrelerade (när solen är uppe, stiger temperaturen), men orsakssamband går ndast i en riktning. Det är solljuset som <em>orsakar</em> temperaturförändringen. Detta kallas också orsak och verkan, eller ibland också prediktor och effekt.</li>
+<li><strong>Regressionsanalys</strong> är ett sätt att avgöra sambandet mellan många variabler och hur starka dessa samband kan vara. Även om många forskare skriver att flera variabler <em>påverkar</em> en variabel finns det dock ingenting i regressionsanalys som sådant som kan visa på orsakssamband. I sin mest grundläggande form består regressionsanalys av två variabler som kan visas i ett digram på varsin axel.</li>
+<li><strong>Korrelationskoefficient</strong> är ett mått på sambandets styrka (och ibland också riktning). Det varierar från 0 till 1 (och ibland -1 till +1 om det finns riktning). När korrelationskoefficienten är närmare 0 säger man att det inte finns något samband, så kallat <strong>nollsamband</strong>.</li>
+<li>Medan orsakssamband är väldigt lätta att visa, är det betydligt svårare att visa vad som är orsaken till sambandet. Det kan i själva verket vara ett skensamband, ett så kallat <strong>spuriöst samband</strong>. Till exempel, de som är gifta tenderar att ha högre lön. Man skulle då kunna dra slutsatsen att giftemål leder till högre lön. Men det är snarare så att äldre personer har både högre lön och mer oftare är gifta.</li>
+<li>När man har etablerat att det finns ett orsakssamband, så är den faktor som driver förändringen den <strong>oberoende variabeln</strong>. Den variabel som påverkas är den <strong>beroende variabeln</strong>. I exemplet tidigare är alltså solljus den oberoende variabeln, medan lufttemperatur är den beroende variabeln.</li>
+<li><strong>Standardavvikelse</strong> ger en inblick i hur mycket variation det finns inom en grupp av värden. Standardavvikelsen visar avvikelsen (skillnaden) från gruppens medelvärde. Standardavvikelsen är ett komplement till <strong>medelvärdet</strong> och <strong>medianen</strong>. Medelvärdet och medianen visar mittpunkten i en grupp av värden, medan standardavvikelsen visar hur stor variationen är från detta medelvärdet. Medelvärdet får du fram genom att plussa ihop alla värden och dividera med det antalet värden. Medianen får du fram genom att rangordna alla värden från det lägsta till det högsta, och sedan välja det värdet som är i mitten. Låt säga att medellönen är 20 000 kronor. En låg standardavvikelse innebär då att de flesta löner ligger runt medelvärdet på 20 000 kronor. En hög standardavvikelse innebär då att många löner är utspridda från medelvärdet på 20 000 kronor.</li>
+<li>Var uppmärksam på skillnaden mellan <strong>procenttal</strong> och <strong>procentenheter</strong>. De är inte samma sak. Till exempel, om 40 av 100 hem i en stad har låg inkomst, är andelen 40 % som har låg inkomst. Om 10 husägare får högre inkomst, återstår nu bara 30 hem med låg inkomst. Den nya andelen är då 30 %, en minskning med 10 <em>procentenheter</em> (40 - 30 = 10). Detta är dock <em>inte</em> 10 % mindre. I själva verket är minskningen 25 % (10 / 40 = 0,25 = 25 %).</li>
+<li><strong>Kvartiler</strong> kan användas för att dela in data i grupper. Till exempel, att dela en lista över personer sorterade efter inkomst i två grupper (låginkomsttagare och höginkomsttagare) resulterar i två kvartiler. Medianen blir därmed skiljelinjen mellan de två grupperna. Vanligtvis delar man in datan i fyra grupper (<em>kvartiler</em>) så att det blir fyra lika stora grupper. Man kan också dela upp datan i grupper om tio (deciler). När en forskare säger att “De personer med en inkomst i den lägre decilen” så menar de personer som har en inkomst som är bland de lägsta 10 % personernas inkomst. Om man delar in datan i grupper om hundra så säger man <em>percentiler</em>. När en forskare säger att “De personer med en inkomst i den övre 83 percentilen” så menar de personer har en inkomst som är bland de övre 83 % personernas inkomst.</li>
+</ul>
+<p>Notera att en förståelse för statistiska termer inte innebär att du bör salta din text med dem. Skriv på ett enkelt sätt som kan förstås av så många som möjligt, utan statistiskt fackspråk. “Samband” fungerar ofta lika bra som “korrelation”. Det underlättar även för forskare!</p>
+<h2 id="läs-mer">Läs mer</h2>
+<ul>
+<li><a href="http://stattrek.com/statistics/dictionary.aspx">Statistics and Probability Dictionary</a></li>
+<li><a href="https://www.edx.org/course/introduction-statistics-inference-uc-berkeleyx-stat2-3x">Introduction to Statistics: Inference</a></li>
+</ul>
+<h2 id="referenser">Referenser</h2>
+<p>Denna text är inspirerad från <a href="https://journalistsresource.org/tip-sheets/research/statistics-for-journalists">Statistical terms used in research studies: A primer for media</a>. Alla kredd till Leighton Walter Kille som skrev den artikeln, vilken också är licensierad med <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</a>. I min text har jag dock ändrat de faktafel som fanns i den texten (bland annat den vanliga missupfattningen att p-värdet visar att nollhypotesen är sann).</p>
+</div>
+
+<div id="footer">
+	&copy; 2017 <a href="http://peterdahlgren.com/">Peter M. Dahlgren</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Detta verk är licensierat under en Creative Commons Erkännande-Ickekommersiell-IngaBearbetningar 4.0 Internationell Licens"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+</div>
+
+<script>
+	$("table").addClass("table table-bordered table-striped");
+	$("#TOC").addClass("well");
+</script>
+</body>
+</html>

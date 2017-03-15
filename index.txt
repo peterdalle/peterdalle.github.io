@@ -1,10 +1,11 @@
 % Metodguiden
 % Peter M. Dahlgren, JMG
-% 2016-11-24
+% 2017-03-15
 
 **Innehåll**
 
 - [Statistik](stats.html) ([PDF](stats.pdf))
+- [Statistiska termer som används i forskningsstudier: En lathund för journalister](journalist.html) ([PDF](journalist.pdf))
 - *Validitet (kommer snart)*
 - [Datavisualisering](dataviz.html) ([PDF](dataviz.pdf))
 - [FAQ: Vanliga frågor och svar](faq.html) ([PDF](faq.pdf))

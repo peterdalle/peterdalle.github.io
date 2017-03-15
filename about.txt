@@ -1,6 +1,6 @@
 ﻿% Om
 % Peter M. Dahlgren, JMG
-% 2016-11-24
+% 2017-03-15
 
 Denna hemsida har skapats för att förbättra studenternas kunskaper i grundläggande [datavisualisering](dataviz.html) och [statistik](stats.html).
 
@@ -24,6 +24,7 @@ Källkoden till hemsidan [finns på GitHub](https://github.com/peterdalle/peterd
 
 | När        | Vad |
 | ---------- | ------------------------------------------------------------ |
+| 2017-03-15 | Lagt till [Statistiska termer som används i forskningsstudier: En lathund för journalister](journalist.html)
 | 2016-11-24 | Utökat många texter. Lagt till [FAQ](faq.html) och [surveys](surveys.html). |
 | 2016-09-09 | Lade till [quiz](quiz.html). |
 | 2016-08-26 | Lade till länktips på [statistik](stats.html#webbplatser). Skapade sidan [kreativitet](creativity.html). |
