@@ -2,20 +2,29 @@
 % Peter M. Dahlgren, JMG
 % 2017-03-18
 
-**Innehåll**
+Innehåll:
+
+**Statistik**
 
 - [Statistik](stats.html) ([PDF](stats.pdf))
-- [Statistiska termer som används i forskningsstudier: En lathund för journalister](journalist.html) ([PDF](journalist.pdf))
 - [P-värden och hur man tolkar dem](p-values.html) ([PDF](p-values.pdf))
-- *Validitet (kommer snart)*
-- [Datavisualisering](dataviz.html) ([PDF](dataviz.pdf))
+- [Statistiska termer som används i forskningsstudier: En lathund för journalister](journalist.html) ([PDF](journalist.pdf))
+
+**Surveys, visualisering och FAQ**
+
 - [FAQ: Vanliga frågor och svar](faq.html) ([PDF](faq.pdf))
-- [Quiz](quiz.html)
-- Ladda ned
-    - [Filer](files.html)
-    - [Dataset](dataset.html) ([PDF](dataset.pdf))
+- [Datavisualisering](dataviz.html) ([PDF](dataviz.pdf))
 - [Surveys](surveys.html) ([PDF](surveys.pdf))
-- [Om](about.html) ([PDF](about.pdf))
+- *Validitet (kommer snart)*
+
+**Testa dina kunskaper**
+
+- [Quiz](quiz.html)
+
+**Ladda ned**
+
+- [Filer](files.html)
+- [Dataset](dataset.html) ([PDF](dataset.pdf))
 
 **Bonus**
 
