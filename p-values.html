@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Peter M. Dahlgren, JMG" />
+  <meta name="date" content="2017-03-18" />
+  <title>P-värden och hur man tolkar dem</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="pandoc.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap-3.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-static-top">
+	<div class="container">       
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".header-collapse">
+				<span class="sr-only">Meny</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/">Metodguiden</a>
+		</div>
+		<div class="collapse navbar-collapse header-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="stats.html" title="Lär dig grundläggande deskriptiv och inferentiell statistik">Statistik</a></li>
+				<li><a href="dataviz.html" title="Skapa enklare tabeller och diagram">Datavisualisering</a></li>
+				<li><a href="faq.html" title="Vanliga frågor och svar">FAQ</a></li>	
+				<li><a href="quiz.html" title="Testa dina kunskaper med frågesport">Quiz</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ladda ned <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="files.html" title="Nedladdningsbara filer">Filer</a></li>
+						<li><a href="dataset.html" title="Datamängder på nätet att ladda ned">Dataset</a></li>
+					</ul>
+				</li>
+				<li><a href="about.html" title="Om hemsidan">Om</a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+<div class="page-container">
+<div id="header">
+<h1 class="title">P-värden och hur man tolkar dem</h1>
+<h2 class="author">Peter M. Dahlgren, JMG</h2>
+<h3 class="date">2017-03-18</h3>
+</div>
+<div id="TOC">
+<ul>
+<li><a href="#definition-av-p-värden">Definition av p-värden</a></li>
+<li><a href="#hur-man-tolkar-p-värdet">Hur man tolkar p-värdet</a></li>
+<li><a href="#exempel-placera-bollar-i-korgar">Exempel: placera bollar i korgar</a></li>
+<li><a href="#vad-som-påverkar-p-värdet">Vad som påverkar p-värdet</a></li>
+<li><a href="#vilka-missförstånd-om-p-värden">Vilka missförstånd om p-värden</a></li>
+<li><a href="#statistisk-signifikans">Statistisk signifikans</a></li>
+<li><a href="#vad-är-nollhypotes-och-alternativ-hypotes">Vad är nollhypotes och alternativ hypotes?</a></li>
+<li><a href="#p-värdet-i-spss">P-värdet i SPSS</a></li>
+<li><a href="#rapportera-p-värden">Rapportera p-värden</a></li>
+<li><a href="#video">Video</a></li>
+<li><a href="#referenser">Referenser</a></li>
+</ul>
+</div>
+<p>P-värdet kan vara det svåraste att förstå. Här gör jag några pedagogiska försök att skapa en intuitv förståelse för p-värdet.</p>
+<h2 id="definition-av-p-värden">Definition av p-värden</h2>
+<p><em>P-värdet visar sannolikheten att få ett resultat som är så extremt (eller mer extremt), givet att nollhypotesen är sann.</em></p>
+<p>P-värden kommer från ett statistiskt test som man genomför på en datamängd. P-värdet går från 0 till 1. Ju närmare 0 det är, desto mindre sannolikhet att du har fått resultatet ifråga, givet att nollhypotesen är sann.</p>
+<p>Om du får 0,000 i ditt statistikprogram beror det på avrundning. Skriv då <code>p &lt; 0,001</code> med tre decimaler.</p>
+<h2 id="hur-man-tolkar-p-värdet">Hur man tolkar p-värdet</h2>
+<ul>
+<li>Ett <strong>lågt p-värde</strong> (exempelvis p = 0,001) innebär att det är osannolikt att få det resultatet du fått, givet att nollhypotesen är sann. Det går därmed säga att det observerade sambandet skiljer sig från ett nollsamband. Annorlunda uttryckt: det går skilja signalen från bruset, och det innebär att ett samband kunde hittas.</li>
+<li>Ett <strong>högt p-värde</strong> (exempelvis p = 0,583) innebär att det är sannolikt att få det resultatet du fått, givet att nollhypotesen är sann. Det går därmed inte säga att det observerade sambandet skiljer sig från ett nollsamband. Annorlunda uttryckt: det går inte skilja signalen från bruset, och det innebär att något samband inte kunde hittas.</li>
+</ul>
+<p>Ett p-värde på 0,012 betyder exempelvis att det är 1,2 % sannolikhet att få det resultat du fått, eller mer extremt, givet att nollhypotesen är sann. Med andra ord betyder det att det är väldigt osannolikt att sambandet kunde uppstå om det faktiskt inte fanns i populationen. När du tittat på p-värdet tittar du därefter på sambandsmåttet för att se hur stort sambandet är.</p>
+<div class="figure">
+<img src="images/p-value.png" alt="Om p-värdet är lågt, kommer det att vara långt ut till höger eller vänster. Om p-värdet är högt, kommer det att vara runt mitten." />
+<p class="caption">Om p-värdet är lågt, kommer det att vara långt ut till höger eller vänster. Om p-värdet är högt, kommer det att vara runt mitten.</p>
+</div>
+<h2 id="exempel-placera-bollar-i-korgar">Exempel: placera bollar i korgar</h2>
+<div class="figure">
+<img src="images/bollar.jpg" alt="Om man har lika många bollar i båda korgarna är p-värdet högt, eftersom fördelningen är sannolik givet slumpen." />
+<p class="caption">Om man har lika många bollar i båda korgarna är p-värdet högt, eftersom fördelningen är sannolik givet slumpen.</p>
+</div>
+<p>Vi kan ta ett exempel på hur p-värdet fungerarar.</p>
+<ol style="list-style-type: decimal">
+<li>Du har 100 stycken bollar som ska placeras i två korgar.</li>
+<li>Om bollarna placeras helt slumpmässigt i korgarna kommer det att vara ungefär 50 bollar i ena korgen och 50 i den andra (50/50). Då säger vi att det inte finns något samband mellan korgarna och bollarna. Detta är nollhypotesen.</li>
+<li>Låt säga att vi i stället lägger 30 bollar i ena korgen och 70 i den andra korgen. Detta är den alternativa hypotesen.</li>
+<li>Vi kan nu jämföra fördelningen 50/50 (nollhypotesen) med fördelningen 30/70 (alternativa hypotesen).</li>
+<li>Vi kan uttrycka sannolikheten att vi fått detta resultat (30/70) eller mer extremt, givet att bollarna är fördelade slumpmässigt 50/50. Denna sannolikhet är p-värdet.</li>
+<li>När bollarna placeras 30/70 så är det resultatet så pass extremt, givet fördelningen 50/50, att p-värdet blir väldigt litet (se nedan). Vi förkastar då nollhypotesen (50/50) och accepterar den alternativa hypotesen.</li>
+<li>Men om bollarna hade placeras 51/49 så är resultatet inte alls extremt, givet fördelningen 50/50, och p-värdet blir då väldigt stort (se nedan). Vi kan då inte förkasta nollhypotesen (50/50).</li>
+</ol>
+<p>Det enda p-värdet gör är alltså att se om bollarna har placerats slumpmässigt i korgarna, eller inte. I vetenskap hjälper p-värdet att se om ett samband kan ha uppstått slumpmässigt eller inte.</p>
+<p>Här är några exempel på vad p-värdet blir när man flyttar runt bollarna i korgarna:</p>
+<ul>
+<li>Om bollarna är fördelade 50/50 blir p = 1,0. Tolkning: Det observerade resultatet är väldigt sannolikt givet slumpen. Det observerade resultatet (50/50) är inte extremt i förhållande till slumpen (50/50) eftersom de är identiska.</li>
+<li>Om bollarna är fördelade 51/49 blir p = 0,9204. Tolkning: Det är väldigt sannolikt givet slumpen.</li>
+<li>Om bollarna är fördelade 55/45 blir p = 0,3682. Tolkning: Det är fortfarande sannolikt givet slumpen (även om det är något mindre sannolikt).</li>
+<li>Om bollarna är fördelade 30/70 blir p = 0,0000785. Tolkning: Det är väldigt osannolikt givet slumpen.</li>
+<li>Om bollarna är fördelade 10/90 blir p = 0,00000000000000022. Tolkning: Det är extremt osannolikt givet slumpen.</li>
+</ul>
+<h2 id="vad-som-påverkar-p-värdet">Vad som påverkar p-värdet</h2>
+<p>Det är sampelstorleken och effektstorleken som påverkar p-värdet. Det innebär att man får mindre p-värden om man har många analysenheter. I en <a href="surveys.html">surveyundersökning</a> är det därför lättare att få lägre p-värden om man frågar fler personer. Det är också lättare att få låga p-värden ju större sambandet är.</p>
+<p>I exemplet ovan med bollarna innebär det att fördelningen av bollarna påverkar p-värdet.</p>
+<h2 id="vilka-missförstånd-om-p-värden">Vilka missförstånd om p-värden</h2>
+<p>Här är några vanliga missförstånd kring p-värden:</p>
+<ul>
+<li>P-värdet visar <em>inte</em> sannolikheten att nollhypotesen är sann. (Utgångspunkten är alltid att nollhypoten är sann.)</li>
+<li>P-värdet visar <em>inte</em> vad som är relevant, viktigt eller vetenskapligt intressant. (P-värdet har med slumpen att göra.)</li>
+<li>P-värdet visar <em>inte</em> sannolikheten att resultatet beror på slumpen. (Slumpen är utgångspunkten, se första punkten.)</li>
+<li>P-värdet visar <em>inte</em> sannolikheten att få samma resultat om gör analysen en gång till.</li>
+<li>P-värdet visar <em>inte</em> storleken på sambandet. (Eftersom sampelstorleken skiljer sig åt kommer p-värdet skilja sig åt.)</li>
+</ul>
+<p>P-värdet bör inte betraktas svartvit. Ett p-värde på 0,049 är inte bättre än ett p-värde på 0,051. Det är snarare en skala, där lägre p-värde kan göra oss mer säkra på att ett samband finns.</p>
+<p>Bli inte vemodig om du har svårt att förstå p-värden. Till och med forskare brottas med frågan: <a href="http://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/">Not Even Scientists Can Easily Explain P-values</a>. Det är ett krångligt koncept som är lätt att få om bakfoten. P-värden har kritiserats i nästan hundra år, kanske starkast av psykologen Paul Meehl som sa att det är “one of the worst things that ever happened in the history of psychology” (Meehl, 1978, s. 817).</p>
+<h2 id="statistisk-signifikans">Statistisk signifikans</h2>
+<p>Statistisk signifikans är när p-värden är under en specifik gräns.</p>
+<p>Av tradition brukar man säga att p-värden under gränsen 0,05 är <em>statistiskt signifikanta</em>, medan p-värden över 0,05 ej är statistiskt signifikanta. Därför ser man ofta <code>p &lt; 0,05</code> i vetenskapliga texter.</p>
+<p>Gränsen 0,05 är fullständigt godtycklig och används av historiska skäl. Gränsen brukar kallas alfanivå eller signifikansnivå, och den bestämmer man själv <em>innan</em> man gör analysen.</p>
+<h2 id="vad-är-nollhypotes-och-alternativ-hypotes">Vad är nollhypotes och alternativ hypotes?</h2>
+<p>Nollhypotesen är antagandet att det <em>inte</em> finns något samband mellan två variabler.</p>
+<p>Den alternativa hypotesen är antagandet att det <em>finns</em> en skillnad mellan två variabler.</p>
+<p>Om du signifikanstestar ett sambandsmått är nollhypotesen detsamma som nollsamband. Med andra ord att Pearsons r = 0. Ju längre ifrån 0 sambandet är, desto lägre kommer p-värdet att bli. Statistiska tester utgår alltid från nollhypotesen och testar hur extremt resultatet blir.</p>
+<h2 id="p-värdet-i-spss">P-värdet i SPSS</h2>
+<p>Titta i kolumnen <em>Approximate Significance</em> (<em>Approx. Sig.</em>) eller bara <em>Sig</em>.</p>
+<h2 id="rapportera-p-värden">Rapportera p-värden</h2>
+<p>P-värden rapporteras alltid tillsammans med ett statistikt test, till exempel sambandsmått. Skriv därför p-värdet efter sambandsmåttet. Rapportera alltid p-värdet med 3 decimaler.</p>
+<p>Exempel med Pearsons r:</p>
+<blockquote>
+<p>Det fanns en medelstor positiv korrelation mellan tidningsläsning och politisk kunskap (<code>r = 0,31; p = 0,002</code>).</p>
+</blockquote>
+<p>Här syftar <code>r</code> på Pearsons r. Notera att texten i princip skrivs i följande format: <code>Det fanns en [liten/medelstor/stor] korrelation mellan [X] och [Y] (r = 0,000; p = 0,000)</code>.</p>
+<p>Du kan inte skriva att tidningsläsning <em>påverkar</em> politisk kunskap eftersom vi inte vet den kausala riktningen (om du inte genomför experiment eller dylikt).</p>
+<p>Exempel med Cramérs V:</p>
+<blockquote>
+<p>Det fanns en medelstor korrelation mellan tidningsläsning och politisk kunskap (<code>Cramérs v = 0,31; p = 0,002</code>).</p>
+</blockquote>
+<p>Notera att Cramérs V går från 0 till 1 och därmed inte har någon riktning. Det finns alltså ingen positiv eller negativ korrelation när man har Cramérs V.</p>
+<h2 id="video">Video</h2>
+<p>Anders Sundell (Statsvetenskapliga institutionen) förklarar signifikans och p-värden i denna video.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8qiJLwxifY4" frameborder="0" allowfullscreen>
+</iframe>
+<p>Fler videor om p-värden:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=HTZ8YKgD0MI">What is a p-value? (6 min)</a></li>
+<li><a href="https://www.youtube.com/watch?v=-FtlH4svqx4">Hypothesis testing and p-values - Khan Academy (12 min)</a></li>
+</ul>
+<h2 id="referenser">Referenser</h2>
+<ul>
+<li>Meehl, P.E. (1978). Theoretical risks and tabular asterisks: Sir Karl, Sir Ronald, and the slow progress of soft psychology. <em>Journal of Consulting and Clinical Psychology 46</em>, 806–834.</li>
+</ul>
+</div>
+
+<div id="footer">
+	&copy; 2017 <a href="http://peterdahlgren.com/">Peter M. Dahlgren</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Detta verk är licensierat under en Creative Commons Erkännande-Ickekommersiell-IngaBearbetningar 4.0 Internationell Licens"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+</div>
+
+<script>
+	$("table").addClass("table table-bordered table-striped");
+	$("#TOC").addClass("well");
+</script>
+</body>
+</html>

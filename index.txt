@@ -1,11 +1,12 @@
 % Metodguiden
 % Peter M. Dahlgren, JMG
-% 2017-03-15
+% 2017-03-18
 
 **Innehåll**
 
 - [Statistik](stats.html) ([PDF](stats.pdf))
 - [Statistiska termer som används i forskningsstudier: En lathund för journalister](journalist.html) ([PDF](journalist.pdf))
+- [P-värden och hur man tolkar dem](p-values.html) ([PDF](p-values.pdf))
 - *Validitet (kommer snart)*
 - [Datavisualisering](dataviz.html) ([PDF](dataviz.pdf))
 - [FAQ: Vanliga frågor och svar](faq.html) ([PDF](faq.pdf))
