@@ -24,9 +24,11 @@ Dunlosky et al. (2013) har sammanfattat litteraturen och rangordnat ett antal st
 
 Det är i regel bättre att repetera och testa det du lärt dig än att bara försöka läsa effektivt (Karpicke & Blunt, 2011). Studera också tillsammans med andra, och ge feedback till varandra. Det ökar också inlärningen (Sun et al., 2014).
 
-Skriv ut och läs på papper. Det är bättre än att läsa på skärm, även om du föredrar skärm (Singer & Alexander, 2017).
+Skriv ut och läs på papper. Papper är bättre än att läsa på skärm, även om du föredrar skärm (Singer & Alexander, 2017).
 
-Ta inte med datorn till klassrummet. De som tar med sig datorn får sämre betyg (Patterson & Patterson, in press).
+Ta inte med datorn till klassrummet. De som tar med sig datorn får sämre betyg (Mueller & Oppenheimer, 2014; Patterson & Patterson, in press).
+
+Håll en dialog med dig själv, föreställ dig någon som ger motargument och besvara dem. Det leder till djupare förståelse och kunskap (Zavala & Kuhn, 2017).
 
 ### Så kan du lägga upp dagen ###
 
@@ -77,8 +79,10 @@ Tips från bloggen hos Science:
 - Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). [Improving Students’ Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology](http://doi.org/10.1177/1529100612453266). *Psychological Science in the Public Interest, 14*(1), 4–58.
 - Karpicke, J. D., & Blunt, J. R. (2011). [Retrieval Practice Produces More Learning than Elaborative Studying with Concept Mapping](http://doi.org/10.1126/science.1199327). *Science, 331*(6018), 772–775. 
 - Mazza, S., Gerbier, E., Gustin, M.-P., Kasikci, Z., Koenig, O., Toppino, T. C., & Magnin, M. (2016). [Relearn Faster and Retain Longer Along With Practice, Sleep Makes Perfect](http://doi.org/10.1177/0956797616659930). *Psychological Science*, 956797616659930.
+- Mueller, P. A., & Oppenheimer, D. M. (2014). [The Pen Is Mightier Than the Keyboard: Advantages of Longhand Over Laptop Note Taking](https://doi.org/10.1177/0956797614524581). *Psychological Science, 25*(6), 1159–1168.
 - Newport, C. (2016). *Deep Work: Rules for Focused Success in a Distracted World*. Piatkus Books.
 - Passer, M. W. (2008). *Psychology: The Science of Mind and Behavior (4th ed.)*. London: McGraw-Hill Higher Education.
 - Patterson, R. W., & Patterson, R. M. (in press). [Computers and Productivity: Evidence from Laptop Use in the College Classroom](https://doi.org/10.1016/j.econedurev.2017.02.004). *Economics of Education Review*.
 - Singer, L. M., & Alexander, P. A. (2017). [Reading Across Mediums: Effects of Reading Digital and Print Texts on Comprehension and Calibration](https://doi.org/10.1080/00220973.2016.1143794). *The Journal of Experimental Education, 85*(1), 155–172.
 - Sun, D. L., Harris, N., Walther, G., & Baiocchi, M. (2014). [Peer assessment enhances student learning](http://arxiv.org/abs/1410.3853). *arXiv:1410.3853 [Physics, Stat]*.
+- Zavala, J., & Kuhn, D. (2017). [Solitary Discourse Is a Productive Activity](https://doi.org/10.1177/0956797616689248). Psychological Science.
