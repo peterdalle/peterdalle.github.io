@@ -1,6 +1,6 @@
 % Studieteknik
 % Peter M. Dahlgren, JMG
-% 2017-03-09
+% 2017-03-21
 
 Studietiden består av en mängd läsande och lärande. Konstigt nog lärs sällan effektivt lärande ut, utan studenter förmodas lära sig detta på egen hand. Därför tänkte jag ge konkreta studietips så att du ska kunna maximera dina resultat.
 
