@@ -1,15 +1,21 @@
 % Surveys
 % Peter M. Dahlgren, JMG
-% 2017-03-15
+% 2017-03-23
 
 ## Lästips
 
-- Om du vill ha en nybörjarbok som i princip tar upp det mesta du behöver veta om att göra enkäter, från ax till limpa, läs boken Enkätmetodik av Berntsson et al. (2016).
-- Om du tänker göra en survey på webben, läs Bethlehem (2012).
-- Om du vill veta mer om onlinepaneler och problemen och möjligheterna med dem, läs Baker et al. (2010).
-- Om du vill ha en snabb överblick över sampling, vanliga svarsfrekvenser, och hur du designar frågor, läs Krosnick (1999).
-- Om du vill veta hur olika kognitiva svarsstilar, kontext och svarsskalor påverkar svaren, läs Schwarz (1999).
-- Om du vill ha ett konkret exempel på hur primingeffekten påverkar studenternas svar på hur mycket sprit de drycker beroende på om man frågar efter deras religion, läs Rodriguez, Neighbors, & Foster (2014).
+### Hur du gör enkäter
+
+- Nybörjarbok som tar upp det mesta om att göra enkäter, från ax till limpa, läs boken Enkätmetodik (Berntsson et al., 2016).
+- Göra survey på webben, se Bethlehem (2012).
+- Onlinepaneler och problemen och möjligheterna med dem, läs Baker et al. (2010).
+- Sampling, vanliga svarsfrekvenser, och hur du designar frågor, läs Krosnick (1999).
+
+### Hur folk svarar på enkäter
+
+- Om kognitiva svarsstilar och hur kontext och svarsskalor påverkar svaren, läs Schwarz (1999).
+- Konkret exempel på hur primingeffekten påverkar studenternas svar på hur mycket sprit de drycker beroende på om man frågar efter deras religion, läs Rodriguez, Neighbors, & Foster (2014).
+- Mittenalternativet i Likert-skala verkar användas mer av intelligenta personer, enligt Minkov (2017).
 
 Detta är ett godtyckligt urval av litteratur. Testa att söka efter [survey method review på Google Scholar](https://scholar.google.se/scholar?q=survey+method+review&btnG=&hl=sv&as_sdt=0%2C5) också.
 
@@ -20,6 +26,7 @@ Detta är ett godtyckligt urval av litteratur. Testa att söka efter [survey met
 - Bethlehem, J. G. (2012). *Handbook of Web Surveys*. Oxford: Wiley-Blackwell.
 - Krosnick, J. A. (1999). Survey Research. *Annual Review of Psychology, 50*(1), 537–567. <https://doi.org/10.1146/annurev.psych.50.1.537>
 - Maitland, A., & Presser, S. (2016). How Accurately Do Different Evaluation Methods Predict the Reliability of Survey Questions? *Journal of Survey Statistics and Methodology, 4*(3), 362–381. <https://doi.org/10.1093/jssam/smw014>
+Minkov, M. (2017). [Middle responding: An unobtrusive measure of national cognitive ability and personality](https://doi.org/10.1016/j.paid.2017.03.041). *Personality and Individual Differences, 113*, 187–192. 
 - Rodriguez, L. M., Neighbors, C., & Foster, D. W. (2014). Priming effects of self-reported drinking and religiosity. *Psychology of Addictive Behaviors, 28*(1), 1–9. <https://doi.org/10.1037/a0031828>
 - Schwarz, N. (1999). Self-Reports: How the Questions Shape the Answers. *American Psychologist, 54*(2), 93–105.
 - Sniderman, P. M., & Grob, D. B. (1996). Innovations in Experimental Design in Attitude Surveys. *Annual Review of Sociology, 22*(1), 377–399. <https://doi.org/10.1146/annurev.soc.22.1.377>
