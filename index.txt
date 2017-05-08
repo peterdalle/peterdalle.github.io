@@ -1,8 +1,6 @@
-% Metodguiden
+% Metodguiden - innehåll
 % Peter M. Dahlgren, JMG
-% 2017-03-18
-
-Innehåll:
+% 2017-05-08
 
 **Statistik**
 
@@ -25,6 +23,7 @@ Innehåll:
 
 - [Filer](files.html)
 - [Dataset](dataset.html) ([PDF](dataset.pdf))
+- [Program](program.html) ([PDF](program.pdf))
 
 **Bonus**
 

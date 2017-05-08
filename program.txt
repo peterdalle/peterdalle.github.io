@@ -1,13 +1,18 @@
-% Program för att hämta eller analysera data
+% Program för att samla in eller analysera data
 % Peter M. Dahlgren, JMG
 % 2017-05-08
 
-En lista över diverse program du kan ladda ned för att samla in eller analysera data.
+En lista över diverse program du kan ladda ned för att samla in data från sociala medier. Samt tips på program för att analysera datan.
 
 ## Analysera sociala medier
 
 - [EchoSec](https://www.echosec.net/) - sökmotor utifrån geografisk plats (Facebook, Twitter, Pinterest m.fl.).
 - [NetVizz](https://apps.facebook.com/netvizz/) - grupper eller sidor på Facebook
+
+### Länktips
+
+- [Digital Methods Iniative (DMI): Tool database](https://wiki.digitalmethods.net/Dmi/ToolDatabase) har en bra lista över verktyg.
+- [Using Twitter as a data source: an overview of social media research tools (updated for 2017)](http://blogs.lse.ac.uk/impactofsocialsciences/2017/05/08/using-twitter-as-a-data-source-an-overview-of-social-media-research-tools-updated-for-2017/)
 
 ## Statistikprogram
 
@@ -24,14 +29,9 @@ Gratis:
 - [JASP](https://jasp-stats.org/download/) är byggt ovanpå R med de flesta vanliga funktioner inklusive bayesiansk statistik.
 - [Jamovi](https://www.jamovi.org/) är en vidareutveckling av JASP med lite annat fokus.
 
-## Avancerad statistik
+### Avancerad statistik
 
-- **[G*Power](http://www.gpower.hhu.de/)** beräknar statistisk power och sampelstorlek för experiment.
-- **[ESCI (Exploratory Software for Confidence Intervals)](http://www.latrobe.edu.au/psychology/research/research-areas/cognitive-and-developmental-psychology/esci/2001-to-2010)** simulerar konfidensintervall, Cohens d, statistisk power m.m. Användbart för planering av studier. Kräver Microsoft Excel.
-- **[Comprehensive Meta analysis](https://www.meta-analysis.com/)** underlättar metaanalyser. Betalprogram, men finns i testversion.
-- **[Process macro for SPSS and SAS](http://processmacro.org/download.html)** är en plugin som underlättar moderator- och medieringsanalys i SPSS och SAS.
-
-## Läs mer
-
-- [Digital Methods Iniative (DMI): Tool database](https://wiki.digitalmethods.net/Dmi/ToolDatabase) har en bra lista över verktyg.
-- [Using Twitter as a data source: an overview of social media research tools (updated for 2017)](http://blogs.lse.ac.uk/impactofsocialsciences/2017/05/08/using-twitter-as-a-data-source-an-overview-of-social-media-research-tools-updated-for-2017/)
+- [G*Power](http://www.gpower.hhu.de/) beräknar statistisk power och sampelstorlek för experiment.
+- [ESCI (Exploratory Software for Confidence Intervals)](http://www.latrobe.edu.au/psychology/research/research-areas/cognitive-and-developmental-psychology/esci/2001-to-2010) simulerar konfidensintervall, Cohens d, statistisk power m.m. Användbart för planering av studier. Kräver Microsoft Excel.
+- [Comprehensive Meta analysis](https://www.meta-analysis.com/) underlättar metaanalyser. Betalprogram, men finns i testversion.
+- [Process macro for SPSS and SAS](http://processmacro.org/download.html) är en plugin som underlättar moderator- och medieringsanalys i SPSS och SAS.
