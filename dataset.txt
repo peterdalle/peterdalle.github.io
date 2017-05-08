@@ -1,6 +1,6 @@
 % Datamängder på nätet att ladda ned
 % Peter M. Dahlgren, JMG
-% 2016-10-18
+% 2017-05-08
 
 Det finns tonvis med datamängder på nätet man kan ladda ned och analysera. Det stora problemet är dock att hitta dem. Här får du hjälp med just det. 
 
@@ -25,6 +25,7 @@ Samt sökmotorer för forskningsdata:
 
 ## Hitta fler datamängder
 
+- [Öppna Data](https://oppnadata.se/) - katalog från Riksarkivet som hjälper dig hitta öppna data från Sverige
 - [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
 
 ## Har du fler förslag?
