@@ -1,0 +1,381 @@
+---
+title: 'Innehållsanalys och länkanalys av #svpol'
+author: "Peter M. Dahlgren"
+date: "11 maj 2017"
+output:
+  html_document: default
+  html_notebook: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+library(RMySQL)
+library(dplyr)
+library(ggplot2)
+library(tidytext)
+library(tidyr)
+library(lubridate)
+```
+
+```{r mysql-load-tweets, echo=FALSE}
+# Anslut till MysQL
+drv <- dbDriver("MySQL")
+conn <- dbConnect(drv, host="localhost", user="root", pass="root", dbname="twittercapture")
+#dbGetQuery(conn, "SET NAMES utf8")
+#dbGetQuery(conn, "SHOW VARIABLES LIKE 'character_set_%'") # Kontrollera att vi har utf8mb4 (fullt stöd för utf8 i MySQL 5.5+).
+df_svpol <- dbGetQuery(conn, "SELECT * FROM pol_tweets")
+#df_drottninggatan <- dbGetQuery(conn, "SELECT * FROM pol_tweets WHERE (text LIKE '%drotting%' OR text LIKE '%skott%' OR text LIKE '%terror%') AND created_at BETWEEN '2017-04-01 00:00:00' AND '2017-04-09 23:59:59' ORDER BY created_at ASC;")
+
+# Stäng.
+dbDisconnect(conn)
+
+# Sätt UTF-8 på tweeten och gör POSIXct av datumsträngar.
+Encoding(df_svpol$text) <- "UTF-8"
+df_svpol$created_at <- ymd_hms(df_svpol$created_at)
+```
+
+En kort analys av innehållet på #svpol samt vilka länkar som delas. 
+
+## Data
+
+```{r mysql-stats, echo=FALSE}
+# Hämta lite statistik.
+drv <- dbDriver("MySQL")
+conn <- dbConnect(drv, host="localhost", user="root", pass="root", dbname="twittercapture")
+links <- dbGetQuery(conn, "SELECT COUNT(*) n FROM pol_urls WHERE domain != '' LIMIT 1")
+tweets <- dbGetQuery(conn, "SELECT COUNT(*) n FROM pol_tweets LIMIT 1")
+dates <- dbGetQuery(conn, "SELECT MAX(created_at) end, MIN(created_at) start FROM pol_tweets LIMIT 1")
+dbDisconnect(conn)
+```
+
+Baserat på `r format(links$n, 0)` länkar extraherade från `r format(tweets$n, 0)` tweets.
+
+Från `r dates$start` till `r dates$end` (totalt `r as.integer(difftime(as.Date(dates$end), as.Date(dates$start), units="days"))` dagar). Dock verkar inte alla länkar vara med p.g.a. tar tid att plocka ut länkarna från bit.ly och liknande tjänster som förkortar länkar.
+
+Några analyserar visar endast april månad p.g.a. för lite datorminne för att bearbeta allt.
+
+## Översikt
+
+```{r hist, echo=FALSE, fig.width=10}
+# Histogram med antal tweets per dag.
+df_svpol %>%
+  group_by(day=as.Date(created_at)) %>%
+  count(day) %>%
+  ggplot(aes(day, n)) +
+  geom_col() +
+  scale_x_date(date_breaks = "2 weeks") +
+  labs(title="Antal tweets per dag", subtitle=paste("Från", min(df_svpol$created_at), "till", max(df_svpol$created_at)), x=NULL, y=NULL) +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle=90))
+```
+
+## Vanligaste orden
+
+Stoppord ("att", "och", "så" etc) bortplockade på både svenska och engelska.
+
+```{r wordfreq, echo=FALSE, fig.height=10}
+# Tokenize.
+df_svpol_token <- df_svpol %>%
+  filter(created_at >= "2017-04-01 00:00:00" & created_at <= "2017-04-30 23:59:59") %>%
+  unnest_tokens(word, text)
+
+# Hämta Eng + Swe + egna svenska stoppord.
+data(stop_words)
+custom_stopwords <- data.frame(word=c("http", "https", "t.co", "rt", "svpol", "ä"))
+swe_stop <- read.csv("https://gist.githubusercontent.com/peterdalle/8865eb918a824a475b7ac5561f2f88e9/raw/ba2de0a5d2bddf12e3c51bc0c6d3f78759bcc973/swedish-stopwords.txt", encoding = "UTF-8", header = FALSE)
+swe_stopwords <- data.frame(word=swe_stop$V1)
+eng_stopwords <- data.frame(word=stop_words$word)
+stopwords <- rbind(custom_stopwords, eng_stopwords, swe_stopwords)
+
+# Ta bort stoppord.
+df_svpol_token <- df_svpol_token %>% anti_join(stopwords, by="word")
+
+# Plotta ordfrekvens.
+df_svpol_token %>%
+  count(word, sort = TRUE) %>%
+  #filter(n > 300) %>%
+  head(50) %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(word, n)) +
+  labs(title="Vanligaste orden", subtitle=paste("Från", min(df_svpol_token$created_at), "till", max(df_svpol_token$created_at))) +
+  geom_col() +
+  xlab(NULL) +
+  theme_bw(base_size = 14) +
+  coord_flip() 
+```
+
+```{r sentiment-load, echo=FALSE}
+df <- df_svpol %>% 
+  filter(created_at >= "2017-04-01 00:00:00" & created_at <= "2017-04-30 23:59:59")
+  
+# Svensk sentiment.
+sent_swe <- read.csv("C:/Users/Peter/Documents/GU/data/sentiment/sentimentlex.csv", header = TRUE, encoding = "UTF-8")
+sent_swe <- sent_swe %>% rename(word = X.U.FEFF.word)
+sent_swe$sentiment[sent_swe$polarity == "pos"] <- "positive"
+sent_swe$sentiment[sent_swe$polarity == "neg"] <- "negative"
+
+#sent_swe %>% count(polarity) # Antal positiva respektive negativa ord.
+sent_eng <- get_sentiments("bing") # Använd Liu Bings lexikon.
+```
+
+
+```{r sentiment-day, echo=FALSE, include=FALSE}
+# Group words by day.
+df_day <- df %>%
+  group_by(day=as.Date(created_at)) %>%
+  mutate(tweet = row_number()) %>%
+  ungroup() %>%
+  unnest_tokens(word, text) %>%
+  anti_join(stopwords, by="word")
+
+# Show joy sentiment frequency.
+sent_joy <- get_sentiments("nrc") %>% 
+  filter(sentiment == "joy")
+df_day %>%
+  inner_join(sent_joy) %>%
+  count(word, sort = TRUE)
+
+# Show fear sentiment frequency.
+df_day %>%
+  inner_join(get_sentiments("nrc") %>% filter(sentiment == "fear")) %>%
+  count(word, sort = TRUE)
+
+# Count positive & negative sentiments.
+get_sentiments("bing") %>% 
+ count(sentiment)
+
+# Create sentiment by day.
+sent <- df_day %>%
+  inner_join(sent_swe) %>%
+  count(day, sentiment) %>%
+  group_by(sentiment) %>%
+  spread(sentiment, n, fill = 0) %>%
+  mutate(sentiment = positive - negative)
+
+# Plot sentiment.
+ggplot(sent, aes(day, sentiment)) +
+  labs(title="Positiva/negativa ord (svenska) per dag", subtitle=paste("Från ", min(df_svpol$created_at),"till", max(df_svpol$created_at)), x=NULL, y="Sentiment") +
+  geom_col(show.legend = FALSE) +
+  theme_bw(base_size = 14)
+```
+
+## Sentiment per timme
+
+Förhållandet mellan positiva och negativa ord med svensk respektive engelsk sentimentordlista.
+
+Man får dramatiskt olika resultat: överväldigande positivt på svenska, överväldigande negativt på engelska. Detta är delvis en effekt av de valda ordlistorna.
+
+```{r sentiment-hour, echo=FALSE, fig.width=10}
+# Hämta antal ord per timme.
+df_hour <- df %>%
+  group_by(hour=as.POSIXct(strftime(created_at, "%Y-%m-%d %H:00:00"))) %>%
+  mutate(tweet = row_number()) %>%
+  ungroup() %>%
+  unnest_tokens(word, text) %>%
+  anti_join(stopwords, by="word")
+
+# Plotta svensk sentiment per timme.
+df_hour %>%
+  inner_join(sent_swe) %>%
+  count(hour, sentiment) %>%
+  group_by(sentiment) %>%
+  spread(sentiment, n, fill = 0) %>%
+  mutate(sentiment = positive - negative) %>%
+  ggplot(aes(hour, sentiment, fill=sentiment)) +
+  labs(title="Positiva/negativa ord per timme (svensk sentimentordlista)",
+       subtitle=paste("Från ", min(df$created_at)," till ", max(df$created_at), sep="")) +
+  geom_col(show.legend = FALSE) +
+  scale_x_datetime(date_breaks="6 hour", date_labels = "%d %B %H%:%M") +
+  theme_bw(base_size = 14) +
+  theme(axis.text.x = element_text(angle = 90))
+
+# Plotta engelsk sentiment per timme.
+df_hour %>%
+  inner_join(sent_eng) %>%
+  count(hour, sentiment) %>%
+  group_by(sentiment) %>%
+  spread(sentiment, n, fill = 0) %>%
+  mutate(sentiment = positive - negative) %>%
+  ggplot(aes(hour, sentiment, fill=sentiment)) +
+  labs(title="Positiva/negativa ord per timme (engelsk sentimentordlista)",
+       subtitle=paste("Från ", min(df$created_at)," till ", max(df$created_at), sep="")) +
+  geom_col(show.legend = FALSE) +
+  scale_x_datetime(date_breaks="6 hour", date_labels = "%d %B %H%:%M") +
+  theme_bw(base_size = 14) +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+## Ordmoln
+
+Mest förekommande orden. April månad.
+
+```{r wordcloud, echo=FALSE, fig.height=7, fig.width=8}
+# Word cloud
+library(wordcloud)
+library(reshape2)
+
+# Top 100 words.
+df_day %>%
+  #anti_join(stop_words) %>%
+  count(word) %>%
+  with(wordcloud(word, n, max.words=150, ordered.colors=TRUE, color=TRUE, min.freq=50))
+```
+
+Svensk sentiment. April månad.
+
+```{r wordcloud-sentiment-swe, echo=FALSE, fig.height=7, fig.width=8}
+# Top positive and negative words (SWE).
+df_day %>%
+  inner_join(sent_swe) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  reshape2::acast(word ~ sentiment, value.var = "n", fill = 0) %>%
+  comparison.cloud(colors = c("#F8766D", "#00BFC4"), max.words = 250)
+```
+
+Engelsk sentiment. April månad.
+
+```{r wordcloud-sentiment-eng, echo=FALSE, fig.height=7, fig.width=8}
+# Top positive and negative words (ENG).
+df_day %>%
+  inner_join(sent_eng) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  reshape2::acast(word ~ sentiment, value.var = "n", fill = 0) %>%
+  comparison.cloud(colors = c("#F8766D", "#00BFC4"), max.words = 250)
+
+```
+
+## Toppdomäner
+
+Baserat på all tillgänglig data.
+
+```{r links-topdomains, fig.height=7, echo=FALSE}
+# Connect to MySQL.
+drv <- dbDriver("MySQL")
+conn <- dbConnect(drv, host="localhost", user="root", pass="root", dbname="twittercapture")
+df_userdomain <- dbGetQuery(conn, "SELECT from_user_id, from_user_name, domain, created_at FROM pol_urls WHERE domain != '';")
+x <- dbDisconnect(conn)
+
+# Get top domains.
+df_topdomains <- df_userdomain %>% group_by(domain) %>% count(domain, sort=TRUE) 
+df_topdomains$domain <- factor(df_topdomains$domain, levels=rev(df_topdomains$domain)) # Set factors to avoid ggplot ordering + reverse order.
+
+# Top domains.
+df_topdomains %>%
+  filter(domain != c("twitter.com")) %>% # Remove Twitter since outlier.
+  head(40) %>%
+  ggplot(aes(domain, n)) +
+  geom_col() +
+  labs(title="Mest delade domäner på #svpol", subtitle="(twitter.com borttagen p.g.a. outlier)", x=NULL) +
+  theme_bw(base_size = 14) +
+  coord_flip()
+```
+
+
+## Toppanvändare
+
+```{r links-topusers, fig.height=7, echo=FALSE}
+# Top users.
+df_topusers <- df_userdomain %>% group_by(from_user_name) %>% count(from_user_name, sort=TRUE) 
+df_topusers$from_user_name <- factor(df_topusers$from_user_name, levels=rev(df_topusers$from_user_name)) # Set factors to avoid ggplot ordering + reverse order.
+
+df_topusers %>%
+  head(30) %>%
+  ggplot(aes(from_user_name, n)) +
+  geom_col() +
+  labs(title="Användare som postat flest länkar", x=NULL) +
+  theme_bw(base_size = 14) +
+  coord_flip()
+```
+
+## Vem är RiktigaNyheter?
+
+```{r user-riktiganyheter, echo=FALSE}
+df_userdomain %>%
+  filter(from_user_name == "RiktigaNyheter") %>%
+  count(domain, sort=TRUE) %>%
+  ggplot(aes(domain, n)) +
+  geom_col() +
+  labs(title="Domäner som RiktigaNyheter länkar till", x=NULL) +
+  theme_bw(base_size = 14) +
+  coord_flip()
+```
+
+## Domännätverk
+
+Hur många gånger två domäner förekommer tillsammans bland en och samma användare (co-occurrences). Ju grövre tjocklek på linjen, desto fler gånger har domänerna förekommit tillsammans. Samma metod som Kate Starbird har använt (se [Information Wars: A Window into the Alternative Media Ecosystem](https://medium.com/hci-design-at-uw/information-wars-a-window-into-the-alternative-media-ecosystem-a1347f32fd8f)).
+
+Notera: Domänerna behöver inte ha förekommit i samma tweet av användaren, utan kan ha förekommit i två oberoende tweets från samma användare.
+
+```{r links-domainnetwork, echo=FALSE, fig.width=12, fig.height=10}
+#library(devtools)
+#install_github("dgrtwo/widyr")
+library(widyr)
+library(igraph)
+library(ggraph)
+
+# Filter out top domains + pair count.
+df <- df_userdomain %>%
+  filter(domain != "twitter.com") %>%
+  pairwise_count(domain, from_user_name, sort=TRUE)
+
+# Create graph
+set.seed(1234)
+graph <- df %>%
+  filter(n >= 500) %>%
+  graph_from_data_frame()
+
+# Calculate indegree.
+V(graph)$indegree <- degree(graph, mode="in")
+
+# Plot graph.
+graph %>%
+  ggraph(layout="drl") +
+  geom_edge_link(aes(edge_alpha=n ^ 2, edge_width=n, edge_colour=n)) +
+  #geom_edge_density(aes(fill=n)) +
+  geom_node_point(color="red", aes(size=indegree)) +
+  geom_node_text(aes(label=name), vjust=1.8, size=4) +
+  ggtitle(paste("Domännätverk med domäner som förekommer tillsammans (500+ gånger)"), subtitle=paste("Baserat på", sum(df$n), "relationer från", nrow(df_userdomain), "tweets från", min(df_userdomain$created_at), "till", max(df_userdomain$created_at))) +
+  theme_graph() +
+  theme(legend.position = "none")
+```
+
+Samma sak en gång till, fast 1 000 co-occurrences som godtycklig gräns i stället för att göra nätverket lite mer lättöverskådligt. Som synes förekommer länkar till kvintetten Expressen, Aftonbladet, SVT, DN och SvD mest tillsammans. 
+
+```{r links-domainnetwork2, echo=FALSE, fig.width=12, fig.height=10}
+#library(devtools)
+#install_github("dgrtwo/widyr")
+library(widyr)
+library(igraph)
+library(ggraph)
+
+# Filter out top domains + pair count.
+df <- df_userdomain %>%
+  filter(domain != "twitter.com") %>%
+  pairwise_count(domain, from_user_name, sort=TRUE)
+
+# Create graph
+set.seed(1234)
+graph <- df %>%
+  filter(n >= 1000) %>%
+  graph_from_data_frame()
+
+# Calculate indegree.
+V(graph)$indegree <- degree(graph, mode="in")
+
+# Plot graph.
+graph %>%
+  ggraph(layout="drl") +
+  geom_edge_link(aes(edge_alpha=n ^ 2, edge_width=n, edge_colour=n)) +
+  #geom_edge_density(aes(fill=n)) +
+  geom_node_point(color="red", aes(size=indegree)) +
+  geom_node_text(aes(label=name), vjust=1.8, size=5) +
+  ggtitle(paste("Domännätverk med domäner som förekommer tillsammans (1 000+ gånger)"), subtitle=paste("Baserat på", sum(df$n), "relationer från", nrow(df_userdomain), "tweets från", min(df_userdomain$created_at), "till", max(df_userdomain$created_at))) +
+  theme_graph() +
+  theme(legend.position = "none")
+```
+
+Vilken domän har flest inlänkar i nätverket?
+
+```{r, echo=FALSE}
+V(graph)$name[degree(graph) == max(degree(graph))]
+```
