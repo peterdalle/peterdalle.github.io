@@ -1,6 +1,6 @@
 ﻿% Statistiska termer som används i forskningsstudier: En lathund för journalister
 % Peter M. Dahlgren, JMG
-% 2017-05-08
+% 2017-05-21
 
 Vid bedömning av akademiska studier konfronteras journalister inte bara av siffror, utan också begrepp som "p-värde", "statistisk inferens" och "regression".
 
@@ -62,6 +62,7 @@ Notera att en förståelse för statistiska termer inte innebär att du bör kry
 
 * [Statistics and Probability Dictionary](http://stattrek.com/statistics/dictionary.aspx)
 * [Introduction to Statistics: Inference](https://www.edx.org/course/introduction-statistics-inference-uc-berkeleyx-stat2-3x)
+* [How do you know a paper is legit?](http://callingbullshit.org/tools/tools_legit.html)
 
 ## Referenser
 
