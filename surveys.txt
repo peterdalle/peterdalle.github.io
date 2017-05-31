@@ -1,14 +1,14 @@
 % Surveys
 % Peter M. Dahlgren, JMG
-% 2017-03-24
+% 2017-05-31
 
 ## Lästips
+
+Detta är godtyckliga urval av litteratur. Testa att söka efter [survey method review](https://scholar.google.se/scholar?q=survey+method+review&btnG=&hl=sv&as_sdt=0%2C5) på Google Scholar också.
 
 ### Hur du gör enkäter
 
 - Nybörjarbok som tar upp det mesta om att göra enkäter, från ax till limpa, läs boken Enkätmetodik (Berntsson et al., 2016).
-- Göra survey på webben (Bethlehem, 2012).
-- Onlinepaneler: problem och möjligheterna med dem (Baker et al., 2010).
 - Sampling, vanliga svarsfrekvenser, och hur du designar frågor (Krosnick, 1999).
 
 ### Hur folk svarar på enkäter
@@ -18,11 +18,25 @@
 - Mittenalternativet i Likert-skala verkar användas mer av intelligenta personer (Minkov, 2017).
 - Datakvaliteten på mobilenkäter verkar inte vara sämre än webbenkäter (Sommer, Diedenhofen, & Musch, 2016).
 
-Detta är ett godtyckligt urval av litteratur. Testa att söka efter [survey method review på Google Scholar](https://scholar.google.se/scholar?q=survey+method+review&btnG=&hl=sv&as_sdt=0%2C5) också.
+### Enkäter på nätet
 
-## Litteratur
+- Bok om surveyundersökningar på webben (Bethlehem, 2012).
+- Onlinepaneler: problem och möjligheterna med dem (Baker et al., 2010).
+- Mechanical Turk inte nödvändigtvis dåligt: bättre än studenter men sämre än sannolikhetsurval (Berinsky, Huber, & Lenz, 2012).
+
+### Hitta frågebatteri
+
+Det finns flera databaser som samlar frågebatterier inom samhällsvetenskapen.
+
+- [Media Exposure Measures](https://mediaexposuremeasures.org/) från Amsterdam School of Communication Research (ASCoR)
+- [Measurement Instrument Database for the Social Sciences (MIDSS)](http://www.midss.org/)
+- [Decision Making Individual Differences Inventory (DMIDI)](http://www.sjdm.org/dmidi/)
+- [PsycTESTS - psychological measures, scales, and instrumentation tools](http://www.apa.org/pubs/databases/psyctests/)
+
+## Litteratur och referenser
 
 - Baker, R., Blumberg, S. J., Brick, J. M., Couper, M. P., Courtright, M., Dennis, J. M., … Zahs, D. (2010). Research Synthesis: AAPOR Report on Online Panels. *Public Opinion Quarterly, 74*(4), 711–781. <https://doi.org/10.1093/poq/nfq048>
+- Berinsky, A. J., Huber, G. A., & Lenz, G. S. (2012). Evaluating Online Labor Markets for Experimental Research: Amazon.com’s Mechanical Turk. *Political Analysis, 20*(3), 351–368. <https://doi.org/10.1093/pan/mpr057>
 - Berntson, E., Bernhard-Oettel, C., Hellgren, J., Näswall, K., & Sverke, M. (2016). *Enkätmetodik*. Natur & Kultur Akademisk.
 - Bethlehem, J. G. (2012). *Handbook of Web Surveys*. Oxford: Wiley-Blackwell.
 - Krosnick, J. A. (1999). Survey Research. *Annual Review of Psychology, 50*(1), 537–567. <https://doi.org/10.1146/annurev.psych.50.1.537>

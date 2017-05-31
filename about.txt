@@ -1,6 +1,6 @@
 ﻿% Om
 % Peter M. Dahlgren, JMG
-% 2017-05-08
+% 2017-05-31
 
 Denna hemsida har skapats för att förbättra studenternas kunskaper i grundläggande [datavisualisering](dataviz.html) och [statistik](stats.html).
 
@@ -18,12 +18,24 @@ Skicka dock inte frågor som du kan lösa på egen hand genom att använda en s�
 
 ## Källkod
 
-Källkoden till hemsidan [finns på GitHub](https://github.com/peterdalle/peterdalle.github.io). Observera dock [licensen på textinnehållet](http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Källkoden till hemsidan [finns på GitHub](https://github.com/peterdalle/peterdalle.github.io).
+
+## Upphovsrätt
+
+[Erkännande-Ickekommersiell-IngaBearbetningar 4.0 Internationell (CC BY-NC-ND 4.0)
+](http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+Du får dela, kopiera och vidaredistribuera materialet oavsett medium eller format på följande villkor:
+
+- ge erkännande (Peter M. Dahlgren)
+- inte använda kommersiellt
+- inte distribuera modifierat material
 
 ## Ändringar
 
 | När        | Vad |
 | ---------- | ------------------------------------------------------------ |
+| 2017-05-31 | Lagt till frågebatterier och onlineenkäter på [Surveys](surveys.html). |
 | 2017-05-08 | Lagt till [Program](program.html). |
 | 2017-03-15 | Lagt till [Statistiska termer som används i forskningsstudier: En lathund för journalister](journalist.html) samt [P-värden och hur man tolkar dem](p-values.html). |
 | 2016-11-24 | Utökat många texter. Lagt till [FAQ](faq.html) och [surveys](surveys.html). |
