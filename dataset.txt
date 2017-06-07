@@ -30,8 +30,8 @@ Sökmotorer för forskningsdata:
 
 ## Surveyundersökningar
 
-- [SOM-undersökningen 1986 och framåt](https://snd.gu.se/sv/catalogue/search/SOM) (Sverige)
-- [The General Social Survey​ 1972 och framåt](http://gss.norc.org/) (USA)
+- [SOM-undersökningen 1986–](https://snd.gu.se/sv/catalogue/search/SOM) (Sverige)
+- [The General Social Survey 1972–](http://gss.norc.org/) (USA)
 
 ## Har du fler förslag?
 
