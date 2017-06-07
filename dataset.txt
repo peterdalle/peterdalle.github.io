@@ -6,14 +6,14 @@ Det finns tonvis med datamängder på nätet man kan ladda ned och analysera. De
 
 ## Forskningsdata
 
-Det finns datatjänster som specialiserar sig på att lagra forskningsdata. I Sverige har vi [Svensk nationell datatjänst (SND)](https://snd.gu.se/) som exempelvis lagrar den årliga [SOM-undersökningen](https://snd.gu.se/sv/catalogue/search/SOM).
+Datatjänster som lagrar forskningsdata. I Sverige: [Svensk nationell datatjänst (SND)](https://snd.gu.se/).
 
-Det finns också internationella tjänster för forskningsdata:
+Internationella:
 
 - [Consortium of European Social Science Data Archives (CESSDA)](http://cessda.net/)
 - [Inter-university Consortium for Political and Social Research (ICPSR)](http://www.icpsr.umich.edu/icpsrweb/ICPSR/index.jsp)
 
-Samt sökmotorer för forskningsdata:
+Sökmotorer för forskningsdata:
 
 - [re3data.org](http://www.re3data.org/)
 - [Metadata Search](http://search.datacite.org/ui)
@@ -28,8 +28,11 @@ Samt sökmotorer för forskningsdata:
 - [Öppna Data](https://oppnadata.se/) - katalog från Riksarkivet som hjälper dig hitta öppna data från Sverige
 - [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
 
+## Surveyundersökningar
+
+- [SOM-undersökningen 1986 och framåt](https://snd.gu.se/sv/catalogue/search/SOM) (Sverige)
+- [The General Social Survey​ 1972 och framåt](http://gss.norc.org/) (USA)
+
 ## Har du fler förslag?
 
 Denna lista utökas kontinuerligt. [Kontakta gärna mig med tips](about.html).
-
-Tänk på att listan innehåller en bias mot samhällsvetenskap.

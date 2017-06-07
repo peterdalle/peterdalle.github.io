@@ -56,7 +56,7 @@ I exemplet ovan med bollarna innebär det att fördelningen av bollarna påverka
 Här är några vanliga missförstånd kring p-värden:
 
 - P-värdet visar *inte* sannolikheten att nollhypotesen är sann. (Utgångspunkten är alltid att nollhypoten är sann.)
-- P-värdet visar *inte* vad som är relevant, viktigt eller vetenskapligt intressant. (P-värdet har med slumpen att göra.)
+- P-värdet visar *inte* vad som är relevant, viktigt eller vetenskapligt intressant. (P-värdet har enbart med datan att göra.)
 - P-värdet visar *inte* sannolikheten att resultatet beror på slumpen. (Slumpen är utgångspunkten, se första punkten.)
 - P-värdet visar *inte* sannolikheten att få samma resultat om gör analysen en gång till.
 - P-värdet visar *inte* storleken på sambandet. (Eftersom sampelstorleken skiljer sig åt kommer p-värdet skilja sig åt.)
@@ -75,11 +75,11 @@ Gränsen 0,05 är fullständigt godtycklig och används av historiska skäl. Gr�
 
 ## Vad är nollhypotes och alternativ hypotes?
 
-Nollhypotesen är antagandet att det *inte* finns något samband mellan två variabler.
+Nollhypotesen är antagandet att det *inte* finns något samband mellan två variabler. Nollhypotesen skrivs ofta H<sub>0</sub>.
 
-Den alternativa hypotesen är antagandet att det *finns* en skillnad mellan två variabler.
+Den alternativa hypotesen är antagandet att det *finns* en skillnad mellan två variabler. Den alternativa hypotesen skrivs ofta H<sub>1</sub>.
 
-Om du signifikanstestar ett sambandsmått är nollhypotesen detsamma som nollsamband. Med andra ord att Pearsons r = 0. Ju längre ifrån 0 sambandet är, desto lägre kommer p-värdet att bli. Statistiska tester utgår alltid från nollhypotesen och testar hur extremt resultatet blir.
+Om du signifikanstestar ett sambandsmått är nollhypotesen "det finns inget samband". Med andra ord att sambandsmåttet är 0 (såsom Pearsons r = 0.0). Ju längre ifrån 0 sambandet är, desto lägre kommer p-värdet att bli. Statistiska tester jämför med andra ord hur extremt resultatet är i förhållande till 0.
 
 ## P-värdet i SPSS
 
@@ -87,9 +87,9 @@ Titta i kolumnen *Approximate Significance* (*Approx. Sig.*) eller bara *Sig*.
 
 ## Rapportera p-värden
 
-P-värden rapporteras alltid tillsammans med ett statistikt test, till exempel sambandsmått. Skriv därför p-värdet efter sambandsmåttet. Rapportera alltid p-värdet med 3 decimaler.
+P-värden rapporteras alltid tillsammans med ett statistikt test, till exempel sambandsmått. Skriv därför p-värdet efter sambandsmåttet. Rapportera alltid p-värdet med 3 decimaler. Skriv `p < 0,001` om du får fram tre nollor.
 
-Exempel med Pearsons r:
+Exempel 1:
 
 > Det fanns en medelstor positiv korrelation mellan tidningsläsning och politisk kunskap (`r = 0,31; p = 0,002`).
 
@@ -97,7 +97,7 @@ Här syftar `r` på Pearsons r. Notera att texten i princip skrivs i följande f
 
 Du kan inte skriva att tidningsläsning *påverkar* politisk kunskap eftersom vi inte vet den kausala riktningen (om du inte genomför experiment eller dylikt).
 
-Exempel med Cramérs V:
+Exempel 2:
 
 > Det fanns en medelstor korrelation mellan tidningsläsning och politisk kunskap (`Cramérs v = 0,31; p = 0,002`).
 
