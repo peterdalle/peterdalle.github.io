@@ -1,6 +1,6 @@
 % Vanliga frågor och svar FAQ
 % Peter M. Dahlgren, JMG
-% 2017-03-18
+% 2017-06-29
 
 Här sammanställs frågor som dykt upp från studenter under årens lopp, inklusive svar med tips på vidare läsning. Svaren fungerar som komplement till kurslitteraturen, inte ersättning.
 
@@ -35,6 +35,10 @@ Det är ämneskunskap som framför allt bör guida tolkningen av sambandsmått. 
 - 0,50 = stort samband
 
 Pearsons r varierar från -1 till +1. Cramérs V kan bara variera från 0 till 1 eftersom det är på nominalskalenivå.
+
+Sambandsmått i samhällsvetenskap är oftast ganska små. Se bilden nedan. Den visar att det genomsnittliga samabandsmåttet är r = 0,21.
+
+![Medeleffektstorlek r = 0,21 baserad på 25 000 studier med 8 miljoner människor över 100 år ([Richard, Bond, & Stokes-Zoota, 2003)](https://doi.org/10.1037/1089-2680.7.4.331).](/images/mean-correlation.png)
 
 ### Vad är skillnaden mellan Phi och Cramérs V?
 
@@ -112,3 +116,4 @@ I SPSS kan du använda verktyget `Analyze` > `Tables` > `Custom Tables`. Du kan 
 ## Referenser
 
 - Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences (2 edition)*. Hillsdale, N.J: Routledge.
+- Richard, F. D., Bond, C. F., & Stokes-Zoota, J. J. (2003). [One Hundred Years of Social Psychology Quantitatively Described](https://doi.org/10.1037/1089-2680.7.4.331). *Review of General Psychology, 7*(4), 331–363.
