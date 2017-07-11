@@ -38,7 +38,7 @@ Pearsons r varierar från -1 till +1. Cramérs V kan bara variera från 0 till 1
 
 Sambandsmått i samhällsvetenskap är oftast ganska små. Se bilden nedan. Den visar att det genomsnittliga samabandsmåttet är r = 0,21.
 
-![Medeleffektstorlek r = 0,21 baserad på 25 000 studier med 8 miljoner människor över 100 år ([Richard, Bond, & Stokes-Zoota, 2003)](https://doi.org/10.1037/1089-2680.7.4.331).](/images/mean-correlation.png)
+![Medeleffektstorlek r = 0,21 baserad på 25 000 studier med 8 miljoner människor över 100 år ([Richard, Bond, & Stokes-Zoota, 2003)](https://doi.org/10.1037/1089-2680.7.4.331).](images/mean-correlation.png)
 
 ### Vad är skillnaden mellan Phi och Cramérs V?
 
