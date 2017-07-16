@@ -8,6 +8,7 @@ En lista över diverse program du kan ladda ned för att samla in data från soc
 
 - [EchoSec](https://www.echosec.net/) - sökmotor utifrån geografisk plats (Facebook, Twitter, Pinterest m.fl.).
 - [NetVizz](https://apps.facebook.com/netvizz/) - grupper eller sidor på Facebook
+- [Tweetbeaver](https://tweetbeaver.com/) - många små funktioner för att samla in data från Twitter (convert @name to ID, check if two accounts follow each other, download a user's favorites, search within a user's favorites, download a user's timeline etc.)
 
 ### Länktips
 
