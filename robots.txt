@@ -1,0 +1,2 @@
+﻿Disallow: /analysis/
+Disallow: /notebooks/
