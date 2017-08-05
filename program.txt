@@ -1,6 +1,6 @@
 % Program för att samla in eller analysera data
 % Peter M. Dahlgren, JMG
-% 2017-05-08
+% 2017-08-05
 
 En lista över diverse program du kan ladda ned för att samla in data från sociala medier. Samt tips på program för att analysera datan.
 
@@ -15,6 +15,12 @@ En lista över diverse program du kan ladda ned för att samla in data från soc
 - [Digital Methods Iniative (DMI): Tool database](https://wiki.digitalmethods.net/Dmi/ToolDatabase) har en bra lista över verktyg.
 - [Using Twitter as a data source: an overview of social media research tools (updated for 2017)](http://blogs.lse.ac.uk/impactofsocialsciences/2017/05/08/using-twitter-as-a-data-source-an-overview-of-social-media-research-tools-updated-for-2017/)
 - [Using Google Trends data for research? Here are 6 questions to ask](https://medium.com/@pewresearch/using-google-trends-data-for-research-here-are-6-questions-to-ask-a7097f5fb526)
+
+## Rita grafer och diagram
+
+Program för att rita boxar och pilar. Användbart för att rita modeller av olika slag, som statistiska modeller och [SEM](https://en.wikipedia.org/wiki/Structural_equation_modeling).
+
+- [Dia](http://dia-installer.de/) is a program to draw structured diagrams.
 
 ## Statistikprogram
 
