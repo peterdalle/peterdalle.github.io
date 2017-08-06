@@ -1,7 +1,10 @@
 @echo off
-REM Convert all TXT files in current directory to PDF files.
+REM Convert all MD files in current directory to PDF files.
 
-for %%f in (*.txt) do (
- echo %%~nf
- pandoc -s -S "%%~nf.txt" -o "%%~nf.pdf"
+for %%f in (*.md) do (
+ if "%%f" == "README.md" (
+ 	echo * Skipping README
+ ) ELSE (
+ 	echo %%~nf pandoc -s -S "%%~nf.md" -o "%%~nf.pdf"
+ )
 )
