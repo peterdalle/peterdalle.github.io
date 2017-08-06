@@ -1,12 +1,13 @@
 % Metodguiden - innehåll
 % Peter M. Dahlgren, JMG
-% 2017-05-08
+% 2017-08-06
 
 **Statistik**
 
 - [Statistik](stats.html) ([PDF](stats.pdf))
 - [P-värden och hur man tolkar dem](p-values.html) ([PDF](p-values.pdf))
 - [Statistiska termer som används i forskningsstudier: En lathund för journalister](journalist.html) ([PDF](journalist.pdf))
+- [Checklista för statistika undersökningar](checklist-stats.html) ([PDF](checklist-stats.pdf))
 
 **Surveys, visualisering och FAQ**
 

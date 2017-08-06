@@ -1,6 +1,6 @@
 ﻿% Statistik
 % Peter M. Dahlgren, JMG
-% 2017-05-08
+% 2017-08-06
 
 Här hittar du:
 
@@ -99,6 +99,10 @@ All inferentiell statistik kan egentligen kokas ned till en enkel formel: <code>
 | **[Interpreting Correlations - an interactive visualization](http://rpsychologist.com/d3/correlation/)** | Dra i reglaget för att påverka storleken på korrelationen, och hur korrelationen samvarierar (ursäkta ordvitsen) med variansen. |
 | **[Rock 'n Polls](http://rocknpoll.graphics/)** | Se hur slumpmässigt urval påverkar resultatet av en opinionsundersökning. |
 | **[Sampling Distribution](http://onlinestatbook.com/stat_sim/sampling_dist/index.html)** | Visar effekten av centrala gränsvärdessatsen, och hur stickprovets medelvärde från en distribution av valfri form bildar en normalfördelning. |
+
+## Checklista
+
+[Checklista för statistika undersökningar](checklist-stats.html) ger dig kritiska frågor du bör ställa till olika former av statistiska undersökningar såsom opinionsundersökningar.
 
 ## Lär dig mer
 

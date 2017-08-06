@@ -1,6 +1,6 @@
 ﻿% Om
 % Peter M. Dahlgren, JMG
-% 2017-05-31
+% 2017-08-06
 
 Denna hemsida har skapats för att förbättra studenternas kunskaper i grundläggande [datavisualisering](dataviz.html) och [statistik](stats.html).
 
@@ -35,6 +35,7 @@ Du får dela, kopiera och vidaredistribuera materialet oavsett medium eller form
 
 | När        | Vad |
 | ---------- | ------------------------------------------------------------ |
+| 2017-08-06 | Lagt till [Checklista för statistika undersökningar](checklist-stats.html). |
 | 2017-05-31 | Lagt till frågebatterier och onlineenkäter på [Surveys](surveys.html). |
 | 2017-05-08 | Lagt till [Program](program.html). |
 | 2017-03-15 | Lagt till [Statistiska termer som används i forskningsstudier: En lathund för journalister](journalist.html) samt [P-värden och hur man tolkar dem](p-values.html). |
