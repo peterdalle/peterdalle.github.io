@@ -1,6 +1,6 @@
 % Datavisualisering
 % Peter M. Dahlgren, JMG
-% 2016-09-02
+% 2017-08-18
 
 Att presentera sitt forskningsresultat visuellt är viktigt för att dels kommunicera forskning och dels skapa bättre förståelse för resultaten. Här får du praktiska tips på hur du kan göra tabeller och diagram som är någorlunda snygga, korrekta och pedagogiska. 
 
@@ -263,25 +263,10 @@ I det här fallet står **r** för Pearsons korrelationskoefficient och **p** st
 
 Skriv alltid ut det fullständiga p-värdet med tre decimaler, till exempel p=0,039. Då undviker du avrundningsfel, så att p=0,051 inte blir p<0,05 av misstag, och du undviker också att p-värdet behandlas dikotomt som signifikant (p<0,05) respektive icke-signifikant (p>0,05).
 
-## Kritiska frågor
+## Se även
 
-Har du gjort en tabell eller diagram, eller ska du bedöma någon annans? Använd dessa frågor för att hitta svagheter och uppskatta kvaliteten på tabellens utformning eller diagrammets grafik.
-
-Diagram och tabeller:
-
-1. Finns det en rubrik där det tydligt framgår vad det visar?
-2. Kan den läsas fristående från texten?
-
-Diagram:
-
-1. Är den oberoende variabeln placerad på den liggande X-axeln?
-2. Är den beroende variabeln placerad på stående Y-axeln?
-3. Är någon utav axlarna beskurna så att eventuella värden inte börjar på 0?
-4. Saknas det någon information för att tolka diagrammet? Framgår det vad axlarna betyder?
-
-Notera att dessa kritiska frågor är inriktade på kvaliteten på själva diagrammets grafik. När det kommer till metod är det naturligtvis viktigt att även urval, sampelstorlek, enkätfrågor och dylikt är lämpliga för att slutsatserna från diagrammet är valida. 
-
-## Lär dig mer
+- [DataViz project](http://datavizproject.com/) - katalog över olika typer av grafer och vilken typ av data som krävs för att skapa graferna.
+- [Checklista för statistika undersökningar](checklist-stats.html) - kritiska frågor för att bedöma någons tabeller eller diagram.
 
 ### Video
 

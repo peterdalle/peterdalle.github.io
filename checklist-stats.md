@@ -72,19 +72,23 @@ Alla frågor kommer inte vara relevanta för en specifik undersökning, utan fr�
 
 ## Diagram och grafik
 
-1. Har staplar beskurits på ett sådant sätt att skillnader ser större ut än vad de egentligen är?
+1. Kan grafiken läsas fristående från den löpande texten?
 
-2. Finns alla relevanta etiketter med, alltså vad staplarna och axlarna betyder?
+2. Är den oberoende variabeln placerad på X-axeln (liggande), och beroende variabeln på Y-axeln (stående)?
 
-3. Finns det något som utelämnats från diagrammet jämfört med vad som gjordes i undersökningen? 
+3. Har staplar beskurits på ett sådant sätt att skillnader ser större ut än vad de egentligen är?
 
-4. Framgår det hur många personer (eller analysenheter) som ingår i diagrammet?
+4. Finns alla relevanta etiketter med, alltså vad staplarna och axlarna betyder?
 
-5. Används procent när det vore bättre att använda "råa" siffror?
+5. Finns det något som utelämnats från diagrammet jämfört med vad som gjordes i undersökningen? 
 
-6. Finns felmarginaler med? Används felmarginaler trots att det inte är ett slumpmässigt urval? Felmarginaler fungerar bara om det är ett slumpmässigt urval.
+6. Framgår det hur många personer (eller analysenheter) som ingår i diagrammet?
 
-7. Har variablerna i diagrammet omkodats? Om man till exempel bara analyserar värdet 10 på en 10-gradig skala blir resultatet mer extremt, se [That viral graph about millennials’ declining support for democracy? It’s very misleading](https://www.washingtonpost.com/news/monkey-cage/wp/2016/12/05/that-viral-graph-about-millennials-declining-support-for-democracy-its-very-misleading/).
+7. Används procent när det vore bättre att använda "råa" siffror?
+
+8. Finns felmarginaler med? Används felmarginaler trots att det inte är ett slumpmässigt urval? Felmarginaler fungerar bara om det är ett slumpmässigt urval.
+
+9. Har variablerna i diagrammet omkodats? Om man till exempel bara analyserar värdet 10 på en 10-gradig skala blir resultatet mer extremt, se [That viral graph about millennials’ declining support for democracy? It’s very misleading](https://www.washingtonpost.com/news/monkey-cage/wp/2016/12/05/that-viral-graph-about-millennials-declining-support-for-democracy-its-very-misleading/).
 
 ## Se även
 
