@@ -1,8 +1,8 @@
 ﻿% Om
 % Peter M. Dahlgren, JMG
-% 2017-08-06
+% 2017-08-17
 
-Denna hemsida har skapats för att förbättra studenternas kunskaper i grundläggande [datavisualisering](dataviz.html) och [statistik](stats.html).
+Denna hemsida har skapats för att förbättra studenternas kunskaper i grundläggande [statistik](stats.html) och [datavisualisering](dataviz.html).
 
 Guiden är inriktad mot samhällsvetenskap, och då framför allt medie- och kommunikationsvetenskap samt journalistik. Det finns också en bias mot enkäter och experimentell metod.
 
@@ -12,9 +12,7 @@ Om du är lärare är du välkommen att länka till denna metodguide. Adressen t
 
 ## Kontakta
 
-Har du synpunkter eller hittat faktafel, hör av dig till [Peter M. Dahlgren](http://peterdahlgren.com/contact/), institutionen för journalistik, medier och kommunikation (JMG), Göteborgs universitet.
-
-Skicka dock inte frågor som du kan lösa på egen hand genom att använda en sökmotor tio minuter.
+Har du synpunkter eller hittat fel, hör av dig till [Peter M. Dahlgren](http://peterdahlgren.com/contact/), institutionen för journalistik, medier och kommunikation (JMG), Göteborgs universitet.
 
 ## Källkod
 
@@ -27,14 +25,15 @@ Källkoden till hemsidan [finns på GitHub](https://github.com/peterdalle/peterd
 
 Du får dela, kopiera och vidaredistribuera materialet oavsett medium eller format på följande villkor:
 
-- ge erkännande (Peter M. Dahlgren)
-- inte använda kommersiellt
-- inte distribuera modifierat material
+- ge erkännande till Peter M. Dahlgren
+- använd inte kommersiellt
+- distribuera inte modifierat material
 
 ## Ändringar
 
 | När        | Vad |
 | ---------- | ------------------------------------------------------------ |
+| 2017-08-17 | Lagt till [Tveksamma forskningspraktiker](qrp.html). |
 | 2017-08-06 | Lagt till [Checklista för statistika undersökningar](checklist-stats.html). |
 | 2017-05-31 | Lagt till frågebatterier och onlineenkäter på [Surveys](surveys.html). |
 | 2017-05-08 | Lagt till [Program](program.html). |
