@@ -36,6 +36,8 @@ Mycket av de tveksamma forskningspraktikerna har egentligen ingenting med statis
 
 ### Ecological fallacy
 
+### Base rate fallacy
+
 ## Grafik och grafer
 
 ### Truncate Y-axis

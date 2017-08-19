@@ -2,7 +2,7 @@
 % Peter M. Dahlgren, JMG
 % 2017-08-05
 
-En lista över diverse program du kan ladda ned för att samla in data från sociala medier. Samt tips på program för att analysera datan.
+En lista över diverse program du kan ladda ned för att samla in eller analysera data av olika slag.
 
 ## Analysera sociala medier
 
@@ -21,6 +21,10 @@ En lista över diverse program du kan ladda ned för att samla in data från soc
 Program för att rita boxar och pilar. Användbart för att rita modeller av olika slag, som statistiska modeller och [SEM](https://en.wikipedia.org/wiki/Structural_equation_modeling).
 
 - [Dia](http://dia-installer.de/) is a program to draw structured diagrams.
+
+## Kartor
+
+- [QGIS](http://www.qgis.org/) - free and open source geographic information system.
 
 ## Statistikprogram
 
