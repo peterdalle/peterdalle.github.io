@@ -1,9 +1,5 @@
 # peterdalle.github.io
 
-Hemsida om grundläggande statistik och datavisualisering.
+Hemsida om grundläggande statistik och datavisualisering primärt för studenter inom medie- och kommunikationsvetenskap och journalistik på institutionen för journalistik, medier och kommunikation (JMG) på Göteborgs universitet.
 
-Alla texter är skrivna i [Markdown](https://sv.wikipedia.org/wiki/Markdown) och kompileras med [pandoc](http://pandoc.org/) till både HTML och PDF.
-
-HTML-mallarna är byggda på [Bootstrap 3](http://getbootstrap.com/) med ett [tema inspirerat från GitHub](https://github.com/slider23/bootstrap-theme-github).
-
-Hemsidans beteende styrs med [jQuery](https://jquery.com/).
+Alla texter är skrivna i [RMarkdown](http://rmarkdown.rstudio.com/) och kompileras automatiskt med [bookdown](https://bookdown.org/) till HTML, PDF och EPUB.
