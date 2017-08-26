@@ -1,98 +1,130 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html >
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-  <meta name="author" content="Peter M. Dahlgren, JMG" />
-  <meta name="date" content="2017-08-18" />
-  <title>Datavisualisering</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="pandoc.css" type="text/css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="bootstrap/css/bootstrap-3.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Metodguiden</title>
+  <meta name="description" content="Metod speciellt för medie- och kommunikationsvetenskap och journalistik.">
+  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Metodguiden" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Metod speciellt för medie- och kommunikationsvetenskap och journalistik." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Metodguiden" />
+  
+  <meta name="twitter:description" content="Metod speciellt för medie- och kommunikationsvetenskap och journalistik." />
+  
+
+<meta name="author" content="Peter M. Dahlgren">
+
+
+<meta name="date" content="2017-08-26">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="spss.html">
+<link rel="next" href="checklist.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
+
 <body>
-<div class="navbar navbar-default navbar-static-top">
-	<div class="container">       
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".header-collapse">
-				<span class="sr-only">Meny</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="/">Metodguiden</a>
-		</div>
-		<div class="collapse navbar-collapse header-collapse">
-			<ul class="nav navbar-nav">
-				<li><a href="stats.html" title="Lär dig grundläggande deskriptiv och inferentiell statistik">Statistik</a></li>
-				<li><a href="dataviz.html" title="Skapa enklare tabeller och diagram">Datavisualisering</a></li>
-				<li><a href="faq.html" title="Vanliga frågor och svar">FAQ</a></li>	
-				<li><a href="quiz.html" title="Testa dina kunskaper med frågesport">Quiz</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ladda ned <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="files.html" title="Nedladdningsbara filer">Filer</a></li>
-						<li><a href="dataset.html" title="Datamängder på nätet att ladda ned">Dataset</a></li>
-						<li><a href="program.html" title="Program för att samla in eller analysera data">Program</a></li>
-					</ul>
-				</li>
-				<li><a href="about.html" title="Om hemsidan">Om</a></li>
-			</ul>
-			</div>
-		</div>
-	</div>
-<div class="page-container">
-<div id="header">
-<h1 class="title">Datavisualisering</h1>
-<h2 class="author">Peter M. Dahlgren, JMG</h2>
-<h3 class="date">2017-08-18</h3>
-</div>
-<div id="TOC">
-<ul>
-<li><a href="#mjukvara">Mjukvara</a></li>
-<li><a href="#grunderna-i-datavisualisering">Grunderna i datavisualisering</a></li>
-<li><a href="#tabeller">Tabeller</a><ul>
-<li><a href="#dataformat">Dataformat</a></li>
-<li><a href="#tabellens-delar">Tabellens delar</a></li>
-<li><a href="#korstabell">Korstabell</a></li>
-<li><a href="#effektparametertabell">Effektparametertabell</a></li>
-</ul></li>
-<li><a href="#diagram">Diagram</a><ul>
-<li><a href="#pajdiagram">Pajdiagram</a></li>
-<li><a href="#linjediagram">Linjediagram</a></li>
-<li><a href="#stapeldiagram">Stapeldiagram</a></li>
-<li><a href="#grupperat-stapeldiagram">Grupperat stapeldiagram</a></li>
-<li><a href="#staplad-fraktionsstapel">Staplad fraktionsstapel</a></li>
-<li><a href="#mall-för-excel">Mall för Excel</a></li>
-</ul></li>
-<li><a href="#visualisera-variabler">Visualisera variabler</a><ul>
-<li><a href="#visualisera-1-variabel">Visualisera 1 variabel</a></li>
-<li><a href="#visualisera-2-variabler">Visualisera 2 variabler</a></li>
-<li><a href="#visualisera-3-variabler">Visualisera 3 variabler</a></li>
-</ul></li>
-<li><a href="#glöm-inte-den-löpande-texten">Glöm inte den löpande texten</a></li>
-<li><a href="#se-även">Se även</a><ul>
-<li><a href="#video">Video</a></li>
-<li><a href="#böcker">Böcker</a></li>
-</ul></li>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Metodguiden</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Om Metodguiden</a></li>
+<li class="chapter" data-level="2" data-path="study.html"><a href="study.html"><i class="fa fa-check"></i><b>2</b> Studieteknik</a></li>
+<li class="chapter" data-level="3" data-path="creativity.html"><a href="creativity.html"><i class="fa fa-check"></i><b>3</b> Kreativitet</a></li>
+<li class="chapter" data-level="4" data-path="validity.html"><a href="validity.html"><i class="fa fa-check"></i><b>4</b> Validitet</a></li>
+<li class="chapter" data-level="5" data-path="surveys.html"><a href="surveys.html"><i class="fa fa-check"></i><b>5</b> Surveys</a></li>
+<li class="chapter" data-level="6" data-path="stats.html"><a href="stats.html"><i class="fa fa-check"></i><b>6</b> Statistik</a></li>
+<li class="chapter" data-level="7" data-path="spss.html"><a href="spss.html"><i class="fa fa-check"></i><b>7</b> SPSS</a></li>
+<li class="chapter" data-level="8" data-path="dataviz.html"><a href="dataviz.html"><i class="fa fa-check"></i><b>8</b> Datavisualisering</a></li>
+<li class="chapter" data-level="9" data-path="checklist.html"><a href="checklist.html"><i class="fa fa-check"></i><b>9</b> Kritiska frågor</a></li>
+<li class="chapter" data-level="10" data-path="journalist.html"><a href="journalist.html"><i class="fa fa-check"></i><b>10</b> Lathund för journalister</a></li>
+<li class="chapter" data-level="11" data-path="misleading-stats.html"><a href="misleading-stats.html"><i class="fa fa-check"></i><b>11</b> Vilseledande statistik</a></li>
+<li class="chapter" data-level="12" data-path="misleading-dataviz.html"><a href="misleading-dataviz.html"><i class="fa fa-check"></i><b>12</b> Vilseledande diagram</a></li>
+<li class="chapter" data-level="13" data-path="faq.html"><a href="faq.html"><i class="fa fa-check"></i><b>13</b> Hur gör jag…</a></li>
+<li class="chapter" data-level="14" data-path="dataset.html"><a href="dataset.html"><i class="fa fa-check"></i><b>14</b> Dataset</a></li>
+<li class="chapter" data-level="15" data-path="files.html"><a href="files.html"><i class="fa fa-check"></i><b>15</b> Filer</a></li>
+<li class="chapter" data-level="16" data-path="program.html"><a href="program.html"><i class="fa fa-check"></i><b>16</b> Program</a></li>
+<li class="chapter" data-level="17" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>17</b> Länkar</a></li>
+<li class="divider"></li>
+<li><a href="http://peterdahlgren.com/" target="blank">Peter M. Dahlgren</a></li>
+
 </ul>
-</div>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Metodguiden</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="dataviz" class="section level1">
+<h1><span class="header-section-number">8</span> Datavisualisering</h1>
+<p>Här hittar du:</p>
+<ul>
+<li>Råd för att skapa bättre diagram</li>
+<li>Program för att göra diagram och grafik</li>
+<li>Vilket diagram du ska välja beroende på hur din data är strukturerad</li>
+</ul>
 <p>Att presentera sitt forskningsresultat visuellt är viktigt för att dels kommunicera forskning och dels skapa bättre förståelse för resultaten. Här får du praktiska tips på hur du kan göra tabeller och diagram som är någorlunda snygga, korrekta och pedagogiska.</p>
 <p>Se detta som tips på hur du kan utforma dina tabeller och diagram, inte som regler som slaviskt måste följas. Tipsen riktar sig först och främst till vetenskapliga tabeller och diagram, men kan också användas till journalistiska tabeller och diagram.</p>
-<h2 id="mjukvara">Mjukvara</h2>
+<div id="mjukvara" class="section level2">
+<h2><span class="header-section-number">8.1</span> Mjukvara</h2>
 <ul>
 <li>Gör diagram i Microsoft Excel.</li>
 <li>Tabeller kan göras i Microsoft Word eller Excel.</li>
 <li>Använd inte Numbers för Mac. Det är för dåligt.</li>
 <li>Kopiera aldrig tabeller eller diagram från SPSS. De är horribla. Gör egna i stället.</li>
 </ul>
-<p>Excel är både vanligt och enkelt. Det finns dock flera gratisalternativ, till exempel (från enkelt till svårt): <a href="http://www.data-explorer.com/">Data Explorer</a>, <a href="http://www.tableau.com/">Tableau</a> och <a href="http://www.r-project.org">R med ggplot</a>.</p>
-<h2 id="grunderna-i-datavisualisering">Grunderna i datavisualisering</h2>
+<p>Excel är både vanligt och enkelt. Det finns dock flera <a href="program.html#statsprogram">gratisalternativ</a>.</p>
+</div>
+<div id="grunderna-i-datavisualisering" class="section level2">
+<h2><span class="header-section-number">8.2</span> Grunderna i datavisualisering</h2>
 <p>Ibland brukar man prata om <em>explorativ dataanalys</em>. Det betyder att man inledningsvis utforskar datan för att se vad den innehåller. Explorativ dataanalys är med andra ord endast till för att forskaren ska kunna bilda sig en uppfattning om datan, ofta med hjälp av diagram och tabeller som.</p>
 <p>Vanliga tabeller och diagram som används under explorativ dataanalys som är bra att känna till:</p>
 <ul>
@@ -107,14 +139,19 @@
 <li><p><strong>Diagram och tabeller bör kunna läsas fristående från texten.</strong> Tanken är att någon som skummar texten också kan ta till sig det viktiga bara genom att titta på diagrammet eller tabellen.</p></li>
 <li><p><strong>Gå från det enkla till det komplicerade.</strong> När man presenterar diagram och tabeller är det viktigt att inte ge allt för mycket information på en gång. Undvik att besvara <em>alla</em> frågeställningar med en enda tabell eller diagram. Börja i stället enkelt och presentera beskrivningar av datan (deskriptiv analys). Därefter kan du visa på intressanta samband (bivariat analys) för att därefter presentera mer komplicerade modeller (multivariat analys). Börja med andra ord med det enkla och gå successivt mot det mer komplicerade. Vad man ska välja att presentera? Du måste veta vad din forskningsfråga är, och därmed vad du bör välja bort. Därför underlättar det betydligt om man har ett genomtänkt syfte och åtminstone en idé om hur det färdiga resultatet kan se ut.</p></li>
 </ol>
-<h2 id="tabeller">Tabeller</h2>
+</div>
+<div id="tabeller" class="section level2">
+<h2><span class="header-section-number">8.3</span> Tabeller</h2>
 <p>Alla diagram börjar med en tabell, och det är därför viktigt att känna till hur tabellerna utformas.</p>
-<h3 id="dataformat">Dataformat</h3>
+<div id="dataformat" class="section level3">
+<h3><span class="header-section-number">8.3.1</span> Dataformat</h3>
 <p>Det mest tidskrävande med datavisualisering är ofta att se till att datan är anpassad för det program man använder. När man förbereder data för Excel eller statistikprogram kan datan ibland behöva vara i rätt format.</p>
 <p>Man brukar skilja mellan två dataformat: långt och brett.</p>
 <p><strong>Långt dataformat:</strong> <img src="images/format-long.png" title="Långt dataformat" alt="Långt dataformat" /></p>
 <p><strong>Brett dataformat:</strong> <img src="images/format-wide.png" title="Brett dataformat" alt="Brett dataformat" /></p>
-<h3 id="tabellens-delar">Tabellens delar</h3>
+</div>
+<div id="tabellens-delar" class="section level3">
+<h3><span class="header-section-number">8.3.2</span> Tabellens delar</h3>
 <p>En tabell i en vetenskaplig publikation består ofta av tre delar: tabellhuvud, tabellresultat och tabellkommentar.</p>
 <div class="figure">
 <img src="images/mutor_s94.png" title="Andel som uppger att de någon gång blivit tillfrågad om att betala någon form av muta (procent)" alt="Exempel från boken Ekvilibrium (red. Ohlsson, Ekengren Oscarsson &amp; Solevid) från 2016, s. 94." />
@@ -162,7 +199,9 @@
 </tbody>
 </table>
 <p>Det rekommenderas dock inte att du använder asterikser om du kan undvika det. Tumregeln är att alltid skriva ut p-värdet med tre decimaler.</p>
-<h3 id="korstabell">Korstabell</h3>
+</div>
+<div id="korstabell" class="section level3">
+<h3><span class="header-section-number">8.3.3</span> Korstabell</h3>
 <p>En korstabell (<em>contingency table</em> eller <em>cross tab</em>) innehåller 2-4 variabler.</p>
 <p>När man gör en korstabell är det viktigt att den summeras på rätt sätt (exempelvis kolumnvis) eftersom varje sätt att summera ger svar på olika frågeställningar. Se bilden nedan för exempel på hur data kan summeras i en korstabell.</p>
 <p>En enkel tumregel kan vara att alltid hålla dig till kolumnprocent och placera den oberoende variabeln i kolumnen. Då summeras den alltid nedåt. I bilden nedan är kön oberoende variabel och den summeras nedåt när kolumnprocent används.</p>
@@ -171,14 +210,19 @@
 <img src="images/korstabell-procent.png" title="Korstabell" alt="Olika sätt korstabeller kan summeras: antal, kolumnprocent, radprocent och totalprocent." />
 <p class="caption">Olika sätt korstabeller kan summeras: antal, kolumnprocent, radprocent och totalprocent.</p>
 </div>
-<h3 id="effektparametertabell">Effektparametertabell</h3>
+</div>
+<div id="effektparametertabell" class="section level3">
+<h3><span class="header-section-number">8.3.4</span> Effektparametertabell</h3>
 <p>En effektparametertabell är ett sätt att förminska en stor korstabell med tre variabler. Effektparametertabellen innehåller bara de viktigaste beståndsdelarna.</p>
 <p>På SPSS-Akuten finns en bra guide om <a href="https://spssakuten.wordpress.com/2012/02/14/guide-korstabeller/">hur du gör en effektparametertabell från en korstabell</a>.</p>
 <div class="figure">
 <img src="images/effektparametertabell.png" title="Effektparametertabell" alt="Exempel på effektparametertabell." />
 <p class="caption">Exempel på effektparametertabell.</p>
 </div>
-<h2 id="diagram">Diagram</h2>
+</div>
+</div>
+<div id="diagram" class="section level2">
+<h2><span class="header-section-number">8.4</span> Diagram</h2>
 <p>Diagram är det vanligaste sättet att presentera mycket data. En bra tabell är en grundförutsättning för ett bra diagram.</p>
 <p>Det finns dock några tips du bör tänka på när du skapar diagram.</p>
 <p><strong>Innehåll</strong></p>
@@ -209,7 +253,8 @@
 <li>Använd samma skalstorlek (exempelvis 0-100 procent) på alla diagrams axlar. Om du har 0-20 på ett diagram och 0-70 på ett annat blir de svårare att jämföra.</li>
 <li>Gör ett snyggt diagram en gång. Kopiera och klistra sedan in det flera gånger för att spara tid. Använd <a href="#mall-för-excel">mallen för Excel</a> som finns här.</li>
 </ul>
-<h3 id="pajdiagram">Pajdiagram</h3>
+<div id="pajdiagram" class="section level3">
+<h3><span class="header-section-number">8.4.1</span> Pajdiagram</h3>
 <p>Pajdiagram är runda och ser ut som pajer, där varje del i pajen representerar en andel. Dessa bör du inte använda av två skäl:</p>
 <ul>
 <li>Det är svårt att uppskatta den relativa storleken på respektive andel.</li>
@@ -221,14 +266,18 @@
 <li>Kategorierna presenteras från störst till minst. Om du exempelvis sorterar de fem största städerna så bör Stockholm vara först, följt av Göteborg och så vidare.</li>
 <li>Den största kategorin placeras med början klockan 12 och rör sig sedan medsols mot exempelvis klockan 4 (Stockholm). Därefter följer kategorierna i fallande ordning, från klockan 4 till klockan 6 (Göteborg), och så vidare.</li>
 </ul>
-<h3 id="linjediagram">Linjediagram</h3>
+</div>
+<div id="linjediagram" class="section level3">
+<h3><span class="header-section-number">8.4.2</span> Linjediagram</h3>
 <p>Linjediagram är användbara när du ska visa trender eller tidsserier.</p>
 <p>Lägg gärna etiketterna (i det här fallet “Förtroende för regeringen”) i slutet av linjen. Det gör det lättare att se vad linjerna representerar, utan att man behöver hoppa fram och tillbaka med blicken mellan linjen och en förklaringsruta.</p>
 <div class="figure">
 <img src="images/fortroende_regeringen_s58.png" title="Andel stort förtroende för regeringen 1986–2015 (procent)" alt="Exempel från boken Ekvilibrium (red. Ohlsson, Ekengren Oscarsson &amp; Solevid) från 2016, s. 58." />
 <p class="caption">Exempel från boken Ekvilibrium (red. Ohlsson, Ekengren Oscarsson &amp; Solevid) från 2016, s. 58.</p>
 </div>
-<h3 id="stapeldiagram">Stapeldiagram</h3>
+</div>
+<div id="stapeldiagram" class="section level3">
+<h3><span class="header-section-number">8.4.3</span> Stapeldiagram</h3>
 <p>Stapeldiagram är användbara när du vill jämföra två eller fler kategorier. En frekvenstabell med kategoriska variabler kan lämpligen göras om till ett stapeldiagram.</p>
 <p>Använd liggande stapeldiagram när du har många kategorier och man ska kunna läsa dem med enkelhet. Liggande stapeldiagram är också användbart när kategorinamnen (i det här fallet Aftonbladet, Expressen etc.) är långa och blir svårlästa på X-axeln.</p>
 <p>Sortera listan på ett relevant sätt, exempelvis från högsta till lägsta värdet. Lägg värdena i slutet av staplarna så att dessa framgår tydligt.</p>
@@ -236,7 +285,9 @@
 <img src="images/liggande-stapeldiagram.png" title="Liggande stapeldiagram" alt="Exempel på liggande stapeldiagram." />
 <p class="caption">Exempel på liggande stapeldiagram.</p>
 </div>
-<h3 id="grupperat-stapeldiagram">Grupperat stapeldiagram</h3>
+</div>
+<div id="grupperat-stapeldiagram" class="section level3">
+<h3><span class="header-section-number">8.4.4</span> Grupperat stapeldiagram</h3>
 <p>Grupperade stapeldiagram är användbara om du behöver jämföra grupper med varandra. En korstabell med kategoriska variabler kan lämpligtvis göras om till ett grupperat stapeldiagram.</p>
 <p>Tänk på att förenkla så att det inte blir för många staplar. Du kan exempelvis slå ihop kategorier. Lägg gärna värdet ovanför eller i stapeln.</p>
 <p>Sortera gärna staplarna på ett logiskt sätt, som i det här fallet utifrån ökande ålder.</p>
@@ -244,7 +295,9 @@
 <img src="images/grupperat-stapeldiagram.png" title="Grupperat stapeldiagram" alt="Exempel på grupperat stapeldiagram." />
 <p class="caption">Exempel på grupperat stapeldiagram.</p>
 </div>
-<h3 id="staplad-fraktionsstapel">Staplad fraktionsstapel</h3>
+</div>
+<div id="staplad-fraktionsstapel" class="section level3">
+<h3><span class="header-section-number">8.4.5</span> Staplad fraktionsstapel</h3>
 <p>En staplad fraktionsstapel visar andelen (fraktionen) av helheten. En korstabell med kategoriska variabler som du vill jämföra kan lämpligtvis göras om till en staplad fraktionsstapel.</p>
 <p>När du gör en fraktionsstapel behöver du inte göra om din data till procent, Excel gör det automatiskt.</p>
 <p>En staplad fraktionsstapel fungerar bra för att visa Likert-skalor. De kan enkelt jämföras genom att man placerar flera staplar jämte varandra. Sifforna i respektive stapel uppgår till hundra procent.</p>
@@ -257,7 +310,9 @@
 <img src="images/liggande-fraktionsstaplar.png" title="Liggande fraktionsstapel" alt="Exempel på liggande fraktionsstapel." />
 <p class="caption">Exempel på liggande fraktionsstapel.</p>
 </div>
-<h3 id="mall-för-excel">Mall för Excel</h3>
+</div>
+<div id="mall-for-excel" class="section level3">
+<h3><span class="header-section-number">8.4.6</span> Mall för Excel</h3>
 <p>Du kan ladda ned en mall för Excel som du kan använda när du gör dina diagram.</p>
 <p>Mallen innehåller i dagsläget:</p>
 <ul>
@@ -266,9 +321,13 @@
 <li>linjediagram för tidsserier</li>
 </ul>
 <p><strong>Ladda ned: <a href="filer/diagram-mall.xlsx">diagram-mall.xlsx</a></strong></p>
-<h2 id="visualisera-variabler">Visualisera variabler</h2>
+</div>
+</div>
+<div id="visualisera-variabler" class="section level2">
+<h2><span class="header-section-number">8.5</span> Visualisera variabler</h2>
 <p>I föregående avsnitt visades vilka typer av diagram som finns, och hur många variabler som behövs. Vi kan också vända på frågan: Vilken typ av diagram bör jag använda när jag har X antal variabler?</p>
-<h3 id="visualisera-1-variabel">Visualisera 1 variabel</h3>
+<div id="visualisera-1-variabel" class="section level3">
+<h3><span class="header-section-number">8.5.1</span> Visualisera 1 variabel</h3>
 <table>
 <colgroup>
 <col width="40%" />
@@ -291,7 +350,9 @@
 </tr>
 </tbody>
 </table>
-<h3 id="visualisera-2-variabler">Visualisera 2 variabler</h3>
+</div>
+<div id="visualisera-2-variabler" class="section level3">
+<h3><span class="header-section-number">8.5.2</span> Visualisera 2 variabler</h3>
 <table>
 <colgroup>
 <col width="40%" />
@@ -319,7 +380,9 @@
 </tbody>
 </table>
 <p>I linjediagrammet läggs den oberoende variabeln (X) på den liggande axeln. Den beroende variabeln (Y) läggs på den stående axeln.</p>
-<h3 id="visualisera-3-variabler">Visualisera 3 variabler</h3>
+</div>
+<div id="visualisera-3-variabler" class="section level3">
+<h3><span class="header-section-number">8.5.3</span> Visualisera 3 variabler</h3>
 <table>
 <thead>
 <tr class="header">
@@ -389,7 +452,10 @@
 </tr>
 </tbody>
 </table>
-<h2 id="glöm-inte-den-löpande-texten">Glöm inte den löpande texten</h2>
+</div>
+</div>
+<div id="glom-inte-den-lopande-texten" class="section level2">
+<h2><span class="header-section-number">8.6</span> Glöm inte den löpande texten</h2>
 <p>Du behöver inte presentera allt som diagram. Glöm inte bort att utnyttja den löpande texten på ett effektivt sätt.</p>
 <p>Har du gjort en surveyundersökning kan du börja med beskrivande statistik av deltagarna, vilket ofta tar upp mindre plats än tabeller eller diagram:</p>
 <blockquote>
@@ -402,12 +468,15 @@
 </blockquote>
 <p>I det här fallet står <strong>r</strong> för Pearsons korrelationskoefficient och <strong>p</strong> står för sannolikheten från signifikanstestet. Ibland kan det också vara bra att skriva ut vilken typ av signifikanstest det är (enkelsidigt eller dubbelsidigt), om det inte framgår av sammanhanget.</p>
 <p>Skriv alltid ut det fullständiga p-värdet med tre decimaler, till exempel p=0,039. Då undviker du avrundningsfel, så att p=0,051 inte blir p&lt;0,05 av misstag, och du undviker också att p-värdet behandlas dikotomt som signifikant (p&lt;0,05) respektive icke-signifikant (p&gt;0,05).</p>
-<h2 id="se-även">Se även</h2>
+</div>
+<div id="se-aven" class="section level2">
+<h2><span class="header-section-number">8.7</span> Se även</h2>
 <ul>
 <li><a href="http://datavizproject.com/">DataViz project</a> - katalog över olika typer av grafer och vilken typ av data som krävs för att skapa graferna.</li>
 <li><a href="checklist-stats.html">Checklista för statistika undersökningar</a> - kritiska frågor för att bedöma någons tabeller eller diagram.</li>
 </ul>
-<h3 id="video">Video</h3>
+<div id="video-1" class="section level3">
+<h3><span class="header-section-number">8.7.1</span> Video</h3>
 <p><strong><a href="https://www.youtube.com/watch?v=XIgjTuDGXYY">Introduction to data visualization</a></strong></p>
 <p>An introduction to the practice of data visualization, with theory, examples, and good humor. Studio rerecording of a presentation at McGill University graduate students.</p>
 <iframe class="videoplayer" width="560" height="315" src="https://www.youtube.com/embed/XIgjTuDGXYY" frameborder="0" allowfullscreen>
@@ -416,22 +485,54 @@
 <p>Learn how to get the most out of your business intelligence platform including how to choose the right chart type, and how to optimise your charts to make them easier to understand and more attractive.</p>
 <iframe class="videoplayer" width="560" height="315" src="https://www.youtube.com/embed/w1Ts0vT5Pf0" frameborder="0" allowfullscreen>
 </iframe>
-<h3 id="böcker">Böcker</h3>
+</div>
+<div id="bocker-1" class="section level3">
+<h3><span class="header-section-number">8.7.2</span> Böcker</h3>
 <ul>
 <li>Cairo, A. (2016). <em>The Truthful Art: Data, Charts, and Maps for Communication</em>. New Riders.</li>
 <li>Few, S. (2012). <em>Show Me the Numbers: Designing Tables and Graphs to Enlighten (2nd edition)</em>. Burlingame, Calif.: Analytics Press.</li>
 <li>Tufte, E. (2001). <em>The Visual Display of Quantitative Information (2nd edition)</em>. Cheshire, Conn: Graphics Pr.</li>
 <li>Wallgren, A., &amp; Wallgren, B. (2008). <em>Diagram - statistikens bilder</em>. Stockholm: Norstedts juridik.</li>
 </ul>
-</div>
 
-<div id="footer">
-	&copy; 2017 <a href="http://peterdahlgren.com/">Peter M. Dahlgren</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Detta verk är licensierat under en Creative Commons Erkännande-Ickekommersiell-IngaBearbetningar 4.0 Internationell Licens"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
 </div>
+</div>
+</div>
+            </section>
 
+          </div>
+        </div>
+      </div>
+<a href="spss.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="checklist.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-	$("table").addClass("table table-bordered table-striped");
-	$("#TOC").addClass("well");
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": null,
+"download": ["metodguiden.pdf", "metodguiden.epub"],
+"toc": {
+"collapse": "subsection"
+},
+"search": true
+});
+});
 </script>
+
 </body>
+
 </html>

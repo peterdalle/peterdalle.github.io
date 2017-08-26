@@ -1,0 +1,20 @@
+{
+	"build_systems":
+	[
+		{
+			"name": "GitHub.io",
+			"shell_cmd": "make.bat",
+			"working_dir": "c:\\inetpub\\sites\\peterdalle.github.io\\"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "mij"
+		}
+	],
+	"url": "http://metod/"
+}
