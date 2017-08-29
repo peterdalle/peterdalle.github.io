@@ -1,2 +1,7 @@
-peterdalle.github.io.sublime-project
-peterdalle.github.io.sublime-workspace
+.Rproj.user
+.Rhistory
+.RData
+_publish.R
+_book
+_bookdown_files
+rsconnect
