@@ -25,7 +25,7 @@
 <meta name="author" content="Peter M. Dahlgren">
 
 
-<meta name="date" content="2017-08-29">
+<meta name="date" content="2017-09-07">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -83,6 +83,7 @@
 <li class="chapter" data-level="15" data-path="files.html"><a href="files.html"><i class="fa fa-check"></i><b>15</b> Filer</a></li>
 <li class="chapter" data-level="16" data-path="program.html"><a href="program.html"><i class="fa fa-check"></i><b>16</b> Program</a></li>
 <li class="chapter" data-level="17" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>17</b> Länkar</a></li>
+<li class="chapter" data-level="18" data-path="ref.html"><a href="ref.html"><i class="fa fa-check"></i><b>18</b> Referenser</a></li>
 <li class="divider"></li>
 <li><a href="http://peterdahlgren.com/" target="blank">Peter M. Dahlgren</a></li>
 
@@ -126,30 +127,59 @@
 <div id="relativa-och-absoluta-forandringar" class="section level2">
 <h2><span class="header-section-number">11.5</span> Relativa och absoluta förändringar</h2>
 </div>
+<div id="texas-sharpshooter-fallacy" class="section level2">
+<h2><span class="header-section-number">11.6</span> Texas sharpshooter fallacy</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy" class="uri">https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy</a></li>
+</ul>
+</div>
 <div id="prosecutors-fallacy" class="section level2">
-<h2><span class="header-section-number">11.6</span> Prosecutors fallacy</h2>
+<h2><span class="header-section-number">11.7</span> Prosecutors fallacy</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Prosecutor%27s_fallacy">https://en.wikipedia.org/wiki/Prosecutor%27s_fallacy</a></li>
+</ul>
 </div>
 <div id="goodharts-law" class="section level2">
-<h2><span class="header-section-number">11.7</span> Goodharts law</h2>
+<h2><span class="header-section-number">11.8</span> Goodharts law</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Goodhart%27s_law">https://en.wikipedia.org/wiki/Goodhart%27s_law</a></li>
+</ul>
+</div>
+<div id="forvaxla-sannolikheter" class="section level2">
+<h2><span class="header-section-number">11.9</span> Förväxla sannolikheter</h2>
+<p>Givet två händelser, A och B, förväxlas sannolikheten att A händer givet att B har hänt med sannolikheten att B händer givet att B har hänt.</p>
+<p>I formella termer brukar det skrivas <span class="math inline">\(P(A\mid B)\)</span> respektive <span class="math inline">\(P(B\mid A)\)</span>, vilket läses som “sannolikheten för A, givet B” samt omvänt “sannolikheten för B, givet A”. Symbolen <span class="math inline">\(P\)</span> betyder sannolikhet eller mer precist probabilitet (från franskans probabilité, eller engelskans probability).</p>
+<p>Att förväxla dessa sannolikheter är särskilt vanligt när man håller på med signifikanstest. Signifikanstest visar sannolikheten att erhålla datan givet nollhypotesen, eller <span class="math inline">\(P(data\mid nollhypotes)\)</span>. Det innebär att man får fram sannolikheten för resultatet under antagandet att nollhypotesen är sann. Man får alltså inte reda på om nollhypotesen är sann med hjälp av signifikanstest, utan det är alltså antagandet man utgår ifrån. Om resultatet är osannolikt (p är lågt), så är det osannolikt just med antagandet att nollhypotesen är sann.</p>
+<p>Men detta förväxlas alltså ofta som sannolikheten att få nollhypotesen givet datan, eller <span class="math inline">\(P(nollhypotes\mid data)\)</span>. Det vill säga, att datan kommer att avgöra huruvida nollhypotesen är sann. Men det är alltså två olika sannolikheter.</p>
+<p>Kallas också <em>fallacy of the transposed conditional</em>, <em>confusion of the inverse</em>, <em>conditional probability fallacy</em> eller bara <em>inverse fallacy</em>.</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Confusion_of_the_inverse" class="uri">https://en.wikipedia.org/wiki/Confusion_of_the_inverse</a></li>
+</ul>
 </div>
 <div id="p-hacking" class="section level2">
-<h2><span class="header-section-number">11.8</span> Garden of forking paths, multiple comparison, p-hacking</h2>
+<h2><span class="header-section-number">11.10</span> Garden of forking paths, multiple comparison, p-hacking</h2>
 <p>Ju fler statistiska tester man gör, desto lättare är det att hitta samband som inte finns (falskt alarm).</p>
 <p>Faktum är att det är så enkelt att begå fel att man är <em>garanterad</em> att hitta åtminstone ett samband som inte finns om man gör ett 60-tal test. Och det är inte ovanligt att man gör många statistiska tester för att se vad man kan hitta.</p>
 <p>Figuren nedan visar sannolikheten att hitta samband som inte finns. Om man gör 15 statistiska tester så är det alltså över 50 % chans att hitta ett samband som egentligen inte finns. Då kan man lika väl singla slant.</p>
 <p><img src="metodguiden_files/figure-html/type-one-error-1.png" width="672" /></p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Multiple_comparisons_problem" class="uri">https://en.wikipedia.org/wiki/Multiple_comparisons_problem</a></li>
+</ul>
 </div>
 <div id="harking" class="section level2">
-<h2><span class="header-section-number">11.9</span> HARKing</h2>
+<h2><span class="header-section-number">11.11</span> HARKing</h2>
 </div>
 <div id="low-power" class="section level2">
-<h2><span class="header-section-number">11.10</span> Low power</h2>
+<h2><span class="header-section-number">11.12</span> Low power</h2>
 </div>
 <div id="publication-bias" class="section level2">
-<h2><span class="header-section-number">11.11</span> Publication bias</h2>
+<h2><span class="header-section-number">11.13</span> Publication bias</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Publication_bias" class="uri">https://en.wikipedia.org/wiki/Publication_bias</a></li>
+</ul>
 </div>
 <div id="felaktig-generalisering" class="section level2">
-<h2><span class="header-section-number">11.12</span> Felaktig generalisering</h2>
+<h2><span class="header-section-number">11.14</span> Felaktig generalisering</h2>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Faulty_generalization" class="uri">https://en.wikipedia.org/wiki/Faulty_generalization</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Overwhelming_exception" class="uri">https://en.wikipedia.org/wiki/Overwhelming_exception</a></li>
@@ -157,22 +187,22 @@
 </ul>
 </div>
 <div id="statistiskt-sakerstalld" class="section level2">
-<h2><span class="header-section-number">11.13</span> “Statistiskt säkerställd”</h2>
+<h2><span class="header-section-number">11.15</span> “Statistiskt säkerställd”</h2>
 <p>Ett vanligt uttryck i massmedierna, och i viss mån vetenskapliga rapporter, är uttrycket att resultatet är <em>statistiskt säkerställt</em>. Ofta betyder det samma sak som statistiskt signifikant.</p>
 <p>Men det är bättre att använda uttrycket statistiskt signifikant i stället, av två skäl.</p>
 <p>För det första, statistik handlar om hur man hanterar <em>osäkerhet</em>, och utgångspunkten är att all inferentiell statistik är osäker (eftersom den bygger på induktiv logik). Därför är det missvisande att säga att man nått en slags säkerhet.</p>
-<p>För det andra, statistisk signifikans handlar om sannolikheten att erhålla resultatet. Det innebär att det går att manipulera fram ett statistiskt signifikant resultat genom att <a href="misleading-stats.html#p-hacking">göra många statistiska tester</a>. Men trots att statistisk signifikans handlar om sannolikheten att erhålla resultatet, förväxlas det ofta som styrkan på bevisningen. Det är dock två olika saker (se Dienes, 2008, s. 122; Royall, 1997). Att kalla ett resultat för <em>statistiskt säkerställt</em> under sådana omständigheter är därför gravt missvisande.</p>
+<p>För det andra, statistisk signifikans handlar om sannolikheten att erhålla resultatet. Det innebär att det går att manipulera fram ett statistiskt signifikant resultat genom att <a href="misleading-stats.html#p-hacking">göra många statistiska tester</a>. Men trots att statistisk signifikans handlar om sannolikheten att erhålla resultatet, förväxlas det ofta som styrkan på bevisningen. Det är dock två olika saker <span class="citation">(Dienes, <a href="#ref-dienes_understanding_2008">2008</a>, p. 122; Royall, <a href="#ref-royall_statistical_1997">1997</a>)</span>. Att kalla ett resultat för <em>statistiskt säkerställt</em> under sådana omständigheter är därför gravt missvisande.</p>
 </div>
 <div id="missforstand-av-konfidensintervall" class="section level2">
-<h2><span class="header-section-number">11.14</span> Missförstånd av konfidensintervall</h2>
+<h2><span class="header-section-number">11.16</span> Missförstånd av konfidensintervall</h2>
 <p>Ibland kan man läsa att ett värde ligger inom ett konfidensintervall. Konfidensintervallet säger hur osäkert värdet ifråga är.</p>
 <p>En opinionsundersökning som säger att Socialdemokraterna har fått 25 % av rösterna, med ett 95 % konfidensintervall på 23 till 27 %.</p>
 <p>En vanlig tolkning är detta:</p>
 <blockquote>
 <p>Det är 95 % sannolikhet att värdet ligger inom intervallet 23 till 25 %.</p>
 </blockquote>
-<p>Men det är helt fel!</p>
-<p>Man kan inte tillskriva sannolikhet till enskilda värden om man använder konfidensintervall.</p>
+<p>Men det är fel.</p>
+<p>Man kan inte tillskriva sannolikhet till enskilda värden med hjälp av konfidensintervall.</p>
 <p>Anledningen till att man inte kan tolka konfidensintervall på detta sätt beror på den statistik som används. Konfidensintervall (som Jerzy Neyman och Egon Pearson utvecklade) har sitt ursprung i frekventistisk statistik, vilket innebär att man räknar objektiva frekvenser och drar slutsatser om sannolikheter utifrån <em>helheten</em> av frekvenser över tid. Det går alltså inte tillskriva en sannolikhet till ett specifikt värde.</p>
 <p>Låt oss illustrera det med ett tärningsexempel. Om du får en trea på en sex-sidig tärning så är sannolikheten att få en trea <span class="math inline">\(\frac{1}{6}\)</span>. Det innebär att över tid kommer tärningen att visa en trea <span class="math inline">\(\frac{1}{6}\)</span> (eller 16 %) av gångerna. Men du kan ju omöjligt förutse om tärningen kommer att visa en trea om du bara slår den en gång. Det blir en trea eller så blir det inte det, det är antingen eller. Men om du slår tärningen hundra gånger kan du räkna ut sannolikheten för en trea <em>över tid</em> genom att jämföra med alla tärningskast tillsammans. Faktum är att ju fler gånger du slår tärningen, desto större sannolikhet att den närmar sig <span class="math inline">\(\frac{1}{6}\)</span>, vilket är anledningen till att konfidensintervallet krymper när observationerna ökar.</p>
 <p>Vad många däremot tolkar konfidensintervallet som är sannolikheten för det enskilda värdet, eller för en specifik hypotes. Men den tolkningen är inte möjlig att göra utan att också byta statistik (till <a href="#bayesian">bayesiansk statistik</a>).<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
@@ -190,7 +220,7 @@
 <p>På <a href="http://rpsychologist.com/d3/CI/">Interpreting Confidence Intervals: an interactive visualization</a> kan du se hur konfidensintervall uppför sig i praktiken. Antingen så är ett enskilt värde inom konfidensintervallet, eller så är de det inte. Men 95 % av gångerna kommer de att vara inom intervallet.</p>
 </div>
 <div id="ecological-fallacy" class="section level2">
-<h2><span class="header-section-number">11.15</span> Ecological fallacy</h2>
+<h2><span class="header-section-number">11.17</span> Ecological fallacy</h2>
 <p>Den ekologiska fallasin innebär att man analyserar data på gruppnivå och sedan felaktigt drar slutsatser om individer.</p>
 <p>Fallasin uppstår därför att man förväxlar analysnivåer. Om man analyserar kön, länder eller företag så gäller också slutsatserna kön, länder eller företag - inte de enskilda personerna.</p>
 <p>Det finns fyra olika typer av ekologiska fallasier: <a href="misleading-stats.html#simpsons-paradox">Simpsons paradox</a>.</p>
@@ -199,10 +229,13 @@
 </ul>
 </div>
 <div id="base-rate-fallacy" class="section level2">
-<h2><span class="header-section-number">11.16</span> Base rate fallacy</h2>
+<h2><span class="header-section-number">11.18</span> Base rate fallacy</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Base_rate_fallacy" class="uri">https://en.wikipedia.org/wiki/Base_rate_fallacy</a></li>
+</ul>
 </div>
 <div id="simpsons-paradox" class="section level2">
-<h2><span class="header-section-number">11.17</span> Simpsons paradox</h2>
+<h2><span class="header-section-number">11.19</span> Simpsons paradox</h2>
 <p>Låt säga att universitetet ska anställa nya forskare. De anställer 54 % av männen som söker, men bara 46 % av kvinnorna som söker. Alla sökande är dock lika kvalificerade. Är det belägg för könsdiskriminering?</p>
 <p>Du kanske svarar ja, siffrorna visar tydligt att män anställs i högre utsträckning än kvinnor.</p>
 <p>Men låt oss gräva djupare än den ytliga analysen av procent.</p>
@@ -282,29 +315,38 @@
 <li>Kontrollera om du får olika resultat när du analyserar varje grupp för sig, jämfört med om du analyserar alla grupper tillsammans.</li>
 </ol>
 <ul>
+<li><a href="http://vudlab.com/simpsons/">Interaktiv visualisering av Simpsons paradox</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Simpson%27s_paradox">https://en.wikipedia.org/wiki/Simpson%27s_paradox</a></li>
 <li><a href="https://plato.stanford.edu/entries/paradox-simpson/" class="uri">https://plato.stanford.edu/entries/paradox-simpson/</a></li>
 </ul>
 </div>
 <div id="se-aven-2" class="section level2">
-<h2><span class="header-section-number">11.18</span> Se även</h2>
+<h2><span class="header-section-number">11.20</span> Se även</h2>
 <ul>
 <li><a href="checklist.html#checklist">Checklista för statistika undersökningar</a></li>
 <li>Statistiska metoder för att upptäcka inkonsistenser i data
 <ul>
-<li>GRIM Test (<a href="https://doi.org/10.1177/1948550616673876">Brown &amp; Heathers, 2016</a>)</li>
-<li><a href="https://peerj.com/preprints/2400/">The GRIMMER test: A method for testing the validity of reported measures of variability</a></li>
+<li>GRIM Test <span class="citation">(Brown &amp; Heathers, <a href="#ref-brown_grim_2016">2016</a>)</span></li>
+<li>GRIMMER test <span class="citation">(Anaya, <a href="#ref-anaya_grimmer_2016">2016</a>)</span></li>
 <li><a href="https://hackernoon.com/introducing-sprite-and-the-case-of-the-carthorse-child-58683c2bfeb">Introducing SPRITE (and the Case of the Carthorse Child)</a></li>
 </ul></li>
 </ul>
-</div>
-<div id="referenser-6" class="section level2">
-<h2><span class="header-section-number">11.19</span> Referenser</h2>
-<ul>
-<li>Brown, N. J. L., &amp; Heathers, J. A. J. (2016). The GRIM Test: A Simple Technique Detects Numerous Anomalies in the Reporting of Results in Psychology. Social Psychological and Personality Science, 194855061667387. <a href="https://doi.org/10.1177/1948550616673876" class="uri">https://doi.org/10.1177/1948550616673876</a></li>
-<li>Malinas, G., &amp; Bigelow, J. (2016). <a href="https://plato.stanford.edu/entries/paradox-simpson/">Simpson’s Paradox</a>. In E. N. Zalta (Ed.), The Stanford Encyclopedia of Philosophy (Fall 2016). Metaphysics Research Lab, Stanford University.</li>
-</ul>
 
+</div>
+</div>
+<h3> Referenser</h3>
+<div id="refs" class="references">
+<div id="ref-dienes_understanding_2008">
+<p>Dienes, Z. (2008). <em>Understanding psychology as a science: An introduction to scientific and statistical inference</em>. New York: Palgrave Macmillan.</p>
+</div>
+<div id="ref-royall_statistical_1997">
+<p>Royall, R. M. (1997). <em>Statistical evidence: A likelihood paradigm</em> (1st ed.). London, New York: Chapman &amp; Hall.</p>
+</div>
+<div id="ref-brown_grim_2016">
+<p>Brown, N. J. L., &amp; Heathers, J. A. J. (2016). The GRIM Test: A Simple Technique Detects Numerous Anomalies in the Reporting of Results in Psychology. <em>Social Psychological and Personality Science</em>. doi:<a href="https://doi.org/10.1177/1948550616673876">10.1177/1948550616673876</a></p>
+</div>
+<div id="ref-anaya_grimmer_2016">
+<p>Anaya, J. (2016). <em>The GRIMMER test: A method for testing the validity of reported measures of variability</em>. PeerJ Preprints. Retrieved from <a href="https://peerj.com/preprints/2400v1/" class="uri">https://peerj.com/preprints/2400v1/</a></p>
 </div>
 </div>
 <div class="footnotes">
