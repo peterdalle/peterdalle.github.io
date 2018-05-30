@@ -1,5 +1,7 @@
 # peterdalle.github.io
 
-Hemsida för peterdalle.github.io.
+Web page for [peterdalle.github.io](https://peterdalle.github.io/).
 
-Diverse analyser i RMarkdown och Jupyter Notebooks.
+Analyses in RMarkdown and Jupyter Notebooks.
+
+Some things related to open science and social science.
